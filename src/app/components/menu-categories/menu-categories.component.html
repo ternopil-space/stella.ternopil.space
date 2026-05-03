@@ -9,14 +9,14 @@
 			@for (category of categories; track category.slug) {
 				<button
 					class="shrink-0 border-b-2 px-0 pb-2 transition-colors duration-200"
-					[class.border-[var(--c-secondary)]]="
+					[class.border-[var(--c-primary)]]="
 						selectedCategories[0]?.slug === category.slug
 					"
-					[class.text-[var(--c-secondary)]]="
+					[class.text-[var(--c-text-primary)]]="
 						selectedCategories[0]?.slug === category.slug
 					"
-					[class.border-transparent]="selectedCategories[0]?.slug !== category.slug"
-					[class.text-[var(--c-text-muted)]]="
+					[class.border-[var(--c-border)]]="selectedCategories[0]?.slug !== category.slug"
+					[class.text-[var(--c-text-secondary)]]="
 						selectedCategories[0]?.slug !== category.slug
 					"
 					(click)="dishCategoryService.selectCategory(category, category.children ?? [])"
@@ -37,16 +37,19 @@
 					@for (childCategory of selectedCategory.children; track childCategory.slug) {
 						<button
 							class="shrink-0 rounded-[0.65rem] px-3 py-1.5 text-[13px] font-semibold transition-colors duration-200 shadow-[0_0_0_1px_var(--c-border)_inset]"
-							[class.bg-[var(--c-secondary)]]="
+							[class.bg-[var(--c-primary)]]="
 								selectedCategories[level + 1]?.slug === childCategory.slug
 							"
-							[class.text-[var(--c-bg-primary)]]="
+							[class.text-[var(--c-text-primary)]]="
 								selectedCategories[level + 1]?.slug === childCategory.slug
 							"
 							[class.bg-[var(--c-bg-secondary)]]="
 								selectedCategories[level + 1]?.slug !== childCategory.slug
 							"
-							[class.text-[var(--c-secondary)]]="
+							[class.text-[var(--c-text-secondary)]]="
+								selectedCategories[level + 1]?.slug !== childCategory.slug
+							"
+							[class.shadow-[0_0_0_1px_var(--c-border)_inset]]="
 								selectedCategories[level + 1]?.slug !== childCategory.slug
 							"
 							(click)="

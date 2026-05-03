@@ -1,5 +1,59 @@
 :host {
 	display: block;
-	background: var(--c-bg-primary);
+	background:
+		radial-gradient(circle at top, rgb(197 61 61 / 0.1), transparent 34%),
+		linear-gradient(180deg, var(--c-bg-primary), var(--c-bg-secondary));
 	color: var(--c-text-primary);
+}
+
+.navigation-shell {
+	backdrop-filter: blur(12px);
+}
+
+.nav-card {
+	box-shadow: 0 18px 40px rgb(23 18 15 / 0.08);
+	opacity: 0;
+	transform: translateY(18px) scale(0.985);
+	animation: nav-card-enter 560ms ease forwards;
+	transition:
+		transform 220ms ease,
+		box-shadow 220ms ease,
+		border-color 220ms ease;
+}
+
+.nav-card__icon {
+	opacity: 0.9;
+	transition:
+		color 220ms ease,
+		opacity 220ms ease;
+}
+
+.nav-card:hover,
+.nav-card:focus-visible {
+	transform: translateY(-4px) scale(1.01);
+	box-shadow: 0 22px 48px rgb(23 18 15 / 0.14);
+	border-color: color-mix(in srgb, var(--c-secondary) 35%, var(--c-border));
+}
+
+.nav-card:hover .nav-card__icon,
+.nav-card:focus-visible .nav-card__icon {
+	color: #fff;
+	opacity: 1;
+}
+
+.nav-card--primary {
+	background:
+		linear-gradient(160deg, rgb(197 61 61 / 0.1), rgb(255 255 255 / 0)),
+		var(--c-bg-primary);
+}
+
+.nav-card--secondary {
+	animation-delay: 90ms;
+}
+
+@keyframes nav-card-enter {
+	to {
+		opacity: 1;
+		transform: translateY(0) scale(1);
+	}
 }

@@ -1,8 +1,10 @@
 import { NgOptimizedImage } from '@angular/common';
 import { ChangeDetectionStrategy, Component, computed, inject, signal } from '@angular/core';
-import { RouterLink } from '@angular/router';
+import { toSignal } from '@angular/core/rxjs-interop';
+import { NavigationEnd, Router, RouterLink } from '@angular/router';
 import { TranslatePipe, TranslateService } from '@wawjs/ngx-translate';
 import { ThemeService } from '@wawjs/ngx-ui';
+import { filter, map, startWith } from 'rxjs';
 import { LanguageOption } from '../../feature/language/language.interface';
 import { LanguageService } from '../../feature/language/language.service';
 
@@ -17,12 +19,29 @@ export class TopbarComponent {
 	private readonly _translateService = inject(TranslateService);
 	private readonly _themeService = inject(ThemeService);
 	private readonly _languageService = inject(LanguageService);
+	private readonly _router = inject(Router);
+	private readonly _currentUrl = toSignal(
+		this._router.events.pipe(
+			filter((event): event is NavigationEnd => event instanceof NavigationEnd),
+			map((event) => event.urlAfterRedirects),
+			startWith(this._router.url),
+		),
+		{ initialValue: this._router.url },
+	);
 
 	protected readonly mode = computed(() => this._themeService.mode() ?? 'light');
 	protected readonly languageMenuOpen = signal(false);
 	protected readonly languages = this._languageService.languages;
 	protected readonly currentLanguage = computed(() =>
 		this._languageService.getLanguage(this._languageService.language()),
+	);
+	protected readonly isRestaurantRoute = computed(() => {
+		const path = this._currentUrl();
+
+		return path.includes('restaurant') || path.includes('menu') || path.includes('dish');
+	});
+	protected readonly brandLabel = computed(() =>
+		this.isRestaurantRoute() ? 'STELLA RESTAURANT' : 'STELLA HOTEL TERNOPIL',
 	);
 	protected readonly toggleIcon = computed(() =>
 		this.mode() === 'dark' ? 'light_mode' : 'dark_mode',

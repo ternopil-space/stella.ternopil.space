@@ -1,15 +1,1 @@
-export type LanguageCode =
-	| 'ua'
-	| 'cs'
-	| 'nl'
-	| 'en'
-	| 'fr'
-	| 'de'
-	| 'el'
-	| 'hu'
-	| 'it'
-	| 'pl'
-	| 'pt'
-	| 'ro'
-	| 'es'
-	| 'sv';
+export type LanguageCode = 'ua' | 'en' | 'de' | 'fr' | 'pl';

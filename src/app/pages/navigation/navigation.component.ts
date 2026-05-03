@@ -1,20 +1,46 @@
 import { ChangeDetectionStrategy, Component } from '@angular/core';
 import { RouterLink } from '@angular/router';
-import { TranslateDirective } from '@wawjs/ngx-translate';
+
+type NavigationItem = {
+	label: string;
+	subtitle: string;
+	badge: string;
+	icon: string;
+	route: string;
+	tone: 'primary' | 'secondary';
+};
 
 @Component({
-	imports: [RouterLink, TranslateDirective],
+	imports: [RouterLink],
 	templateUrl: './navigation.component.html',
 	styleUrl: './navigation.component.scss',
 	changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export class NavigationComponent {
-	protected readonly navItems = [
-		{ label: 'Rooms', badge: '01', icon: 'hotel', route: '/rooms' },
-		{ label: 'Sales', badge: '02', icon: 'sell', route: '/sales' },
-		{ label: 'Articles', badge: '03', icon: 'article', route: '/articles' },
-		{ label: 'Reviews', badge: '04', icon: 'rate_review', route: '/reviews' },
-		{ label: 'Events', badge: '05', icon: 'event', route: '/events' },
-		{ label: 'Jobs', badge: '06', icon: 'work', route: '/jobs' },
+	protected readonly navItems: NavigationItem[] = [
+		{
+			label: 'Номери',
+			subtitle: 'Переглянути варіанти проживання та актуальні ціни',
+			badge: 'Основний розділ',
+			icon: 'hotel',
+			route: '/rooms',
+			tone: 'primary',
+		},
+		{
+			label: 'Відгуки',
+			subtitle: 'Дізнатися враження гостей про Stella Hotel Ternopil',
+			badge: 'Гості про нас',
+			icon: 'rate_review',
+			route: '/reviews',
+			tone: 'secondary',
+		},
+		{
+			label: 'Ресторан',
+			subtitle: 'Переглянути меню Stella Restaurant з усіма категоріями та стравами',
+			badge: 'Меню та напої',
+			icon: 'restaurant',
+			route: '/restaurant',
+			tone: 'secondary',
+		},
 	];
 }

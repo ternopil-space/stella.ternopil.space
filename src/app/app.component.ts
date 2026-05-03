@@ -52,11 +52,11 @@ export class App {
 	private readonly _scrollService = inject(ScrollService);
 
 	protected readonly navItems = [
-		{ label: 'Nav', icon: 'navigation', route: '/navigation', exact: true },
+		{ label: 'Home', icon: 'home', route: '/', exact: true },
+		{ label: 'Restaurant', icon: 'restaurant', route: '/restaurant', exact: true },
 		{ label: 'Gallery', icon: 'photo_library', route: '/gallery', exact: true },
 		{ label: 'Socials', icon: 'share', route: '/socials', exact: true },
-		{ label: 'Favorite', icon: 'favorite', route: '/favorites', exact: true },
-		{ label: 'Menu', icon: 'restaurant_menu', route: '/', exact: true },
+		{ label: 'Rooms', icon: 'hotel', route: '/rooms', exact: true },
 	];
 
 	constructor() {

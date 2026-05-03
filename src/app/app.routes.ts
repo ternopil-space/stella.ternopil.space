@@ -4,7 +4,7 @@ export const routes: Routes = [
 	{
 		path: '',
 		loadComponent: () =>
-			import('./pages/landing/landing.component').then((m) => m.LandingComponent),
+			import('./pages/navigation/navigation.component').then((m) => m.NavigationComponent),
 	},
 	{
 		path: 'rooms',
@@ -14,6 +14,11 @@ export const routes: Routes = [
 		path: 'navigation',
 		loadComponent: () =>
 			import('./pages/navigation/navigation.component').then((m) => m.NavigationComponent),
+	},
+	{
+		path: 'restaurant',
+		loadComponent: () =>
+			import('./pages/landing/landing.component').then((m) => m.LandingComponent),
 	},
 	{
 		path: 'gallery',

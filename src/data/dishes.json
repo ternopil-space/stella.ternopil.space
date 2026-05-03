@@ -1,30 +1,1445 @@
 [
-	{
-		"slug": "homemade-syrnyky-with-sour-cream",
-		"categorySlug": "breakfasts",
-		"title": "Homemade syrnyky with sour cream",
-		"description": "Golden cottage cheese pancakes served with sour cream.",
-		"price": 140,
-		"labels": ["200g"],
-		"fullDescription": "Golden cottage cheese pancakes served with sour cream. Ingredients: Golden cottage cheese pancakes served with sour cream..",
-		"suggested": ["espresso", "americano"],
-		"cookTimeMinutes": 20,
-		"caloriesKcal": 420,
-		"portion": "200g",
-		"allergens": ["cappuccino"]
-	},
-	{
-		"slug": "cappuccino",
-		"categorySlug": "coffee",
-		"title": "Cappuccino",
-		"description": "Espresso with steamed milk and foam.",
-		"price": 50,
-		"labels": ["350ml"],
-		"fullDescription": "Espresso with steamed milk and foam. Ingredients: Espresso with steamed milk and foam..",
-		"suggested": ["homemade-syrnyky-with-sour-cream"],
-		"cookTimeMinutes": 5,
-		"caloriesKcal": 110,
-		"portion": "350ml",
-		"allergens": ["milk"]
-	}
+  {
+    "slug": "cappuccino",
+    "categorySlug": "coffee",
+    "title": "Cappuccino",
+    "description": "Espresso with steamed milk and foam.",
+    "price": 50,
+    "labels": [
+      "350ml"
+    ],
+    "fullDescription": "Espresso with steamed milk and foam. Ingredients: Espresso with steamed milk and foam..",
+    "suggested": [],
+    "cookTimeMinutes": 5,
+    "caloriesKcal": 110,
+    "portion": "350ml",
+    "allergens": [
+      "milk"
+    ]
+  },
+  {
+    "slug": "stella-salad",
+    "categorySlug": "salads",
+    "title": "Stella salad",
+    "description": "Mixed salad, king prawns, salmon fillet, cherry tomatoes, avocado, parmesan, soy dressing.",
+    "price": 335,
+    "labels": [
+      "260g"
+    ],
+    "fullDescription": "A signature salad with mixed greens, king prawns, salmon fillet, cherry tomatoes, avocado, parmesan, and soy dressing. A balanced choice with seafood, creamy notes, and a bright fresh finish.",
+    "suggested": [
+      "warm-beef-salad",
+      "caesar-salad-with-shrimp"
+    ],
+    "cookTimeMinutes": 15,
+    "caloriesKcal": 430,
+    "portion": "260g",
+    "allergens": [
+      "fish",
+      "shellfish",
+      "milk",
+      "soy"
+    ]
+  },
+  {
+    "slug": "summer-salad",
+    "categorySlug": "salads",
+    "title": "Summer salad",
+    "description": "Tomato, cucumber, farmer cheese, green onion, sour cream.",
+    "price": 190,
+    "labels": [
+      "180g"
+    ],
+    "fullDescription": "A light summer salad with tomato, cucumber, farmer cheese, green onion, and sour cream. Refreshing vegetables and delicate dairy flavors make it an easy everyday choice.",
+    "suggested": [
+      "greek-salad",
+      "cappuccino"
+    ],
+    "cookTimeMinutes": 10,
+    "caloriesKcal": 240,
+    "portion": "180g",
+    "allergens": [
+      "milk"
+    ]
+  },
+  {
+    "slug": "greek-salad",
+    "categorySlug": "salads",
+    "title": "Greek salad",
+    "description": "Cucumber, tomatoes, iceberg lettuce, onion, olives, feta, olive oil.",
+    "price": 215,
+    "labels": [
+      "350g"
+    ],
+    "fullDescription": "A classic Greek salad with cucumber, tomatoes, iceberg lettuce, onion, olives, feta, and olive oil. Crisp vegetables and briny cheese create a bright Mediterranean flavor.",
+    "suggested": [
+      "summer-salad",
+      "caesar-salad"
+    ],
+    "cookTimeMinutes": 10,
+    "caloriesKcal": 320,
+    "portion": "350g",
+    "allergens": [
+      "milk"
+    ]
+  },
+  {
+    "slug": "warm-beef-salad",
+    "categorySlug": "salads",
+    "title": "Warm beef salad",
+    "description": "Beef tenderloin, bell pepper, cherry tomatoes, salad onion, soy dressing, Asian BBQ, white sesame, French mustard.",
+    "price": 305,
+    "labels": [
+      "250g"
+    ],
+    "fullDescription": "A warm salad with beef tenderloin, bell pepper, cherry tomatoes, salad onion, soy dressing, Asian BBQ, white sesame, and French mustard. Rich meat flavor meets a sweet-savory dressing and gentle spice.",
+    "suggested": [
+      "stella-salad",
+      "beet-and-prosciutto-salad"
+    ],
+    "cookTimeMinutes": 18,
+    "caloriesKcal": 410,
+    "portion": "250g",
+    "allergens": [
+      "soy",
+      "mustard",
+      "sesame"
+    ]
+  },
+  {
+    "slug": "caesar-salad",
+    "categorySlug": "salads",
+    "title": "Caesar salad",
+    "description": "Mixed salad, cherry tomatoes, chicken breast, chicken egg, parmesan, Caesar sauce, lemon dressing, croutons, bacon.",
+    "price": 275,
+    "labels": [
+      "250g"
+    ],
+    "fullDescription": "A hearty Caesar salad with mixed greens, cherry tomatoes, chicken breast, egg, parmesan, Caesar sauce, lemon dressing, croutons, and bacon. Classic textures and savory flavor make it a satisfying restaurant favorite.",
+    "suggested": [
+      "caesar-salad-with-shrimp",
+      "greek-salad"
+    ],
+    "cookTimeMinutes": 16,
+    "caloriesKcal": 470,
+    "portion": "250g",
+    "allergens": [
+      "milk",
+      "egg",
+      "gluten"
+    ]
+  },
+  {
+    "slug": "beet-and-prosciutto-salad",
+    "categorySlug": "salads",
+    "title": "Beetroot and prosciutto salad",
+    "description": "Prosciutto, feta, beetroot, caramelized pear, soy dressing, mixed salad.",
+    "price": 275,
+    "labels": [
+      "220g"
+    ],
+    "fullDescription": "A refined salad with prosciutto, feta, beetroot, caramelized pear, soy dressing, and mixed greens. Sweet pear, salty cured meat, and beetroot create a layered and elegant flavor.",
+    "suggested": [
+      "warm-beef-salad",
+      "stella-salad"
+    ],
+    "cookTimeMinutes": 14,
+    "caloriesKcal": 360,
+    "portion": "220g",
+    "allergens": [
+      "milk",
+      "soy"
+    ]
+  },
+  {
+    "slug": "caesar-salad-with-shrimp",
+    "categorySlug": "salads",
+    "title": "Caesar salad with shrimp",
+    "description": "Mixed salad, cherry tomatoes, shrimp, chicken egg, parmesan, Caesar sauce, lemon dressing, croutons.",
+    "price": 325,
+    "labels": [
+      "250g"
+    ],
+    "fullDescription": "A seafood variation of Caesar salad with mixed greens, cherry tomatoes, shrimp, egg, parmesan, Caesar sauce, lemon dressing, and croutons. Tender shrimp and a citrus accent make it fresh and expressive.",
+    "suggested": [
+      "stella-salad",
+      "caesar-salad"
+    ],
+    "cookTimeMinutes": 15,
+    "caloriesKcal": 390,
+    "portion": "250g",
+    "allergens": [
+      "shellfish",
+      "milk",
+      "egg",
+      "gluten"
+    ]
+  },
+  {
+    "slug": "vegetable-platter",
+    "categorySlug": "cold-snacks",
+    "title": "Vegetable platter",
+    "description": "Cucumber, tomatoes, bell pepper, green onion, mixed salad.",
+    "price": 230,
+    "labels": [
+      "500g"
+    ],
+    "fullDescription": "A fresh vegetable platter with cucumber, tomatoes, bell pepper, green onion, and mixed salad. A light and colorful starter for sharing or pairing with main dishes.",
+    "suggested": [
+      "greek-salad",
+      "antipasti-platter"
+    ],
+    "cookTimeMinutes": 10,
+    "caloriesKcal": 180,
+    "portion": "500g",
+    "allergens": []
+  },
+  {
+    "slug": "antipasti-platter",
+    "categorySlug": "cold-snacks",
+    "title": "Antipasti",
+    "description": "Milano salami, chorizo, mortadella, dor blue, camembert, grissini, olives.",
+    "price": 380,
+    "labels": [
+      "250g"
+    ],
+    "fullDescription": "A rich antipasti selection with Milano salami, chorizo, mortadella, dor blue, camembert, grissini, and olives. A balanced platter of cured meats, cheeses, and savory accents.",
+    "suggested": [
+      "cheese-platter",
+      "meat-platter-house-smoked"
+    ],
+    "cookTimeMinutes": 12,
+    "caloriesKcal": 520,
+    "portion": "250g",
+    "allergens": [
+      "milk",
+      "gluten"
+    ]
+  },
+  {
+    "slug": "beer-snack-platter",
+    "categorySlug": "cold-snacks",
+    "title": "Beer snack platter",
+    "description": "Sudzhuk, basturma, kabanosy, braided cheese, peanuts.",
+    "price": 350,
+    "labels": [
+      "250g"
+    ],
+    "fullDescription": "A hearty beer snack platter with sudzhuk, basturma, kabanosy, braided cheese, and peanuts. Smoky, spicy, and salty flavors make it a natural companion for drinks.",
+    "suggested": [
+      "pickled-assortment",
+      "meat-platter-house-smoked"
+    ],
+    "cookTimeMinutes": 8,
+    "caloriesKcal": 560,
+    "portion": "250g",
+    "allergens": [
+      "milk",
+      "peanuts"
+    ]
+  },
+  {
+    "slug": "pickled-assortment",
+    "categorySlug": "cold-snacks",
+    "title": "Pickled assortment",
+    "description": "Cucumbers, tomatoes, kryzhivka, champignons.",
+    "price": 230,
+    "labels": [
+      "450g"
+    ],
+    "fullDescription": "A traditional assortment of pickled cucumbers, tomatoes, kryzhivka, and champignons. Bright acidity and rustic flavors make it a classic cold appetizer for the table.",
+    "suggested": [
+      "set-of-lard-with-toasts",
+      "beer-snack-platter"
+    ],
+    "cookTimeMinutes": 6,
+    "caloriesKcal": 170,
+    "portion": "450g",
+    "allergens": []
+  },
+  {
+    "slug": "set-of-lard-with-toasts",
+    "categorySlug": "cold-snacks",
+    "title": "Set of lard with toasts",
+    "description": "Three kinds of lard, toasts, garlic.",
+    "price": 190,
+    "labels": [
+      "150g"
+    ],
+    "fullDescription": "A traditional set with three kinds of lard, crispy toasts, and garlic. A bold rustic appetizer with rich flavor and a familiar homemade character.",
+    "suggested": [
+      "pickled-assortment",
+      "meat-platter-house-smoked"
+    ],
+    "cookTimeMinutes": 7,
+    "caloriesKcal": 490,
+    "portion": "150g",
+    "allergens": [
+      "gluten"
+    ]
+  },
+  {
+    "slug": "beef-carpaccio",
+    "categorySlug": "cold-snacks",
+    "title": "Beef carpaccio",
+    "description": "Beef tenderloin, capers, arugula, parmesan, chili pepper, balsamic sauce.",
+    "price": 395,
+    "labels": [
+      "200g"
+    ],
+    "fullDescription": "Thinly sliced beef carpaccio with capers, arugula, parmesan, chili pepper, and balsamic sauce. A refined appetizer with clean meat flavor, spice, and bright acidity.",
+    "suggested": [
+      "salmon-tartare",
+      "stella-salad"
+    ],
+    "cookTimeMinutes": 14,
+    "caloriesKcal": 330,
+    "portion": "200g",
+    "allergens": [
+      "milk"
+    ]
+  },
+  {
+    "slug": "salmon-tartare",
+    "categorySlug": "cold-snacks",
+    "title": "Salmon tartare",
+    "description": "Salmon fillet, avocado, cucumber, cream cheese, toasts, parmesan chips.",
+    "price": 355,
+    "labels": [
+      "245g"
+    ],
+    "fullDescription": "A delicate salmon tartare with avocado, cucumber, cream cheese, toasts, and parmesan chips. Creamy texture and fresh fish notes make it elegant and expressive.",
+    "suggested": [
+      "beef-carpaccio",
+      "stella-salad"
+    ],
+    "cookTimeMinutes": 12,
+    "caloriesKcal": 380,
+    "portion": "245g",
+    "allergens": [
+      "fish",
+      "milk",
+      "gluten"
+    ]
+  },
+  {
+    "slug": "chicken-liver-pate",
+    "categorySlug": "cold-snacks",
+    "title": "Chicken liver pate",
+    "description": "Pate, truffle oil, crispy onion, toasts.",
+    "price": 205,
+    "labels": [
+      "230g"
+    ],
+    "fullDescription": "Smooth chicken liver pate served with truffle oil, crispy onion, and toasts. A rich and aromatic appetizer with a deep savory finish.",
+    "suggested": [
+      "cheese-platter",
+      "vegetable-platter"
+    ],
+    "cookTimeMinutes": 10,
+    "caloriesKcal": 340,
+    "portion": "230g",
+    "allergens": [
+      "gluten"
+    ]
+  },
+  {
+    "slug": "cheese-platter",
+    "categorySlug": "cold-snacks",
+    "title": "Cheese platter",
+    "description": "Camembert, dor blue, parmesan, halloumi, raspberry sauce, honey.",
+    "price": 340,
+    "labels": [
+      "290g"
+    ],
+    "fullDescription": "A cheese platter with camembert, dor blue, parmesan, halloumi, raspberry sauce, and honey. Soft, sharp, and sweet accents create a layered tasting experience.",
+    "suggested": [
+      "antipasti-platter",
+      "salmon-tartare"
+    ],
+    "cookTimeMinutes": 9,
+    "caloriesKcal": 470,
+    "portion": "290g",
+    "allergens": [
+      "milk"
+    ]
+  },
+  {
+    "slug": "meat-platter-house-smoked",
+    "categorySlug": "cold-snacks",
+    "title": "House-smoked meat platter",
+    "description": "Ham, pork belly, meat roll, homemade sausage, cranberry bread.",
+    "price": 380,
+    "labels": [
+      "240g"
+    ],
+    "fullDescription": "A platter of house-smoked meats with ham, pork belly, meat roll, homemade sausage, and cranberry bread. Dense smoky flavor and rich textures make it ideal for sharing.",
+    "suggested": [
+      "beer-snack-platter",
+      "set-of-lard-with-toasts"
+    ],
+    "cookTimeMinutes": 11,
+    "caloriesKcal": 610,
+    "portion": "240g",
+    "allergens": [
+      "gluten"
+    ]
+  },
+  {
+    "slug": "panko-shrimp-with-tartar-sauce",
+    "categorySlug": "hot-snacks",
+    "title": "Panko shrimp with tartar sauce",
+    "description": "Crispy shrimp in panko breading with delicate tartar sauce.",
+    "price": 395,
+    "labels": [
+      "8 pcs"
+    ],
+    "fullDescription": "Crispy panko-breaded shrimp served with delicate tartar sauce. A bright hot appetizer with a crunchy crust, juicy seafood, and a creamy finish.",
+    "suggested": [
+      "shrimp-in-spicy-sauce",
+      "caesar-salad-with-shrimp"
+    ],
+    "cookTimeMinutes": 14,
+    "caloriesKcal": 420,
+    "portion": "8 pcs",
+    "allergens": [
+      "shellfish",
+      "egg",
+      "gluten"
+    ]
+  },
+  {
+    "slug": "camembert-with-raspberry-jam-and-toasts",
+    "categorySlug": "hot-snacks",
+    "title": "Camembert with raspberry jam and toasts",
+    "description": "Baked camembert with raspberry jam and crispy toasts.",
+    "price": 260,
+    "labels": [
+      "180g"
+    ],
+    "fullDescription": "Baked camembert served with raspberry jam and crispy toasts. The creamy cheese center and sweet berry accent create a rich and elegant combination.",
+    "suggested": [
+      "cheese-platter",
+      "chicken-liver-pate"
+    ],
+    "cookTimeMinutes": 12,
+    "caloriesKcal": 390,
+    "portion": "180g",
+    "allergens": [
+      "milk",
+      "gluten"
+    ]
+  },
+  {
+    "slug": "shrimp-in-spicy-sauce",
+    "categorySlug": "hot-snacks",
+    "title": "Shrimp in spicy sauce",
+    "description": "Shrimp in a piquant spicy sauce with aromatic spices.",
+    "price": 395,
+    "labels": [
+      "200g"
+    ],
+    "fullDescription": "Shrimp in a piquant spicy sauce with aromatic spices. Tender seafood and expressive seasoning make this appetizer vibrant and memorable.",
+    "suggested": [
+      "panko-shrimp-with-tartar-sauce",
+      "new-zealand-mussels-baked-with-cheese-sauce"
+    ],
+    "cookTimeMinutes": 15,
+    "caloriesKcal": 360,
+    "portion": "200g",
+    "allergens": [
+      "shellfish"
+    ]
+  },
+  {
+    "slug": "new-zealand-mussels-baked-with-cheese-sauce",
+    "categorySlug": "hot-snacks",
+    "title": "New Zealand mussels baked with cheese sauce",
+    "description": "Baked mussels under a delicate cheese sauce.",
+    "price": 460,
+    "labels": [
+      "320g"
+    ],
+    "fullDescription": "New Zealand mussels baked under a delicate cheese sauce. A rich seafood appetizer with tender texture, creamy notes, and a warm oven-baked finish.",
+    "suggested": [
+      "shrimp-in-spicy-sauce",
+      "salmon-tartare"
+    ],
+    "cookTimeMinutes": 18,
+    "caloriesKcal": 440,
+    "portion": "320g",
+    "allergens": [
+      "shellfish",
+      "milk"
+    ]
+  },
+  {
+    "slug": "lavash-with-cheese-and-herbs",
+    "categorySlug": "hot-snacks",
+    "title": "Lavash with cheese and herbs",
+    "description": "Thin lavash with cheese and fresh herbs, baked until crisp.",
+    "price": 180,
+    "labels": [
+      "240g"
+    ],
+    "fullDescription": "Thin lavash filled with cheese and fresh herbs, baked until a crisp golden crust forms. A simple and satisfying hot snack with a fragrant homemade character.",
+    "suggested": [
+      "camembert-with-raspberry-jam-and-toasts",
+      "fried-pelmeni-with-signature-sauce"
+    ],
+    "cookTimeMinutes": 10,
+    "caloriesKcal": 410,
+    "portion": "240g",
+    "allergens": [
+      "milk",
+      "gluten"
+    ]
+  },
+  {
+    "slug": "fried-pelmeni-with-signature-sauce",
+    "categorySlug": "hot-snacks",
+    "title": "Fried pelmeni with signature sauce",
+    "description": "Fried pelmeni with a crispy crust and signature sauce.",
+    "price": 195,
+    "labels": [
+      "200g"
+    ],
+    "fullDescription": "Fried pelmeni with a crispy crust, served with signature sauce. Golden texture and savory filling make this hot snack familiar, hearty, and easy to share.",
+    "suggested": [
+      "lavash-with-cheese-and-herbs",
+      "set-of-lard-with-toasts"
+    ],
+    "cookTimeMinutes": 12,
+    "caloriesKcal": 450,
+    "portion": "200g",
+    "allergens": [
+      "gluten",
+      "egg"
+    ]
+  },
+  {
+    "slug": "mushroom-cream-soup",
+    "categorySlug": "first-dishes",
+    "title": "Mushroom cream soup",
+    "description": "Delicate cream soup made from mushrooms with a rich aroma.",
+    "price": 155,
+    "labels": [
+      "200g"
+    ],
+    "fullDescription": "A delicate mushroom cream soup with a rich aroma and velvety texture. A warm first course with a deep mushroom flavor and a soft creamy finish.",
+    "suggested": [
+      "lavash-with-cheese-and-herbs",
+      "vegetable-platter"
+    ],
+    "cookTimeMinutes": 15,
+    "caloriesKcal": 230,
+    "portion": "200g",
+    "allergens": [
+      "milk"
+    ]
+  },
+  {
+    "slug": "bograch",
+    "categorySlug": "first-dishes",
+    "title": "Bograch",
+    "description": "Traditional Hungarian soup with meat and spices, served with bread.",
+    "price": 275,
+    "labels": [
+      "400g"
+    ],
+    "fullDescription": "Traditional Hungarian bograch with meat, vegetables, and expressive spices, served with bread. A hearty first course with a rich broth and warming character.",
+    "suggested": [
+      "meat-platter-house-smoked",
+      "fried-pelmeni-with-signature-sauce"
+    ],
+    "cookTimeMinutes": 25,
+    "caloriesKcal": 420,
+    "portion": "400g",
+    "allergens": [
+      "gluten"
+    ]
+  },
+  {
+    "slug": "chicken-broth-with-meatballs",
+    "categorySlug": "first-dishes",
+    "title": "Chicken broth with meatballs",
+    "description": "Chicken broth with noodles, meatballs, and egg.",
+    "price": 195,
+    "labels": [
+      "400g"
+    ],
+    "fullDescription": "Clear chicken broth with noodles, tender meatballs, and egg. A comforting first course with a familiar homemade taste and gentle savory depth.",
+    "suggested": [
+      "chicken-liver-pate",
+      "camembert-with-raspberry-jam-and-toasts"
+    ],
+    "cookTimeMinutes": 18,
+    "caloriesKcal": 310,
+    "portion": "400g",
+    "allergens": [
+      "egg",
+      "gluten"
+    ]
+  },
+  {
+    "slug": "ukrainian-borscht-with-lard",
+    "categorySlug": "first-dishes",
+    "title": "Ukrainian borscht with lard",
+    "description": "Classic Ukrainian borscht with pork, lard, sour cream, and bread.",
+    "price": 240,
+    "labels": [
+      "400g"
+    ],
+    "fullDescription": "Classic Ukrainian borscht with pork, lard, sour cream, and bread. A deep beetroot broth and rich traditional additions make this first course filling and expressive.",
+    "suggested": [
+      "set-of-lard-with-toasts",
+      "vegetable-platter"
+    ],
+    "cookTimeMinutes": 22,
+    "caloriesKcal": 390,
+    "portion": "400g",
+    "allergens": [
+      "milk",
+      "gluten"
+    ]
+  },
+  {
+    "slug": "banosh-with-brynza-and-cracklings",
+    "categorySlug": "main-dishes",
+    "title": "Banosh with brynza and cracklings",
+    "description": "Traditional banosh with brynza and crispy cracklings.",
+    "price": 195,
+    "labels": [
+      "300g"
+    ],
+    "fullDescription": "Traditional banosh with brynza and crispy cracklings. A hearty cornmeal dish with a creamy texture, rich sheep cheese, and a savory rustic finish.",
+    "suggested": [
+      "bograch",
+      "set-of-lard-with-toasts"
+    ],
+    "cookTimeMinutes": 20,
+    "caloriesKcal": 520,
+    "portion": "300g",
+    "allergens": [
+      "milk"
+    ]
+  },
+  {
+    "slug": "skillet-with-bavarian-sausages",
+    "categorySlug": "main-dishes",
+    "title": "Skillet with Bavarian sausages",
+    "description": "Potatoes, Bavarian sausages, onion, carrot, oil, demi-glace sauce, parmesan.",
+    "price": 345,
+    "labels": [
+      "300g"
+    ],
+    "fullDescription": "A hot skillet with potatoes, Bavarian sausages, onion, carrot, oil, demi-glace sauce, and parmesan. A rich main dish with a deep meaty flavor and a satisfying home-style character.",
+    "suggested": [
+      "skillet-with-chicken",
+      "bograch"
+    ],
+    "cookTimeMinutes": 22,
+    "caloriesKcal": 610,
+    "portion": "300g",
+    "allergens": [
+      "milk"
+    ]
+  },
+  {
+    "slug": "skillet-with-chicken",
+    "categorySlug": "main-dishes",
+    "title": "Skillet with chicken",
+    "description": "Potatoes, chicken fillet, onion, carrot, oil, demi-glace sauce, parmesan.",
+    "price": 330,
+    "labels": [
+      "300g"
+    ],
+    "fullDescription": "A hot skillet with potatoes, chicken fillet, onion, carrot, oil, demi-glace sauce, and parmesan. Tender chicken and roasted vegetables make it a balanced and filling main course.",
+    "suggested": [
+      "skillet-with-bavarian-sausages",
+      "mushroom-cream-soup"
+    ],
+    "cookTimeMinutes": 20,
+    "caloriesKcal": 540,
+    "portion": "300g",
+    "allergens": [
+      "milk"
+    ]
+  },
+  {
+    "slug": "varenyky-with-potatoes-and-cracklings",
+    "categorySlug": "main-dishes",
+    "title": "Varenyky with potatoes and cracklings",
+    "description": "Homemade varenky with potatoes and cracklings.",
+    "price": 185,
+    "labels": [
+      "300g"
+    ],
+    "fullDescription": "Homemade varenyky with potatoes and cracklings. A traditional main dish with a soft dough, hearty filling, and a familiar rustic taste.",
+    "suggested": [
+      "varenyky-with-potatoes-and-mushroom-sauce",
+      "ukrainian-borscht-with-lard"
+    ],
+    "cookTimeMinutes": 18,
+    "caloriesKcal": 480,
+    "portion": "300g",
+    "allergens": [
+      "gluten"
+    ]
+  },
+  {
+    "slug": "varenyky-with-potatoes-and-mushroom-sauce",
+    "categorySlug": "main-dishes",
+    "title": "Varenyky with potatoes and mushroom sauce",
+    "description": "Varenyky with potatoes served with a delicate mushroom sauce.",
+    "price": 230,
+    "labels": [
+      "350g"
+    ],
+    "fullDescription": "Varenyky with potatoes served with a delicate mushroom sauce. Soft dumplings and a creamy mushroom accent create a comforting and expressive main dish.",
+    "suggested": [
+      "varenyky-with-potatoes-and-cracklings",
+      "mushroom-cream-soup"
+    ],
+    "cookTimeMinutes": 19,
+    "caloriesKcal": 510,
+    "portion": "350g",
+    "allergens": [
+      "gluten",
+      "milk"
+    ]
+  },
+  {
+    "slug": "deruny-with-mushroom-sauce",
+    "categorySlug": "main-dishes",
+    "title": "Deruny with mushroom sauce",
+    "description": "Crispy deruny with aromatic mushroom sauce.",
+    "price": 240,
+    "labels": [
+      "300g"
+    ],
+    "fullDescription": "Crispy deruny served with aromatic mushroom sauce. Golden potato pancakes and a rich sauce make this main dish deeply comforting and full of traditional flavor.",
+    "suggested": [
+      "deruny-with-sour-cream",
+      "mushroom-cream-soup"
+    ],
+    "cookTimeMinutes": 17,
+    "caloriesKcal": 490,
+    "portion": "300g",
+    "allergens": [
+      "egg",
+      "milk"
+    ]
+  },
+  {
+    "slug": "deruny-with-sour-cream",
+    "categorySlug": "main-dishes",
+    "title": "Deruny with sour cream",
+    "description": "Deruny with sour cream, served hot.",
+    "price": 195,
+    "labels": [
+      "200g"
+    ],
+    "fullDescription": "Deruny with sour cream, served hot. Crisp edges, tender potato center, and cool sour cream make this a simple and satisfying traditional choice.",
+    "suggested": [
+      "deruny-with-mushroom-sauce",
+      "chicken-broth-with-meatballs"
+    ],
+    "cookTimeMinutes": 15,
+    "caloriesKcal": 390,
+    "portion": "200g",
+    "allergens": [
+      "egg",
+      "milk"
+    ]
+  },
+  {
+    "slug": "grilled-vegetables",
+    "categorySlug": "side-dishes",
+    "title": "Grilled vegetables",
+    "description": "Eggplant, zucchini, champignons, bell pepper, corn.",
+    "price": 200,
+    "labels": [
+      "300g"
+    ],
+    "fullDescription": "Grilled eggplant, zucchini, champignons, bell pepper, and corn. A bright vegetable side dish with light smokiness and a clean grilled finish.",
+    "suggested": [
+      "skillet-with-chicken",
+      "skillet-with-bavarian-sausages"
+    ],
+    "cookTimeMinutes": 14,
+    "caloriesKcal": 210,
+    "portion": "300g",
+    "allergens": []
+  },
+  {
+    "slug": "baked-potatoes",
+    "categorySlug": "side-dishes",
+    "title": "Baked potatoes",
+    "description": "Baked potatoes with aromatic spices.",
+    "price": 145,
+    "labels": [
+      "200g"
+    ],
+    "fullDescription": "Baked potatoes with aromatic spices. A simple and satisfying side dish with a tender center, golden edges, and a familiar home-style taste.",
+    "suggested": [
+      "grilled-vegetables",
+      "deruny-with-sour-cream"
+    ],
+    "cookTimeMinutes": 18,
+    "caloriesKcal": 260,
+    "portion": "200g",
+    "allergens": []
+  },
+  {
+    "slug": "homestyle-potatoes",
+    "categorySlug": "side-dishes",
+    "title": "Homestyle potatoes",
+    "description": "Homestyle fried potatoes with onion and spices.",
+    "price": 175,
+    "labels": [
+      "200g"
+    ],
+    "fullDescription": "Homestyle fried potatoes with onion and spices. Crispy slices and a savory pan-fried aroma make this side dish hearty and familiar.",
+    "suggested": [
+      "baked-potatoes",
+      "skillet-with-bavarian-sausages"
+    ],
+    "cookTimeMinutes": 16,
+    "caloriesKcal": 310,
+    "portion": "200g",
+    "allergens": []
+  },
+  {
+    "slug": "mashed-potatoes-with-truffle-paste",
+    "categorySlug": "side-dishes",
+    "title": "Mashed potatoes with truffle paste",
+    "description": "Delicate mashed potatoes with truffle paste.",
+    "price": 185,
+    "labels": [
+      "250g"
+    ],
+    "fullDescription": "Delicate mashed potatoes with truffle paste. A creamy side dish with a silky texture and a refined truffle accent for richer main courses.",
+    "suggested": [
+      "grilled-vegetables",
+      "banosh-with-brynza-and-cracklings"
+    ],
+    "cookTimeMinutes": 12,
+    "caloriesKcal": 280,
+    "portion": "250g",
+    "allergens": [
+      "milk"
+    ]
+  },
+  {
+    "slug": "pasta-carbonara",
+    "categorySlug": "pasta",
+    "title": "Pasta Carbonara",
+    "description": "Spaghetti, bacon, cream, parmesan, truffle paste.",
+    "price": 260,
+    "labels": [
+      "250g"
+    ],
+    "fullDescription": "Spaghetti with bacon, cream, parmesan, and truffle paste. A rich pasta with a silky sauce, savory bacon, and a refined truffle accent.",
+    "suggested": [
+      "pasta-bolognese",
+      "grilled-vegetables"
+    ],
+    "cookTimeMinutes": 18,
+    "caloriesKcal": 560,
+    "portion": "250g",
+    "allergens": [
+      "gluten",
+      "milk"
+    ]
+  },
+  {
+    "slug": "pasta-bolognese",
+    "categorySlug": "pasta",
+    "title": "Pasta Bolognese",
+    "description": "Spaghetti, Bolognese sauce, parmesan.",
+    "price": 240,
+    "labels": [
+      "300g"
+    ],
+    "fullDescription": "Spaghetti with Bolognese sauce and parmesan. A classic Italian pasta with a hearty meat sauce and a balanced savory finish.",
+    "suggested": [
+      "pasta-carbonara",
+      "baked-potatoes"
+    ],
+    "cookTimeMinutes": 20,
+    "caloriesKcal": 590,
+    "portion": "300g",
+    "allergens": [
+      "gluten",
+      "milk"
+    ]
+  },
+  {
+    "slug": "farfalle-with-chicken-and-mushrooms",
+    "categorySlug": "pasta",
+    "title": "Farfalle with chicken and mushrooms",
+    "description": "Pasta, green beans, chicken fillet, champignons, parmesan, cream.",
+    "price": 270,
+    "labels": [
+      "300g"
+    ],
+    "fullDescription": "Farfalle with green beans, chicken fillet, champignons, parmesan, and cream. A tender creamy pasta with vegetables and chicken for a filling, balanced taste.",
+    "suggested": [
+      "pasta-carbonara",
+      "mashed-potatoes-with-truffle-paste"
+    ],
+    "cookTimeMinutes": 19,
+    "caloriesKcal": 540,
+    "portion": "300g",
+    "allergens": [
+      "gluten",
+      "milk"
+    ]
+  },
+  {
+    "slug": "mackerel-from-tandoor",
+    "categorySlug": "fish-dishes",
+    "title": "Mackerel from tandoor",
+    "description": "Mackerel cooked in a tandoor with aromatic spices.",
+    "price": 135,
+    "labels": [
+      "100g"
+    ],
+    "fullDescription": "Mackerel cooked in a tandoor with aromatic spices. A juicy fish dish with a pronounced roasted aroma and a warm spice finish.",
+    "suggested": [
+      "dorado-grill",
+      "grilled-vegetables"
+    ],
+    "cookTimeMinutes": 16,
+    "caloriesKcal": 240,
+    "portion": "100g",
+    "allergens": [
+      "fish"
+    ]
+  },
+  {
+    "slug": "salmon-fillet-steak",
+    "categorySlug": "fish-dishes",
+    "title": "Salmon fillet steak",
+    "description": "Salmon, broccoli, cauliflower, lemon, sauce.",
+    "price": 285,
+    "labels": [
+      "100g"
+    ],
+    "fullDescription": "Salmon fillet served with broccoli, cauliflower, lemon, and sauce. A balanced fish dish with tender texture, fresh citrus notes, and delicate vegetables.",
+    "suggested": [
+      "dorado-grill",
+      "mashed-potatoes-with-truffle-paste"
+    ],
+    "cookTimeMinutes": 18,
+    "caloriesKcal": 260,
+    "portion": "100g",
+    "allergens": [
+      "fish"
+    ]
+  },
+  {
+    "slug": "dorado-grill",
+    "categorySlug": "fish-dishes",
+    "title": "Grilled dorado 1 pc",
+    "description": "Dorado, lemon, sauce.",
+    "price": 520,
+    "labels": [
+      "1 pc"
+    ],
+    "fullDescription": "Whole grilled dorado served with lemon and sauce. A signature fish dish with clean sea flavor, light smokiness, and an elegant presentation.",
+    "suggested": [
+      "salmon-fillet-steak",
+      "grilled-vegetables"
+    ],
+    "cookTimeMinutes": 22,
+    "caloriesKcal": 430,
+    "portion": "1 pc",
+    "allergens": [
+      "fish"
+    ]
+  },
+  {
+    "slug": "pork-shashlik",
+    "categorySlug": "grill-dishes",
+    "title": "Pork shashlik",
+    "description": "Pork shashlik, onion, tomato sauce.",
+    "price": 170,
+    "labels": [
+      "100g"
+    ],
+    "fullDescription": "Pork shashlik served with onion and tomato sauce. A juicy grilled meat dish with a pronounced fire-roasted aroma and a classic savory finish.",
+    "suggested": [
+      "chicken-fillet-shashlik",
+      "homestyle-potatoes"
+    ],
+    "cookTimeMinutes": 22,
+    "caloriesKcal": 320,
+    "portion": "100g",
+    "allergens": []
+  },
+  {
+    "slug": "chicken-fillet-shashlik",
+    "categorySlug": "grill-dishes",
+    "title": "Chicken fillet shashlik",
+    "description": "Chicken fillet, onion, tomato sauce.",
+    "price": 150,
+    "labels": [
+      "100g"
+    ],
+    "fullDescription": "Chicken fillet shashlik served with onion and tomato sauce. Tender grilled meat and a familiar sauce make it a balanced and approachable grill option.",
+    "suggested": [
+      "pork-shashlik",
+      "baked-potatoes"
+    ],
+    "cookTimeMinutes": 20,
+    "caloriesKcal": 240,
+    "portion": "100g",
+    "allergens": []
+  },
+  {
+    "slug": "pork-ribs-in-honey-sauce",
+    "categorySlug": "grill-dishes",
+    "title": "Pork ribs in honey sauce",
+    "description": "Pork ribs in honey sauce.",
+    "price": 130,
+    "labels": [
+      "100g"
+    ],
+    "fullDescription": "Pork ribs glazed in honey sauce. A rich grilled dish with caramelized edges, deep meat flavor, and a sweet-savory finish.",
+    "suggested": [
+      "ribeye-steak",
+      "grilled-chicken-wings-with-sweet-chili-sauce"
+    ],
+    "cookTimeMinutes": 24,
+    "caloriesKcal": 360,
+    "portion": "100g",
+    "allergens": []
+  },
+  {
+    "slug": "grilled-chicken-wings-with-sweet-chili-sauce",
+    "categorySlug": "grill-dishes",
+    "title": "Grilled chicken wings with sweet chili sauce",
+    "description": "Grilled chicken wings with piquant sauce.",
+    "price": 285,
+    "labels": [
+      "400g"
+    ],
+    "fullDescription": "Grilled chicken wings served with a sweet-spicy sauce. Crispy skin, juicy meat, and a bright glaze make this dish ideal for sharing.",
+    "suggested": [
+      "chicken-grill-with-baked-potatoes",
+      "grilled-chicken-sausages"
+    ],
+    "cookTimeMinutes": 21,
+    "caloriesKcal": 620,
+    "portion": "400g",
+    "allergens": []
+  },
+  {
+    "slug": "ribeye-steak",
+    "categorySlug": "grill-dishes",
+    "title": "Ribeye steak",
+    "description": "Ribeye steak, corn, cranberry sauce.",
+    "price": 235,
+    "labels": [
+      "100g"
+    ],
+    "fullDescription": "Ribeye steak served with corn and cranberry sauce. A rich beef dish with a deep grilled flavor, juicy texture, and a bright berry accent.",
+    "suggested": [
+      "filet-mignon-with-grilled-vegetables",
+      "grilled-vegetables"
+    ],
+    "cookTimeMinutes": 18,
+    "caloriesKcal": 290,
+    "portion": "100g",
+    "allergens": []
+  },
+  {
+    "slug": "chicken-grill-with-baked-potatoes",
+    "categorySlug": "grill-dishes",
+    "title": "Grilled chicken with baked potatoes",
+    "description": "Grilled chicken with potatoes.",
+    "price": 310,
+    "labels": [
+      "400g"
+    ],
+    "fullDescription": "Grilled chicken served with baked potatoes. A hearty grill dish with a smoky aroma, tender meat, and a familiar home-style garnish.",
+    "suggested": [
+      "grilled-chicken-wings-with-sweet-chili-sauce",
+      "baked-potatoes"
+    ],
+    "cookTimeMinutes": 26,
+    "caloriesKcal": 680,
+    "portion": "400g",
+    "allergens": []
+  },
+  {
+    "slug": "filet-mignon-with-grilled-vegetables",
+    "categorySlug": "grill-dishes",
+    "title": "Filet mignon with grilled vegetables",
+    "description": "Filet mignon with grilled vegetables.",
+    "price": 580,
+    "labels": [
+      "300g"
+    ],
+    "fullDescription": "Filet mignon served with grilled vegetables. A refined grill dish with tender beef, clean roasting notes, and a balanced vegetable side.",
+    "suggested": [
+      "ribeye-steak",
+      "grilled-vegetables"
+    ],
+    "cookTimeMinutes": 24,
+    "caloriesKcal": 540,
+    "portion": "300g",
+    "allergens": []
+  },
+  {
+    "slug": "lyulya-kebab",
+    "categorySlug": "grill-dishes",
+    "title": "Lyulya kebab",
+    "description": "Lyulya kebab, onion, tomato sauce.",
+    "price": 345,
+    "labels": [
+      "300g"
+    ],
+    "fullDescription": "Lyulya kebab served with onion and tomato sauce. A juicy minced-meat grill dish with expressive spices and a generous, shareable format.",
+    "suggested": [
+      "pork-shashlik",
+      "meat-set-for-company"
+    ],
+    "cookTimeMinutes": 20,
+    "caloriesKcal": 610,
+    "portion": "300g",
+    "allergens": []
+  },
+  {
+    "slug": "meat-set-for-company",
+    "categorySlug": "grill-dishes",
+    "title": "Meat set for company",
+    "description": "Pork, chicken shashlik, ribs, lyulya kebab, potatoes, sauces.",
+    "price": 1530,
+    "labels": [
+      "1400g"
+    ],
+    "fullDescription": "A large meat set with pork, chicken shashlik, ribs, lyulya kebab, potatoes, and sauces. A generous grill assortment built for sharing with a wide range of meat flavors and textures.",
+    "suggested": [
+      "lyulya-kebab",
+      "grilled-chicken-wings-with-sweet-chili-sauce"
+    ],
+    "cookTimeMinutes": 35,
+    "caloriesKcal": 2100,
+    "portion": "1400g",
+    "allergens": []
+  },
+  {
+    "slug": "grilled-chicken-sausages",
+    "categorySlug": "grill-dishes",
+    "title": "Grilled chicken sausages",
+    "description": "Grilled chicken sausages.",
+    "price": 285,
+    "labels": [
+      "350g"
+    ],
+    "fullDescription": "Grilled chicken sausages with a juicy texture and pronounced roasted aroma. A satisfying grill dish that pairs well with potatoes and sauces.",
+    "suggested": [
+      "grilled-pork-and-beef-sausages",
+      "baked-potatoes"
+    ],
+    "cookTimeMinutes": 18,
+    "caloriesKcal": 590,
+    "portion": "350g",
+    "allergens": []
+  },
+  {
+    "slug": "grilled-pork-and-beef-sausages",
+    "categorySlug": "grill-dishes",
+    "title": "Grilled pork and beef sausages",
+    "description": "Grilled pork and beef sausages.",
+    "price": 305,
+    "labels": [
+      "350g"
+    ],
+    "fullDescription": "Grilled pork and beef sausages with a dense meat texture and rich fire-cooked flavor. A hearty grill choice with a classic butcher-style character.",
+    "suggested": [
+      "grilled-chicken-sausages",
+      "homestyle-potatoes"
+    ],
+    "cookTimeMinutes": 19,
+    "caloriesKcal": 640,
+    "portion": "350g",
+    "allergens": []
+  },
+  {
+    "slug": "french-fries",
+    "categorySlug": "kids-menu",
+    "title": "French fries",
+    "description": "Crispy french fries with sauce.",
+    "price": 140,
+    "labels": [
+      "150g"
+    ],
+    "fullDescription": "Crispy french fries served with sauce. A simple favorite for children with a golden crust and familiar taste.",
+    "suggested": [
+      "burger-set",
+      "nuggets"
+    ],
+    "cookTimeMinutes": 10,
+    "caloriesKcal": 320,
+    "portion": "150g",
+    "allergens": []
+  },
+  {
+    "slug": "mashed-potatoes-with-meatballs-in-cream-sauce",
+    "categorySlug": "kids-menu",
+    "title": "Mashed potatoes with meatballs in cream sauce",
+    "description": "Mashed potatoes, chicken meatballs, cream.",
+    "price": 170,
+    "labels": [
+      "200g"
+    ],
+    "fullDescription": "Mashed potatoes served with chicken meatballs in a creamy sauce. A soft, mild dish with a comforting homemade feel for children.",
+    "suggested": [
+      "pastina-pasta",
+      "french-fries"
+    ],
+    "cookTimeMinutes": 16,
+    "caloriesKcal": 340,
+    "portion": "200g",
+    "allergens": [
+      "milk"
+    ]
+  },
+  {
+    "slug": "nuggets",
+    "categorySlug": "kids-menu",
+    "title": "Nuggets",
+    "description": "Chicken nuggets with a crispy crust.",
+    "price": 195,
+    "labels": [
+      "230g"
+    ],
+    "fullDescription": "Chicken nuggets with a crispy crust. A popular kids dish with tender meat inside and a golden crunchy coating.",
+    "suggested": [
+      "french-fries",
+      "cheese-sticks"
+    ],
+    "cookTimeMinutes": 14,
+    "caloriesKcal": 410,
+    "portion": "230g",
+    "allergens": [
+      "gluten"
+    ]
+  },
+  {
+    "slug": "burger-set",
+    "categorySlug": "kids-menu",
+    "title": "Burger set",
+    "description": "Veal burger, french fries.",
+    "price": 220,
+    "labels": [
+      "300g"
+    ],
+    "fullDescription": "A burger set with veal and french fries. A hearty children's meal with familiar flavors and an easy-to-enjoy format.",
+    "suggested": [
+      "french-fries",
+      "nuggets"
+    ],
+    "cookTimeMinutes": 18,
+    "caloriesKcal": 560,
+    "portion": "300g",
+    "allergens": [
+      "gluten"
+    ]
+  },
+  {
+    "slug": "fish-strips",
+    "categorySlug": "kids-menu",
+    "title": "Fish strips",
+    "description": "Fish strips with a delicate sauce.",
+    "price": 200,
+    "labels": [
+      "220g"
+    ],
+    "fullDescription": "Fish strips served with a delicate sauce. A mild seafood option for children with a tender texture and light flavor.",
+    "suggested": [
+      "cheese-sticks",
+      "french-fries"
+    ],
+    "cookTimeMinutes": 15,
+    "caloriesKcal": 360,
+    "portion": "220g",
+    "allergens": [
+      "fish"
+    ]
+  },
+  {
+    "slug": "cheese-sticks",
+    "categorySlug": "kids-menu",
+    "title": "Cheese sticks",
+    "description": "Cheese sticks in crispy breading.",
+    "price": 210,
+    "labels": [
+      "200g"
+    ],
+    "fullDescription": "Cheese sticks in crispy breading. A warm snack with a stretchy cheese center and a crunchy golden shell.",
+    "suggested": [
+      "nuggets",
+      "fish-strips"
+    ],
+    "cookTimeMinutes": 12,
+    "caloriesKcal": 430,
+    "portion": "200g",
+    "allergens": [
+      "milk",
+      "gluten"
+    ]
+  },
+  {
+    "slug": "pastina-pasta",
+    "categorySlug": "kids-menu",
+    "title": "Pastina pasta",
+    "description": "Pastina pasta with butter.",
+    "price": 110,
+    "labels": [
+      "200g"
+    ],
+    "fullDescription": "Pastina pasta with butter. A simple and gentle dish for children with a soft texture and familiar creamy taste.",
+    "suggested": [
+      "mashed-potatoes-with-meatballs-in-cream-sauce",
+      "french-fries"
+    ],
+    "cookTimeMinutes": 8,
+    "caloriesKcal": 250,
+    "portion": "200g",
+    "allergens": [
+      "gluten",
+      "milk"
+    ]
+  },
+  {
+    "slug": "classic-cheesecake",
+    "categorySlug": "desserts",
+    "title": "Classic cheesecake",
+    "description": "Classic delicate cheesecake.",
+    "price": 150,
+    "labels": [
+      "150g"
+    ],
+    "fullDescription": "Classic delicate cheesecake. A smooth creamy dessert with a soft texture and balanced sweet finish.",
+    "suggested": [
+      "ice-cream-plombir",
+      "chocolate-fondant"
+    ],
+    "cookTimeMinutes": 5,
+    "caloriesKcal": 360,
+    "portion": "150g",
+    "allergens": [
+      "milk"
+    ]
+  },
+  {
+    "slug": "chocolate-fondant",
+    "categorySlug": "desserts",
+    "title": "Chocolate fondant",
+    "description": "Warm chocolate fondant with a delicate filling.",
+    "price": 185,
+    "labels": [
+      "110g"
+    ],
+    "fullDescription": "Warm chocolate fondant with a delicate center. A rich dessert with deep cocoa flavor and a soft flowing texture.",
+    "suggested": [
+      "classic-cheesecake",
+      "ice-cream-plombir"
+    ],
+    "cookTimeMinutes": 12,
+    "caloriesKcal": 390,
+    "portion": "110g",
+    "allergens": [
+      "milk",
+      "gluten"
+    ]
+  },
+  {
+    "slug": "pancakes",
+    "categorySlug": "desserts",
+    "title": "Pancakes",
+    "description": "Fluffy pancakes with sweet sauce.",
+    "price": 210,
+    "labels": [
+      "300g"
+    ],
+    "fullDescription": "Fluffy pancakes served with sweet sauce. A generous dessert with airy texture and a pleasant homemade-style sweetness.",
+    "suggested": [
+      "homemade-syrnyky-dessert",
+      "classic-cheesecake"
+    ],
+    "cookTimeMinutes": 14,
+    "caloriesKcal": 470,
+    "portion": "300g",
+    "allergens": [
+      "gluten",
+      "milk"
+    ]
+  },
+  {
+    "slug": "homemade-syrnyky-dessert",
+    "categorySlug": "desserts",
+    "title": "Syrnyky",
+    "description": "Homemade syrnyky with sour cream and berry sauce.",
+    "price": 230,
+    "labels": [
+      "300g"
+    ],
+    "fullDescription": "Homemade syrnyky served with sour cream and berry sauce. A soft cottage cheese dessert with a comforting homemade character and bright berry accent.",
+    "suggested": [
+      "pancakes",
+      "classic-cheesecake"
+    ],
+    "cookTimeMinutes": 15,
+    "caloriesKcal": 440,
+    "portion": "300g",
+    "allergens": [
+      "milk"
+    ]
+  },
+  {
+    "slug": "ice-cream-plombir",
+    "categorySlug": "desserts",
+    "title": "Ice cream plombir",
+    "description": "Classic plombir ice cream.",
+    "price": 130,
+    "labels": [
+      "150g"
+    ],
+    "fullDescription": "Classic plombir ice cream. A simple cold dessert with creamy texture and a familiar milky sweetness.",
+    "suggested": [
+      "fruit-platter",
+      "chocolate-fondant"
+    ],
+    "cookTimeMinutes": 3,
+    "caloriesKcal": 250,
+    "portion": "150g",
+    "allergens": [
+      "milk"
+    ]
+  },
+  {
+    "slug": "fruit-platter",
+    "categorySlug": "desserts",
+    "title": "Fruit platter",
+    "description": "Seasonal fruits.",
+    "price": 400,
+    "labels": [
+      "600g"
+    ],
+    "fullDescription": "A platter of seasonal fruits. A fresh light dessert for sharing with natural sweetness and bright fruit aromas.",
+    "suggested": [
+      "ice-cream-plombir",
+      "classic-cheesecake"
+    ],
+    "cookTimeMinutes": 8,
+    "caloriesKcal": 280,
+    "portion": "600g",
+    "allergens": []
+  }
 ]

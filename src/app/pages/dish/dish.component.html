@@ -5,7 +5,7 @@
 		>
 			<div class="space-y-5">
 				<p
-					class="inline-flex rounded-full bg-[color:rgba(197,61,61,0.12)] px-3 py-1 text-[11px] font-semibold uppercase tracking-[0.18em] text-[var(--c-secondary)]"
+					class="inline-flex rounded-full bg-[color:rgba(197,61,61,0.12)] px-3 py-1 text-[11px] font-semibold uppercase tracking-[0.18em] text-[color:rgba(255,255,255,0.7)]"
 				>
 					{{ dish().sectionName }}
 				</p>
@@ -27,7 +27,7 @@
 				</div>
 
 				<div class="flex flex-wrap items-center gap-3">
-					<p class="text-3xl font-semibold leading-none text-[var(--c-secondary)]">
+					<p class="text-3xl font-semibold leading-none text-[var(--c-primary)]">
 						{{ dish().price }}
 					</p>
 				</div>
@@ -84,7 +84,7 @@
 							class="h-px flex-1 border-t border-dashed border-[var(--c-border)]"
 						></div>
 						<p
-							class="text-[12px] font-semibold uppercase tracking-[0.18em] text-[var(--c-secondary)]"
+							class="text-[12px] font-semibold uppercase tracking-[0.18em] text-[color:rgba(255,255,255,0.65)]"
 						>
 							{{ 'About dish' | translate }}
 						</p>
@@ -112,7 +112,7 @@
 					@for (fact of dish().facts; track fact.label) {
 						<div class="rounded-[1rem] bg-[var(--c-bg-primary)] p-4">
 							<p
-								class="text-xs font-semibold uppercase tracking-[0.14em] text-[var(--c-text-muted)]"
+								class="text-xs font-semibold uppercase tracking-[0.14em] text-[color:rgba(255,255,255,0.65)]"
 							>
 								{{ fact.label }}
 							</p>
@@ -132,7 +132,7 @@
 				<h2 class="text-xl font-semibold text-[var(--c-text-secondary)]">
 					{{ 'Pairs well with' | translate }}
 				</h2>
-				<span class="text-xs uppercase tracking-[0.16em] text-[var(--c-text-muted)]">
+				<span class="text-xs uppercase tracking-[0.16em] text-[color:rgba(255,255,255,0.65)]">
 					{{ 'Chef picks' | translate }}
 				</span>
 			</div>
@@ -157,7 +157,7 @@
 								>
 									{{ suggestion.title }}
 								</h3>
-								<p class="mt-1 text-sm font-semibold text-[var(--c-secondary)]">
+								<p class="mt-1 text-sm font-semibold text-[var(--c-primary)]">
 									{{ suggestion.price }}
 								</p>
 								@if (suggestion.description) {

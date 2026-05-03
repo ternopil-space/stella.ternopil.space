@@ -56,7 +56,7 @@ export class BootstrapService {
 		this._dishCategoryService.setCategories(data.categories);
 
 		if (Array.isArray(data.dishes) && data.dishes.length > 0) {
-			this._dishService.dishes.set(data.dishes);
+			this._dishService.setDishes(data.dishes);
 		}
 	}
 

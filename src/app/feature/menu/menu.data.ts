@@ -1,9 +1,10 @@
 import dishCategoriesData from '../../../data/dishCategories.json';
+import dishCategoryTranslationsData from '../../../data/dishCategories.translations.json';
 import dishesData from '../../../data/dishes.json';
 import itemTranslationsData from '../../../data/dishes.translations.json';
 import type { LanguageCode } from '../language/language.type';
 
-export type LocalizedValue = Partial<Record<LanguageCode, string | null>>;
+export type LocalizedValue = Partial<Record<LanguageCode | 'uk', string | null>>;
 
 interface RawCategory {
 	name: string;
@@ -34,6 +35,14 @@ interface RawItemTranslation {
 		description: LocalizedValue;
 		labels: LocalizedValue[];
 		fullDescription?: LocalizedValue;
+	};
+}
+
+interface RawCategoryTranslation {
+	slug: string;
+	data: {
+		name: LocalizedValue;
+		description: LocalizedValue;
 	};
 }
 
@@ -86,6 +95,12 @@ export interface MenuGroup {
 }
 
 const _categories = dishCategoriesData as RawCategory[];
+const _categoryTranslations = new Map(
+	(dishCategoryTranslationsData as RawCategoryTranslation[]).map((category) => [
+		category.slug,
+		category.data,
+	] as const),
+);
 const _itemTranslations = new Map(
 	(itemTranslationsData as RawItemTranslation[]).map((item) => [item.slug, item.data] as const),
 );
@@ -124,7 +139,7 @@ export function buildMenuSections(language: LanguageCode) {
 export function buildMenuGroups(language: LanguageCode) {
 	return _menuGroupsSource.map((group) => ({
 		id: group.slug,
-		name: group.name,
+		name: _translateValue(_getCategoryName(group), language) ?? group.name,
 		sections: _menuSections
 			.filter((section) => section.section === group.slug)
 			.map((section) => _toMenuSection(section, language)),
@@ -151,14 +166,8 @@ function _toRawMenuSection(category: RawCategory): RawMenuSection {
 	return {
 		slug: category.slug,
 		section: category.parent,
-		name: {
-			ua: category.name,
-			en: category.name,
-		},
-		description: {
-			ua: category.description,
-			en: category.description,
-		},
+		name: _getCategoryName(category),
+		description: _getCategoryDescription(category),
 		items,
 	};
 }
@@ -225,30 +234,65 @@ function _toMenuSection(section: RawMenuSection, language: LanguageCode): MenuSe
 	};
 }
 
+function _getCategoryName(category: RawCategory) {
+	return _withLocalizedFallback(category.name, _categoryTranslations.get(category.slug)?.name);
+}
+
+function _getCategoryDescription(category: RawCategory) {
+	return _withLocalizedFallback(
+		category.description,
+		_categoryTranslations.get(category.slug)?.description,
+	);
+}
+
+function _withLocalizedFallback(
+	fallback: string,
+	value: LocalizedValue | null | undefined,
+): LocalizedValue {
+	return {
+		ua: value?.ua ?? value?.uk ?? fallback,
+		uk: value?.uk ?? value?.ua ?? fallback,
+		en: value?.en ?? fallback,
+		...value,
+	};
+}
+
 function _translateValue(value: LocalizedValue | null | undefined, language: LanguageCode) {
 	if (!value) {
 		return null;
 	}
 
-	const localized = value[language];
+	const entries = value as Record<string, string | null | undefined>;
 
-	if (localized) {
-		return localized;
+	for (const key of _getLanguageKeys(language)) {
+		const localized = entries[key];
+
+		if (localized) {
+			return localized;
+		}
 	}
 
-	const english = value.en;
+	const english = entries['en'];
 
 	if (english) {
 		return english;
 	}
 
-	const ukrainian = value.ua;
+	const ukrainian = entries['ua'] ?? entries['uk'];
 
 	if (ukrainian) {
 		return ukrainian;
 	}
 
-	return Object.values(value).find((entry): entry is string => Boolean(entry)) ?? null;
+	return Object.values(entries).find((entry): entry is string => Boolean(entry)) ?? null;
+}
+
+function _getLanguageKeys(language: LanguageCode) {
+	if (language === 'ua') {
+		return ['ua', 'uk'] as const;
+	}
+
+	return [language] as const;
 }
 export function translateMenuValue(
 	value: LocalizedValue | null | undefined,
