@@ -15,4 +15,43 @@ body {
 	margin: 0;
 }
 
+app-root main {
+	animation: page-enter 420ms var(--easing) both;
+}
+
+a,
+button {
+	transition:
+		transform 250ms ease,
+		box-shadow 250ms ease,
+		border-color 250ms ease,
+		background-color 250ms ease,
+		color 250ms ease,
+		opacity 250ms ease;
+}
+
+@keyframes page-enter {
+	from {
+		opacity: 0;
+		transform: translateY(12px);
+	}
+
+	to {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
+
+@media (prefers-reduced-motion: reduce) {
+	*,
+	*::before,
+	*::after {
+		animation-duration: 0.01ms !important;
+		animation-iteration-count: 1 !important;
+		scroll-behavior: auto !important;
+		transition-duration: 0.01ms !important;
+		transition-delay: 0ms !important;
+	}
+}
+
 @plugin "@tailwindcss/typography";

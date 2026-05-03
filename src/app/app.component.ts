@@ -21,7 +21,7 @@ import { ScrollService } from './services/scroll.service';
 				@for (item of navItems; track item.label) {
 					@if (item.route) {
 						<a
-							class="flex min-w-0 flex-col items-center justify-center gap-1 rounded-[0.9rem] px-1 py-2 text-[11px] font-medium text-[var(--c-text-muted)] transition-colors duration-200 hover:bg-[var(--c-bg-primary)]"
+							class="flex min-w-0 flex-col items-center justify-center gap-1 rounded-[0.9rem] px-1 py-2 text-[11px] font-medium text-[var(--c-text-muted)] transition-all duration-300 hover:-translate-y-0.5 hover:bg-[var(--c-bg-primary)]"
 							[routerLink]="item.route"
 							[routerLinkActiveOptions]="{ exact: item.exact }"
 							routerLinkActive="bg-[color:rgba(197,61,61,0.1)] text-[var(--c-secondary)]"
@@ -33,7 +33,7 @@ import { ScrollService } from './services/scroll.service';
 						</a>
 					} @else {
 						<button
-							class="flex min-w-0 flex-col items-center justify-center gap-1 rounded-[0.9rem] px-1 py-2 text-[11px] font-medium text-[var(--c-text-muted)] transition-colors duration-200 hover:bg-[var(--c-bg-primary)]"
+							class="flex min-w-0 flex-col items-center justify-center gap-1 rounded-[0.9rem] px-1 py-2 text-[11px] font-medium text-[var(--c-text-muted)] transition-all duration-300 hover:-translate-y-0.5 hover:bg-[var(--c-bg-primary)]"
 							type="button"
 						>
 							<span class="material-symbols-outlined text-[21px]" aria-hidden="true">
