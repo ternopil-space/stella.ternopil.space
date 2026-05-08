@@ -1,0 +1,68 @@
+<main class="mx-auto flex min-h-[calc(100vh-9rem)] max-w-[var(--container)] items-center px-3 pb-10 pt-4 sm:px-4 sm:pb-12">
+	<section
+		class="navigation-shell mx-auto w-full max-w-5xl overflow-hidden rounded-[1.5rem] border border-[var(--c-border)] bg-[var(--c-bg-secondary)] shadow-[var(--shadow-sm)]"
+	>
+		<div
+			class="border-b border-[var(--c-border)] bg-[linear-gradient(135deg,rgba(197,61,61,0.16),rgba(217,168,88,0.08),rgba(255,255,255,0.04))] px-5 py-8 text-center sm:px-8 sm:py-10"
+		>
+			<p class="text-[12px] font-semibold uppercase tracking-[0.18em] text-[color:rgba(255,255,255,0.75)]">
+				Головна
+			</p>
+			<h1 class="mt-3 text-[2rem] font-semibold leading-tight text-[var(--c-text-secondary)] sm:text-[2.8rem]">
+				Готель Stella Тернопіль
+			</h1>
+			<p class="mx-auto mt-3 max-w-2xl text-sm leading-7 text-[var(--c-text-muted)] sm:text-base">
+				Оберіть розділ для перегляду
+			</p>
+		</div>
+
+		<div class="px-4 py-6 sm:px-6 sm:py-8 lg:px-8 lg:py-10">
+			<div class="mx-auto grid max-w-5xl gap-4 md:grid-cols-2 xl:grid-cols-[minmax(0,1.2fr)_minmax(0,0.9fr)_minmax(0,0.9fr)]">
+				@for (item of navItems; track item.route) {
+					<a
+						class="nav-card flex min-h-[15rem] flex-col justify-between rounded-[1.4rem] border border-[var(--c-border)] bg-[var(--c-bg-primary)] p-5 sm:min-h-[18rem] sm:p-6"
+						[class.nav-card--primary]="item.tone === 'primary'"
+						[class.nav-card--secondary]="item.tone === 'secondary'"
+						[routerLink]="item.route"
+					>
+						<div class="flex items-start justify-between gap-4">
+							<div class="min-w-0">
+								<p
+									class="text-[12px] font-semibold uppercase tracking-[0.18em] text-[color:rgba(255,255,255,0.75)]"
+								>
+									{{ item.badge }}
+								</p>
+								<h2
+									class="mt-3 text-[1.7rem] font-semibold leading-tight text-[var(--c-text-secondary)] sm:text-[2.15rem]"
+								>
+									{{ item.label }}
+								</h2>
+							</div>
+
+							<span
+								class="nav-card__icon material-symbols-outlined shrink-0 text-[32px] text-[color:rgba(255,255,255,0.7)] sm:text-[38px]"
+								aria-hidden="true"
+							>
+								{{ item.icon }}
+							</span>
+						</div>
+
+						<div class="mt-6">
+							<p class="max-w-[26rem] text-sm leading-7 text-[var(--c-text-muted)] sm:text-base">
+								{{ item.subtitle }}
+							</p>
+							<span
+								class="mt-5 inline-flex items-center gap-2 rounded-full border border-[var(--c-border)] px-4 py-2 text-sm font-semibold text-[var(--c-text-secondary)]"
+							>
+								Перейти
+								<span class="material-symbols-outlined text-[18px]" aria-hidden="true">
+									arrow_forward
+								</span>
+							</span>
+						</div>
+					</a>
+				}
+			</div>
+		</div>
+	</section>
+</main>

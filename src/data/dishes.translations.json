@@ -1,0 +1,2486 @@
+[
+  {
+    "slug": "cappuccino",
+    "document": "item",
+    "data": {
+      "title": {
+        "ua": "Капучино",
+        "en": "Cappuccino",
+        "fr": "Cappuccino",
+        "de": "Cappuccino",
+        "pl": "Cappuccino"
+      },
+      "description": {
+        "ua": "Еспресо зі спіненим молоком і молочною піною.",
+        "en": "Espresso with steamed milk and foam.",
+        "fr": "Espresso avec lait chaud moussé et mousse de lait.",
+        "de": "Espresso mit aufgeschäumter Milch und Milchschaum.",
+        "pl": "Espresso ze spienionym mlekiem i mleczną pianką."
+      },
+      "labels": [
+        {
+          "ua": "350мл",
+          "en": "350ml",
+          "fr": "350 ml",
+          "de": "350 ml",
+          "pl": "350 ml"
+        }
+      ],
+      "fullDescription": {
+        "ua": "Еспресо зі спіненим молоком і молочною піною. Інгредієнти: еспресо, спінене молоко та молочна піна.",
+        "en": "Espresso with steamed milk and foam. Ingredients: Espresso with steamed milk and foam..",
+        "fr": "Espresso avec lait chaud moussé et mousse de lait. Ingrédients : espresso, lait chaud moussé et mousse de lait.",
+        "de": "Espresso mit aufgeschäumter Milch und Milchschaum. Zutaten: Espresso, aufgeschäumte Milch und Milchschaum.",
+        "pl": "Espresso ze spienionym mlekiem i mleczną pianką. Składniki: espresso, spienione mleko i mleczna pianka."
+      }
+    }
+  },
+  {
+    "slug": "stella-salad",
+    "document": "item",
+    "data": {
+      "title": {
+        "ua": "Салат \"Стелла\"",
+        "en": "Stella salad",
+        "fr": "Salade \"Stella\"",
+        "de": "Salat „Stella“",
+        "pl": "Sałatka \"Stella\""
+      },
+      "description": {
+        "ua": "Мікс-салат, королівські креветки, філе лосося, томати чері, авокадо, пармезан, соєвий дресинг.",
+        "en": "Mixed salad, king prawns, salmon fillet, cherry tomatoes, avocado, parmesan, soy dressing.",
+        "fr": "Mélange de salades, crevettes royales, filet de saumon, tomates cerises, avocat, parmesan, vinaigrette au soja.",
+        "de": "Blattsalat-Mix, Riesengarnelen, Lachsfilet, Cherrytomaten, Avocado, Parmesan und Soja-Dressing.",
+        "pl": "Miks sałat, krewetki królewskie, filet z łososia, pomidorki cherry, awokado, parmezan, dressing sojowy."
+      },
+      "labels": [
+        {
+          "ua": "260г",
+          "en": "260g",
+          "fr": "260 g",
+          "de": "260 g",
+          "pl": "260 g"
+        }
+      ],
+      "fullDescription": {
+        "ua": "Фірмовий салат із міксом зелені, королівськими креветками, філе лосося, томатами чері, авокадо, пармезаном і соєвим дресингом. Збалансоване поєднання морепродуктів, ніжних вершкових нот і свіжого післясмаку.",
+        "en": "A signature salad with mixed greens, king prawns, salmon fillet, cherry tomatoes, avocado, parmesan, and soy dressing. A balanced choice with seafood, creamy notes, and a bright fresh finish.",
+        "fr": "Une salade signature avec un mélange de verdure, des crevettes royales, un filet de saumon, des tomates cerises, de l’avocat, du parmesan et une sauce soja. Un équilibre entre fruits de mer, notes crémeuses et fraîcheur.",
+        "de": "Ein Haussalat mit Blattsalat-Mix, Riesengarnelen, Lachsfilet, Cherrytomaten, Avocado, Parmesan und Soja-Dressing. Eine ausgewogene Kombination aus Meeresfrüchten, cremigen Noten und frischer Leichtigkeit.",
+        "pl": "Autorska sałatka z miksem sałat, krewetkami królewskimi, filetem z łososia, pomidorkami cherry, awokado, parmezanem i dressingiem sojowym. Zrównoważone połączenie owoców morza, kremowych nut i świeżego finiszu."
+      }
+    }
+  },
+  {
+    "slug": "summer-salad",
+    "document": "item",
+    "data": {
+      "title": {
+        "ua": "Салат Літній",
+        "en": "Summer salad",
+        "fr": "Salade d'été",
+        "de": "Sommersalat",
+        "pl": "Sałatka letnia"
+      },
+      "description": {
+        "ua": "Помідор, огірок, сир кисломолочний, цибуля зелена, сметана.",
+        "en": "Tomato, cucumber, farmer cheese, green onion, sour cream.",
+        "fr": "Tomate, concombre, fromage frais fermier, oignon vert, crème aigre.",
+        "de": "Tomate, Gurke, Frischkäse, Frühlingszwiebel und Sauerrahm.",
+        "pl": "Pomidor, ogórek, twaróg, zielona cebulka, śmietana."
+      },
+      "labels": [
+        {
+          "ua": "180г",
+          "en": "180g",
+          "fr": "180 g",
+          "de": "180 g",
+          "pl": "180 g"
+        }
+      ],
+      "fullDescription": {
+        "ua": "Легкий літній салат із помідором, огірком, кисломолочним сиром, зеленою цибулею та сметаною. Освіжаюче поєднання овочів і ніжних молочних нот для щоденного вибору.",
+        "en": "A light summer salad with tomato, cucumber, farmer cheese, green onion, and sour cream. Refreshing vegetables and delicate dairy flavors make it an easy everyday choice.",
+        "fr": "Une salade légère d’été avec tomate, concombre, fromage frais fermier, oignon vert et crème aigre. Des légumes rafraîchissants et des notes laitières délicates pour un choix simple au quotidien.",
+        "de": "Ein leichter Sommersalat mit Tomate, Gurke, Frischkäse, Frühlingszwiebel und Sauerrahm. Erfrischendes Gemüse und feine Milchnoten machen ihn zur unkomplizierten Wahl für jeden Tag.",
+        "pl": "Lekka letnia sałatka z pomidorem, ogórkiem, twarogiem, zieloną cebulką i śmietaną. Orzeźwiające warzywa i delikatne mleczne nuty sprawiają, że to prosty wybór na co dzień."
+      }
+    }
+  },
+  {
+    "slug": "greek-salad",
+    "document": "item",
+    "data": {
+      "title": {
+        "ua": "Салат \"Грецький\"",
+        "en": "Greek salad",
+        "fr": "Salade grecque",
+        "de": "Griechischer Salat",
+        "pl": "Sałatka grecka"
+      },
+      "description": {
+        "ua": "Огірок, томати, айсберг, цибуля, оливки, фета, оливкова олія.",
+        "en": "Cucumber, tomatoes, iceberg lettuce, onion, olives, feta, olive oil.",
+        "fr": "Concombre, tomates, laitue iceberg, oignon, olives, feta, huile d’olive.",
+        "de": "Gurke, Tomaten, Eisbergsalat, Zwiebel, Oliven, Feta und Olivenöl.",
+        "pl": "Ogórek, pomidory, sałata lodowa, cebula, oliwki, feta, oliwa z oliwek."
+      },
+      "labels": [
+        {
+          "ua": "350г",
+          "en": "350g",
+          "fr": "350 g",
+          "de": "350 g",
+          "pl": "350 g"
+        }
+      ],
+      "fullDescription": {
+        "ua": "Класичний грецький салат з огірком, томатами, айсбергом, цибулею, оливками, фетою та оливковою олією. Хрусткі овочі та солонуватий сир створюють яскравий середземноморський смак.",
+        "en": "A classic Greek salad with cucumber, tomatoes, iceberg lettuce, onion, olives, feta, and olive oil. Crisp vegetables and briny cheese create a bright Mediterranean flavor.",
+        "fr": "Une salade grecque classique avec concombre, tomates, laitue iceberg, oignon, olives, feta et huile d’olive. Les légumes croquants et le fromage salé créent une saveur méditerranéenne éclatante.",
+        "de": "Ein klassischer griechischer Salat mit Gurke, Tomaten, Eisbergsalat, Zwiebel, Oliven, Feta und Olivenöl. Knackiges Gemüse und würziger Käse sorgen für einen klaren mediterranen Geschmack.",
+        "pl": "Klasyczna sałatka grecka z ogórkiem, pomidorami, sałatą lodową, cebulą, oliwkami, fetą i oliwą z oliwek. Chrupiące warzywa i słonawy ser tworzą wyrazisty śródziemnomorski smak."
+      }
+    }
+  },
+  {
+    "slug": "warm-beef-salad",
+    "document": "item",
+    "data": {
+      "title": {
+        "ua": "Теплий салат з яловичини",
+        "en": "Warm beef salad",
+        "fr": "Salade tiède au bœuf",
+        "de": "Warmer Rindfleischsalat",
+        "pl": "Ciepła sałatka z wołowiną"
+      },
+      "description": {
+        "ua": "Вирізка яловичини, перець болгарський, помідори чері, цибуля салатна, дресинг соєвий, азійський BBQ, кунжут білий, гірчиця французька.",
+        "en": "Beef tenderloin, bell pepper, cherry tomatoes, salad onion, soy dressing, Asian BBQ, white sesame, French mustard.",
+        "fr": "Filet de bœuf, poivron, tomates cerises, oignon rouge, sauce soja, BBQ asiatique, sésame blanc, moutarde française.",
+        "de": "Rinderfilet, Paprika, Cherrytomaten, Salatzwiebel, Soja-Dressing, asiatische BBQ-Sauce, weißer Sesam und französischer Senf.",
+        "pl": "Polędwica wołowa, papryka, pomidorki cherry, cebula sałatkowa, dressing sojowy, azjatycki BBQ, biały sezam, musztarda francuska."
+      },
+      "labels": [
+        {
+          "ua": "250г",
+          "en": "250g",
+          "fr": "250 g",
+          "de": "250 g",
+          "pl": "250 g"
+        }
+      ],
+      "fullDescription": {
+        "ua": "Теплий салат із вирізкою яловичини, болгарським перцем, томатами чері, салатною цибулею, соєвим дресингом, азійським BBQ, білим кунжутом і французькою гірчицею. Насичений смак м’яса поєднується з солодко-солоним соусом і легкою пряністю.",
+        "en": "A warm salad with beef tenderloin, bell pepper, cherry tomatoes, salad onion, soy dressing, Asian BBQ, white sesame, and French mustard. Rich meat flavor meets a sweet-savory dressing and gentle spice.",
+        "fr": "Une salade tiède avec filet de bœuf, poivron, tomates cerises, oignon rouge, sauce soja, BBQ asiatique, sésame blanc et moutarde française. La richesse de la viande s’accorde avec une sauce douce-salée et une pointe d’épices.",
+        "de": "Ein warmer Salat mit Rinderfilet, Paprika, Cherrytomaten, Salatzwiebel, Soja-Dressing, asiatischer BBQ-Sauce, weißem Sesam und französischem Senf. Der kräftige Fleischgeschmack trifft auf ein süß-würziges Dressing und feine Schärfe.",
+        "pl": "Ciepła sałatka z polędwicą wołową, papryką, pomidorkami cherry, cebulą sałatkową, dressingiem sojowym, azjatyckim BBQ, białym sezamem i musztardą francuską. Wyrazisty smak mięsa łączy się tu ze słodko-słonym sosem i lekką pikantnością."
+      }
+    }
+  },
+  {
+    "slug": "caesar-salad",
+    "document": "item",
+    "data": {
+      "title": {
+        "ua": "Салат \"Цезар\"",
+        "en": "Caesar salad",
+        "fr": "Salade César",
+        "de": "Caesar Salat",
+        "pl": "Sałatka Cezar"
+      },
+      "description": {
+        "ua": "Мікс-салат, помідори чері, грудка куряча, яйце куряче, пармезан, соус Цезар, дресинг лимонний, крутони, бекон.",
+        "en": "Mixed salad, cherry tomatoes, chicken breast, chicken egg, parmesan, Caesar sauce, lemon dressing, croutons, bacon.",
+        "fr": "Mélange de salades, tomates cerises, blanc de poulet, œuf, parmesan, sauce César, vinaigrette au citron, croûtons, bacon.",
+        "de": "Blattsalat-Mix, Cherrytomaten, Hähnchenbrust, Ei, Parmesan, Caesar-Sauce, Zitronen-Dressing, Croutons und Speck.",
+        "pl": "Miks sałat, pomidorki cherry, pierś z kurczaka, jajko, parmezan, sos Cezar, dressing cytrynowy, grzanki, bekon."
+      },
+      "labels": [
+        {
+          "ua": "250г",
+          "en": "250g",
+          "fr": "250 g",
+          "de": "250 g",
+          "pl": "250 g"
+        }
+      ],
+      "fullDescription": {
+        "ua": "Поживний салат Цезар з міксом зелені, томатами чері, курячою грудкою, яйцем, пармезаном, соусом Цезар, лимонним дресингом, крутонами та беконом. Класичне поєднання текстур і насиченого смаку робить його ресторанною класикою.",
+        "en": "A hearty Caesar salad with mixed greens, cherry tomatoes, chicken breast, egg, parmesan, Caesar sauce, lemon dressing, croutons, and bacon. Classic textures and savory flavor make it a satisfying restaurant favorite.",
+        "fr": "Une salade César généreuse avec mélange de verdure, tomates cerises, blanc de poulet, œuf, parmesan, sauce César, vinaigrette au citron, croûtons et bacon. Des textures classiques et une saveur gourmande qui en font un incontournable du restaurant.",
+        "de": "Ein herzhafter Caesar Salat mit Blattsalat-Mix, Cherrytomaten, Hähnchenbrust, Ei, Parmesan, Caesar-Sauce, Zitronen-Dressing, Croutons und Speck. Klassische Texturen und ein würziger Geschmack machen ihn zum beliebten Restaurantklassiker.",
+        "pl": "Syta sałatka Cezar z miksem sałat, pomidorkami cherry, piersią z kurczaka, jajkiem, parmezanem, sosem Cezar, dressingiem cytrynowym, grzankami i bekonem. Klasyczne tekstury i wyrazisty smak czynią ją restauracyjnym faworytem."
+      }
+    }
+  },
+  {
+    "slug": "beet-and-prosciutto-salad",
+    "document": "item",
+    "data": {
+      "title": {
+        "ua": "Салат з буряком та прошуто",
+        "en": "Beetroot and prosciutto salad",
+        "fr": "Salade de betterave et prosciutto",
+        "de": "Salat mit Roter Bete und Prosciutto",
+        "pl": "Sałatka z burakiem i prosciutto"
+      },
+      "description": {
+        "ua": "Прошуто, фета, буряк, карамелізована груша, соєвий дресинг, мікс-салат.",
+        "en": "Prosciutto, feta, beetroot, caramelized pear, soy dressing, mixed salad.",
+        "fr": "Prosciutto, feta, betterave, poire caramélisée, vinaigrette au soja, mélange de salades.",
+        "de": "Prosciutto, Feta, Rote Bete, karamellisierte Birne, Soja-Dressing und Blattsalat-Mix.",
+        "pl": "Prosciutto, feta, burak, karmelizowana gruszka, dressing sojowy, miks sałat."
+      },
+      "labels": [
+        {
+          "ua": "220г",
+          "en": "220g",
+          "fr": "220 g",
+          "de": "220 g",
+          "pl": "220 g"
+        }
+      ],
+      "fullDescription": {
+        "ua": "Вишуканий салат із прошуто, фетою, буряком, карамелізованою грушею, соєвим дресингом і міксом зелені. Солодкість груші, солоність м’яса та глибокий смак буряка створюють багатошарове поєднання.",
+        "en": "A refined salad with prosciutto, feta, beetroot, caramelized pear, soy dressing, and mixed greens. Sweet pear, salty cured meat, and beetroot create a layered and elegant flavor.",
+        "fr": "Une salade raffinée avec prosciutto, feta, betterave, poire caramélisée, sauce soja et mélange de verdure. La douceur de la poire, le sel de la charcuterie et la betterave créent une composition élégante et nuancée.",
+        "de": "Ein raffinierter Salat mit Prosciutto, Feta, Roter Bete, karamellisierter Birne, Soja-Dressing und Blattsalat-Mix. Süße Birne, salziger Schinken und erdige Rote Bete ergeben eine elegante, vielschichtige Kombination.",
+        "pl": "Wyrafinowana sałatka z prosciutto, fetą, burakiem, karmelizowaną gruszką, dressingiem sojowym i miksem sałat. Słodycz gruszki, słoność dojrzewającej szynki i smak buraka tworzą wielowarstwowe, eleganckie połączenie."
+      }
+    }
+  },
+  {
+    "slug": "caesar-salad-with-shrimp",
+    "document": "item",
+    "data": {
+      "title": {
+        "ua": "Салат Цезар з креветкою",
+        "en": "Caesar salad with shrimp",
+        "fr": "Salade César aux crevettes",
+        "de": "Caesar Salat mit Garnelen",
+        "pl": "Sałatka Cezar z krewetkami"
+      },
+      "description": {
+        "ua": "Мікс-салат, помідори чері, креветка, яйце куряче, пармезан, соус Цезар, дресинг лимонний, крутони.",
+        "en": "Mixed salad, cherry tomatoes, shrimp, chicken egg, parmesan, Caesar sauce, lemon dressing, croutons.",
+        "fr": "Mélange de salades, tomates cerises, crevettes, œuf, parmesan, sauce César, vinaigrette au citron, croûtons.",
+        "de": "Blattsalat-Mix, Cherrytomaten, Garnelen, Ei, Parmesan, Caesar-Sauce, Zitronen-Dressing und Croutons.",
+        "pl": "Miks sałat, pomidorki cherry, krewetki, jajko, parmezan, sos Cezar, dressing cytrynowy, grzanki."
+      },
+      "labels": [
+        {
+          "ua": "250г",
+          "en": "250g",
+          "fr": "250 g",
+          "de": "250 g",
+          "pl": "250 g"
+        }
+      ],
+      "fullDescription": {
+        "ua": "Морська версія салату Цезар з міксом зелені, томатами чері, креветками, яйцем, пармезаном, соусом Цезар, лимонним дресингом і крутонами. Ніжні креветки та цитрусова нота роблять смак свіжим і виразним.",
+        "en": "A seafood variation of Caesar salad with mixed greens, cherry tomatoes, shrimp, egg, parmesan, Caesar sauce, lemon dressing, and croutons. Tender shrimp and a citrus accent make it fresh and expressive.",
+        "fr": "Une version marine de la salade César avec mélange de verdure, tomates cerises, crevettes, œuf, parmesan, sauce César, vinaigrette au citron et croûtons. Les crevettes tendres et la touche d’agrume rendent le goût frais et expressif.",
+        "de": "Eine Meeresfrüchte-Variante des Caesar Salats mit Blattsalat-Mix, Cherrytomaten, Garnelen, Ei, Parmesan, Caesar-Sauce, Zitronen-Dressing und Croutons. Zarte Garnelen und eine Zitrusnote sorgen für einen frischen, ausdrucksstarken Geschmack.",
+        "pl": "Owocowo-morska wersja sałatki Cezar z miksem sałat, pomidorkami cherry, krewetkami, jajkiem, parmezanem, sosem Cezar, dressingiem cytrynowym i grzankami. Delikatne krewetki i cytrusowy akcent nadają jej świeży, wyrazisty smak."
+      }
+    }
+  },
+  {
+    "slug": "vegetable-platter",
+    "document": "item",
+    "data": {
+      "title": {
+        "ua": "Овочеве плато",
+        "en": "Vegetable platter",
+        "fr": "Plateau de légumes",
+        "de": "Gemüseplatte",
+        "pl": "Półmisek warzyw"
+      },
+      "description": {
+        "ua": "Огірок, томати, перець болгарський, зелена цибуля, мікс-салат.",
+        "en": "Cucumber, tomatoes, bell pepper, green onion, mixed salad.",
+        "fr": "Concombre, tomates, poivron, oignon vert, mélange de salades.",
+        "de": "Gurke, Tomaten, Paprika, Frühlingszwiebel und Blattsalat-Mix.",
+        "pl": "Ogórek, pomidory, papryka, zielona cebulka, miks sałat."
+      },
+      "labels": [
+        {
+          "ua": "500г",
+          "en": "500g",
+          "fr": "500 g",
+          "de": "500 g",
+          "pl": "500 g"
+        }
+      ],
+      "fullDescription": {
+        "ua": "Свіже овочеве плато з огірком, томатами, болгарським перцем, зеленою цибулею та міксом салату. Легка й яскрава закуска для спільного столу або доповнення до основних страв.",
+        "en": "A fresh vegetable platter with cucumber, tomatoes, bell pepper, green onion, and mixed salad. A light and colorful starter for sharing or pairing with main dishes.",
+        "fr": "Un plateau de légumes frais avec concombre, tomates, poivron, oignon vert et mélange de salades. Une entrée légère et colorée à partager ou à accompagner de plats principaux.",
+        "de": "Eine frische Gemüseplatte mit Gurke, Tomaten, Paprika, Frühlingszwiebel und Blattsalat-Mix. Eine leichte und farbenfrohe Vorspeise zum Teilen oder als Begleitung zu Hauptgerichten.",
+        "pl": "Świeży półmisek warzyw z ogórkiem, pomidorami, papryką, zieloną cebulką i miksem sałat. Lekka i kolorowa przystawka do wspólnego stołu lub jako dodatek do dań głównych."
+      }
+    }
+  },
+  {
+    "slug": "antipasti-platter",
+    "document": "item",
+    "data": {
+      "title": {
+        "ua": "Антипасті",
+        "en": "Antipasti",
+        "fr": "Antipasti",
+        "de": "Antipasti",
+        "pl": "Antipasti"
+      },
+      "description": {
+        "ua": "Салямі мілано, чорізо, мортадела, дор-блю, камамбер, грісіні, оливки.",
+        "en": "Milano salami, chorizo, mortadella, dor blue, camembert, grissini, olives.",
+        "fr": "Salami milano, chorizo, mortadelle, dor blue, camembert, gressins, olives.",
+        "de": "Milano-Salami, Chorizo, Mortadella, Dor Blue, Camembert, Grissini und Oliven.",
+        "pl": "Salami milano, chorizo, mortadela, dor blue, camembert, grissini, oliwki."
+      },
+      "labels": [
+        {
+          "ua": "250г",
+          "en": "250g",
+          "fr": "250 g",
+          "de": "250 g",
+          "pl": "250 g"
+        }
+      ],
+      "fullDescription": {
+        "ua": "Насичене антипасті з салямі мілано, чорізо, мортаделою, дор-блю, камамбером, грісіні та оливками. Збалансована тарілка м’ясних делікатесів, сирів і солоних акцентів.",
+        "en": "A rich antipasti selection with Milano salami, chorizo, mortadella, dor blue, camembert, grissini, and olives. A balanced platter of cured meats, cheeses, and savory accents.",
+        "fr": "Une riche sélection d’antipasti avec salami milano, chorizo, mortadelle, dor blue, camembert, gressins et olives. Une assiette équilibrée de charcuteries, de fromages et d’accents salés.",
+        "de": "Eine reichhaltige Antipasti-Auswahl mit Milano-Salami, Chorizo, Mortadella, Dor Blue, Camembert, Grissini und Oliven. Eine ausgewogene Platte mit Wurstwaren, Käse und herzhaften Akzenten.",
+        "pl": "Bogaty wybór antipasti z salami milano, chorizo, mortadelą, dor blue, camembertem, grissini i oliwkami. Zrównoważony półmisek wędlin, serów i wytrawnych dodatków."
+      }
+    }
+  },
+  {
+    "slug": "beer-snack-platter",
+    "document": "item",
+    "data": {
+      "title": {
+        "ua": "Пивна закуска",
+        "en": "Beer snack platter",
+        "fr": "Assiette bière",
+        "de": "Bierplatte",
+        "pl": "Przekąska do piwa"
+      },
+      "description": {
+        "ua": "Суджук, бастурма, кабаносі, сир косичка, арахіс.",
+        "en": "Sudzhuk, basturma, kabanosy, braided cheese, peanuts.",
+        "fr": "Soudjouk, basturma, kabanosy, fromage tressé, cacahuètes.",
+        "de": "Sudschuk, Basturma, Kabanossi, Zopfkäse und Erdnüsse.",
+        "pl": "Soudżuk, basturma, kabanosy, ser warkocz, orzeszki ziemne."
+      },
+      "labels": [
+        {
+          "ua": "250г",
+          "en": "250g",
+          "fr": "250 g",
+          "de": "250 g",
+          "pl": "250 g"
+        }
+      ],
+      "fullDescription": {
+        "ua": "Ситна пивна закуска із суджуком, бастурмою, кабаносами, сиром косичкою та арахісом. Копчені, пряні та солоні смаки роблять її природним доповненням до напоїв.",
+        "en": "A hearty beer snack platter with sudzhuk, basturma, kabanosy, braided cheese, and peanuts. Smoky, spicy, and salty flavors make it a natural companion for drinks.",
+        "fr": "Une assiette généreuse à la bière avec soudjouk, basturma, kabanosy, fromage tressé et cacahuètes. Les saveurs fumées, épicées et salées en font un accompagnement naturel des boissons.",
+        "de": "Eine herzhafte Bierplatte mit Sudschuk, Basturma, Kabanossi, Zopfkäse und Erdnüssen. Rauchige, würzige und salzige Aromen machen sie zum idealen Begleiter für Getränke.",
+        "pl": "Syta przekąska do piwa z soudżukiem, basturmą, kabanosami, serem warkoczem i orzeszkami ziemnymi. Wędzone, pikantne i słone smaki sprawiają, że świetnie pasuje do napojów."
+      }
+    }
+  },
+  {
+    "slug": "pickled-assortment",
+    "document": "item",
+    "data": {
+      "title": {
+        "ua": "Асорті маринадів",
+        "en": "Pickled assortment",
+        "fr": "Assortiment mariné",
+        "de": "Mariniertes Sortiment",
+        "pl": "Asorti marynat"
+      },
+      "description": {
+        "ua": "Огірки, помідори, крижівка, печериця.",
+        "en": "Cucumbers, tomatoes, kryzhivka, champignons.",
+        "fr": "Concombres, tomates, kryzhivka, champignons.",
+        "de": "Gurken, Tomaten, Kryzhivka und Champignons.",
+        "pl": "Ogórki, pomidory, kryżiwka, pieczarka."
+      },
+      "labels": [
+        {
+          "ua": "450г",
+          "en": "450g",
+          "fr": "450 g",
+          "de": "450 g",
+          "pl": "450 g"
+        }
+      ],
+      "fullDescription": {
+        "ua": "Традиційне асорті маринованих огірків, помідорів, крижівки та печериць. Яскрава кислинка й домашній характер роблять його класичною холодною закускою до спільного столу.",
+        "en": "A traditional assortment of pickled cucumbers, tomatoes, kryzhivka, and champignons. Bright acidity and rustic flavors make it a classic cold appetizer for the table.",
+        "fr": "Un assortiment traditionnel de concombres marinés, tomates, kryzhivka et champignons. Une acidité vive et un caractère rustique en font une entrée froide classique à partager.",
+        "de": "Ein traditionelles Sortiment aus eingelegten Gurken, Tomaten, Kryzhivka und Champignons. Frische Säure und rustikale Aromen machen es zu einer klassischen kalten Vorspeise für den Tisch.",
+        "pl": "Tradycyjne asorti marynowanych ogórków, pomidorów, kryżiwki i pieczarek. Wyrazista kwasowość i domowy charakter czynią z niego klasyczną zimną przekąskę na wspólny stół."
+      }
+    }
+  },
+  {
+    "slug": "set-of-lard-with-toasts",
+    "document": "item",
+    "data": {
+      "title": {
+        "ua": "Сет сала з грінками",
+        "en": "Set of lard with toasts",
+        "fr": "Assortiment de lard et croûtons",
+        "de": "Speckset mit Toasts",
+        "pl": "Zestaw słoniny z grzankami"
+      },
+      "description": {
+        "ua": "Три види сала, грінки, часник.",
+        "en": "Three kinds of lard, toasts, garlic.",
+        "fr": "Trois types de lard, croûtons, ail.",
+        "de": "Drei Sorten Speck, Toasts und Knoblauch.",
+        "pl": "Trzy rodzaje słoniny, grzanki, czosnek."
+      },
+      "labels": [
+        {
+          "ua": "150г",
+          "en": "150g",
+          "fr": "150 g",
+          "de": "150 g",
+          "pl": "150 g"
+        }
+      ],
+      "fullDescription": {
+        "ua": "Традиційний сет із трьох видів сала, хрустких грінок і часнику. Насичена сільська закуска з виразним смаком і знайомим домашнім характером.",
+        "en": "A traditional set with three kinds of lard, crispy toasts, and garlic. A bold rustic appetizer with rich flavor and a familiar homemade character.",
+        "fr": "Un assortiment traditionnel de trois types de lard avec croûtons croustillants et ail. Une entrée rustique au goût franc et au caractère maison.",
+        "de": "Ein traditionelles Set mit drei Sorten Speck, knusprigen Toasts und Knoblauch. Eine kräftige rustikale Vorspeise mit vollem Geschmack und vertraut hausgemachtem Charakter.",
+        "pl": "Tradycyjny zestaw z trzech rodzajów słoniny, chrupiących grzanek i czosnku. Wyrazista rustykalna przekąska o bogatym smaku i swojskim charakterze."
+      }
+    }
+  },
+  {
+    "slug": "beef-carpaccio",
+    "document": "item",
+    "data": {
+      "title": {
+        "ua": "Карпаччо з яловичини",
+        "en": "Beef carpaccio",
+        "fr": "Carpaccio de bœuf",
+        "de": "Rindercarpaccio",
+        "pl": "Carpaccio wołowe"
+      },
+      "description": {
+        "ua": "Вирізка яловича, каперси, рукола, пармезан, перець чилі, бальзамічний соус.",
+        "en": "Beef tenderloin, capers, arugula, parmesan, chili pepper, balsamic sauce.",
+        "fr": "Filet de bœuf, câpres, roquette, parmesan, piment, sauce balsamique.",
+        "de": "Rinderfilet, Kapern, Rucola, Parmesan, Chili und Balsamicosauce.",
+        "pl": "Polędwica wołowa, kapary, rukola, parmezan, chili, sos balsamiczny."
+      },
+      "labels": [
+        {
+          "ua": "200г",
+          "en": "200g",
+          "fr": "200 g",
+          "de": "200 g",
+          "pl": "200 g"
+        }
+      ],
+      "fullDescription": {
+        "ua": "Тонко нарізане карпаччо з яловичини з каперсами, руколою, пармезаном, перцем чилі та бальзамічним соусом. Вишукана закуска з чистим м’ясним смаком, легкою гостротою та яскравою кислинкою.",
+        "en": "Thinly sliced beef carpaccio with capers, arugula, parmesan, chili pepper, and balsamic sauce. A refined appetizer with clean meat flavor, spice, and bright acidity.",
+        "fr": "Un carpaccio de bœuf finement tranché avec câpres, roquette, parmesan, piment et sauce balsamique. Une entrée raffinée au goût net de viande, relevée d’épices et d’une belle acidité.",
+        "de": "Hauchdünnes Rindercarpaccio mit Kapern, Rucola, Parmesan, Chili und Balsamicosauce. Eine feine Vorspeise mit klarem Fleischgeschmack, Würze und frischer Säure.",
+        "pl": "Cienko krojone carpaccio wołowe z kaparami, rukolą, parmezanem, chili i sosem balsamicznym. Wyrafinowana przystawka o czystym smaku mięsa, lekkiej ostrości i wyrazistej kwasowości."
+      }
+    }
+  },
+  {
+    "slug": "salmon-tartare",
+    "document": "item",
+    "data": {
+      "title": {
+        "ua": "Тартар з лосося",
+        "en": "Salmon tartare",
+        "fr": "Tartare de saumon",
+        "de": "Lachstatar",
+        "pl": "Tatar z łososia"
+      },
+      "description": {
+        "ua": "Філе лосося, авокадо, огірок, крем-сир, грінки, чіпси з пармезану.",
+        "en": "Salmon fillet, avocado, cucumber, cream cheese, toasts, parmesan chips.",
+        "fr": "Filet de saumon, avocat, concombre, fromage à la crème, croûtons, chips de parmesan.",
+        "de": "Lachsfilet, Avocado, Gurke, Frischkäse, Toasts und Parmesanchips.",
+        "pl": "Filet z łososia, awokado, ogórek, serek kremowy, grzanki, chipsy z parmezanu."
+      },
+      "labels": [
+        {
+          "ua": "245г",
+          "en": "245g",
+          "fr": "245 g",
+          "de": "245 g",
+          "pl": "245 g"
+        }
+      ],
+      "fullDescription": {
+        "ua": "Ніжний тартар із лосося з авокадо, огірком, крем-сиром, грінками та чіпсами з пармезану. Вершкова текстура й свіжі рибні ноти роблять його елегантною та виразною закускою.",
+        "en": "A delicate salmon tartare with avocado, cucumber, cream cheese, toasts, and parmesan chips. Creamy texture and fresh fish notes make it elegant and expressive.",
+        "fr": "Un tartare de saumon délicat avec avocat, concombre, fromage à la crème, croûtons et chips de parmesan. Sa texture crémeuse et ses notes marines fraîches le rendent élégant et expressif.",
+        "de": "Ein feines Lachstatar mit Avocado, Gurke, Frischkäse, Toasts und Parmesanchips. Cremige Textur und frische Fischnoten machen es zu einer eleganten, ausdrucksstarken Vorspeise.",
+        "pl": "Delikatny tatar z łososia z awokado, ogórkiem, serkiem kremowym, grzankami i chipsami z parmezanu. Kremowa tekstura i świeże rybne nuty nadają mu elegancki, wyrazisty charakter."
+      }
+    }
+  },
+  {
+    "slug": "chicken-liver-pate",
+    "document": "item",
+    "data": {
+      "title": {
+        "ua": "Паштет з курячої печінки",
+        "en": "Chicken liver pate",
+        "fr": "Pâté de foie de volaille",
+        "de": "Hühnerleberpastete",
+        "pl": "Pasztet z wątróbki drobiowej"
+      },
+      "description": {
+        "ua": "Паштет, трюфельне масло, цибуля кріспі, грінки.",
+        "en": "Pate, truffle oil, crispy onion, toasts.",
+        "fr": "Pâté, huile de truffe, oignon croustillant, croûtons.",
+        "de": "Pastete, Trüffelöl, knusprige Zwiebel und Toasts.",
+        "pl": "Pasztet, olej truflowy, chrupiąca cebulka, grzanki."
+      },
+      "labels": [
+        {
+          "ua": "230г",
+          "en": "230g",
+          "fr": "230 g",
+          "de": "230 g",
+          "pl": "230 g"
+        }
+      ],
+      "fullDescription": {
+        "ua": "Ніжний паштет із курячої печінки, поданий з трюфельним маслом, цибулею кріспі та грінками. Насичена й ароматна закуска з глибоким смаком і приємним післясмаком.",
+        "en": "Smooth chicken liver pate served with truffle oil, crispy onion, and toasts. A rich and aromatic appetizer with a deep savory finish.",
+        "fr": "Un pâté de foie de volaille onctueux servi avec huile de truffe, oignon croustillant et croûtons. Une entrée riche et parfumée avec une finale savoureuse profonde.",
+        "de": "Zarte Hühnerleberpastete mit Trüffelöl, knuspriger Zwiebel und Toasts. Eine aromatische, gehaltvolle Vorspeise mit tiefem herzhaftem Nachklang.",
+        "pl": "Delikatny pasztet z wątróbki drobiowej podany z olejem truflowym, chrupiącą cebulką i grzankami. Bogata i aromatyczna przystawka o głębokim wytrawnym finiszu."
+      }
+    }
+  },
+  {
+    "slug": "cheese-platter",
+    "document": "item",
+    "data": {
+      "title": {
+        "ua": "Сирне плато",
+        "en": "Cheese platter",
+        "fr": "Plateau de fromages",
+        "de": "Käseplatte",
+        "pl": "Półmisek serów"
+      },
+      "description": {
+        "ua": "Камамбер, дор-блю, пармезан, халумі, малиновий соус, мед.",
+        "en": "Camembert, dor blue, parmesan, halloumi, raspberry sauce, honey.",
+        "fr": "Camembert, dor blue, parmesan, halloumi, sauce à la framboise, miel.",
+        "de": "Camembert, Dor Blue, Parmesan, Halloumi, Himbeersauce und Honig.",
+        "pl": "Camembert, dor blue, parmezan, halloumi, sos malinowy, miód."
+      },
+      "labels": [
+        {
+          "ua": "290г",
+          "en": "290g",
+          "fr": "290 g",
+          "de": "290 g",
+          "pl": "290 g"
+        }
+      ],
+      "fullDescription": {
+        "ua": "Сирне плато з камамбером, дор-блю, пармезаном, халумі, малиновим соусом і медом. М’які, витримані та солодкі акценти створюють багатошаровий смаковий досвід.",
+        "en": "A cheese platter with camembert, dor blue, parmesan, halloumi, raspberry sauce, and honey. Soft, sharp, and sweet accents create a layered tasting experience.",
+        "fr": "Un plateau de fromages avec camembert, dor blue, parmesan, halloumi, sauce à la framboise et miel. Les notes douces, marquées et sucrées composent une dégustation à plusieurs couches.",
+        "de": "Eine Käseplatte mit Camembert, Dor Blue, Parmesan, Halloumi, Himbeersauce und Honig. Milde, würzige und süße Akzente sorgen für ein vielschichtiges Geschmackserlebnis.",
+        "pl": "Półmisek serów z camembertem, dor blue, parmezanem, halloumi, sosem malinowym i miodem. Delikatne, wyraziste i słodkie akcenty tworzą wielowarstwowe doznanie smakowe."
+      }
+    }
+  },
+  {
+    "slug": "meat-platter-house-smoked",
+    "document": "item",
+    "data": {
+      "title": {
+        "ua": "М'ясне плато власного копчіння",
+        "en": "House-smoked meat platter",
+        "fr": "Plateau de viandes fumées maison",
+        "de": "Hausgeräucherte Fleischplatte",
+        "pl": "Półmisek mięs z własnej wędzarni"
+      },
+      "description": {
+        "ua": "Шинка, бочок, мʼясний рулет, домашня ковбаса, хлібець з журавлиною.",
+        "en": "Ham, pork belly, meat roll, homemade sausage, cranberry bread.",
+        "fr": "Jambon, poitrine, roulé de viande, saucisse maison, pain aux canneberges.",
+        "de": "Schinken, Schweinebauch, Fleischrolle, hausgemachte Wurst und Cranberrybrot.",
+        "pl": "Szynka, boczek, roladka mięsna, domowa kiełbasa, pieczywo z żurawiną."
+      },
+      "labels": [
+        {
+          "ua": "240г",
+          "en": "240g",
+          "fr": "240 g",
+          "de": "240 g",
+          "pl": "240 g"
+        }
+      ],
+      "fullDescription": {
+        "ua": "Плато власного копчіння з шинкою, бочком, м’ясним рулетом, домашньою ковбасою та хлібцем з журавлиною. Щільний копчений смак і насичені текстури роблять його ідеальним для спільної подачі.",
+        "en": "A platter of house-smoked meats with ham, pork belly, meat roll, homemade sausage, and cranberry bread. Dense smoky flavor and rich textures make it ideal for sharing.",
+        "fr": "Un plateau de viandes fumées maison avec jambon, poitrine, roulé de viande, saucisse maison et pain aux canneberges. Sa saveur fumée profonde et ses textures riches le rendent idéal à partager.",
+        "de": "Eine hausgeräucherte Fleischplatte mit Schinken, Schweinebauch, Fleischrolle, hausgemachter Wurst und Cranberrybrot. Dichtes Raucharoma und kräftige Texturen machen sie ideal zum Teilen.",
+        "pl": "Półmisek mięs z własnej wędzarni z szynką, boczkiem, roladą mięsną, domową kiełbasą i pieczywem z żurawiną. Intensywny wędzony smak i bogate tekstury czynią go idealnym do wspólnego podania."
+      }
+    }
+  },
+  {
+    "slug": "panko-shrimp-with-tartar-sauce",
+    "document": "item",
+    "data": {
+      "title": {
+        "ua": "Креветки панко з соусом Тартар",
+        "en": "Panko shrimp with tartar sauce",
+        "fr": "Crevettes panko avec sauce tartare",
+        "de": "Panko-Garnelen mit Tartarsauce",
+        "pl": "Krewetki panko z sosem tatarskim"
+      },
+      "description": {
+        "ua": "Хрусткі креветки у паніровці панко з ніжним соусом тартар.",
+        "en": "Crispy shrimp in panko breading with delicate tartar sauce.",
+        "fr": "Crevettes croustillantes en panure panko avec une delicate sauce tartare.",
+        "de": "Knusprige Garnelen in Panko-Panade mit feiner Tartarsauce.",
+        "pl": "Chrupiace krewetki w panierce panko z delikatnym sosem tatarskim."
+      },
+      "labels": [
+        {
+          "ua": "8 шт",
+          "en": "8 pcs",
+          "fr": "8 pcs",
+          "de": "8 Stk",
+          "pl": "8 szt."
+        }
+      ],
+      "fullDescription": {
+        "ua": "Хрусткі креветки в паніровці панко, подані з ніжним соусом тартар. Яскрава гаряча закуска з хрумкою скоринкою, соковитими морепродуктами та вершковим післясмаком.",
+        "en": "Crispy panko-breaded shrimp served with delicate tartar sauce. A bright hot appetizer with a crunchy crust, juicy seafood, and a creamy finish.",
+        "fr": "Des crevettes croustillantes panees au panko servies avec une delicate sauce tartare. Une entree chaude vive avec une croute croquante, des fruits de mer juteux et une finale cremeuse.",
+        "de": "Knusprige Panko-Garnelen, serviert mit feiner Tartarsauce. Eine ausdrucksstarke warme Vorspeise mit krosser Kruste, saftigen Meeresfruchten und cremigem Nachklang.",
+        "pl": "Chrupiace krewetki panierowane w panko podane z delikatnym sosem tatarskim. Wyrazista goraca przekaska z chrupiaca skorka, soczystymi owocami morza i kremowym finiszem."
+      }
+    }
+  },
+  {
+    "slug": "camembert-with-raspberry-jam-and-toasts",
+    "document": "item",
+    "data": {
+      "title": {
+        "ua": "Камамбер з малиновим джемом та грінками",
+        "en": "Camembert with raspberry jam and toasts",
+        "fr": "Camembert avec confiture de framboise et croutons",
+        "de": "Camembert mit Himbeermarmelade und Toasts",
+        "pl": "Camembert z konfitura malinowa i grzankami"
+      },
+      "description": {
+        "ua": "Запечений сир камамбер з малиновим джемом та хрусткими грінками.",
+        "en": "Baked camembert with raspberry jam and crispy toasts.",
+        "fr": "Camembert roti avec confiture de framboise et croutons croustillants.",
+        "de": "Gebackener Camembert mit Himbeermarmelade und knusprigen Toasts.",
+        "pl": "Pieczony camembert z konfitura malinowa i chrupiacymi grzankami."
+      },
+      "labels": [
+        {
+          "ua": "180г",
+          "en": "180g",
+          "fr": "180 g",
+          "de": "180 g",
+          "pl": "180 g"
+        }
+      ],
+      "fullDescription": {
+        "ua": "Запечений камамбер, поданий з малиновим джемом і хрусткими грінками. Вершкова серцевина сиру та солодкий ягідний акцент створюють насичене й елегантне поєднання.",
+        "en": "Baked camembert served with raspberry jam and crispy toasts. The creamy cheese center and sweet berry accent create a rich and elegant combination.",
+        "fr": "Camembert roti servi avec confiture de framboise et croutons croustillants. Le coeur cremeux du fromage et l accent sucre des baies creent une combinaison riche et elegante.",
+        "de": "Gebackener Camembert mit Himbeermarmelade und knusprigen Toasts. Der cremige Kasekern und die susse Beerennote ergeben eine gehaltvolle, elegante Kombination.",
+        "pl": "Pieczony camembert podany z konfitura malinowa i chrupiacymi grzankami. Kremowe wnetrze sera i slodki akcent owocow tworza bogate, eleganckie polaczenie."
+      }
+    }
+  },
+  {
+    "slug": "shrimp-in-spicy-sauce",
+    "document": "item",
+    "data": {
+      "title": {
+        "ua": "Креветки в пряному соусі",
+        "en": "Shrimp in spicy sauce",
+        "fr": "Crevettes en sauce epicee",
+        "de": "Garnelen in wurziger Sauce",
+        "pl": "Krewetki w pikantnym sosie"
+      },
+      "description": {
+        "ua": "Креветки у пікантному пряному соусі з ароматними спеціями.",
+        "en": "Shrimp in a piquant spicy sauce with aromatic spices.",
+        "fr": "Crevettes dans une sauce relevee et parfumee aux epices.",
+        "de": "Garnelen in einer pikant-wurzigen Sauce mit aromatischen Gewurzen.",
+        "pl": "Krewetki w pikantnym korzennym sosie z aromatycznymi przyprawami."
+      },
+      "labels": [
+        {
+          "ua": "200г",
+          "en": "200g",
+          "fr": "200 g",
+          "de": "200 g",
+          "pl": "200 g"
+        }
+      ],
+      "fullDescription": {
+        "ua": "Креветки у пікантному пряному соусі з ароматними спеціями. Ніжні морепродукти та виразне приправлення роблять цю закуску яскравою та запам’ятовуваною.",
+        "en": "Shrimp in a piquant spicy sauce with aromatic spices. Tender seafood and expressive seasoning make this appetizer vibrant and memorable.",
+        "fr": "Des crevettes dans une sauce relevee et parfumee aux epices. La tendrete des fruits de mer et l assaisonnement expressif rendent cette entree vive et memorable.",
+        "de": "Garnelen in einer pikant-wurzigen Sauce mit aromatischen Gewurzen. Zarte Meeresfruchte und markante Wurzung machen diese Vorspeise lebendig und einpragsam.",
+        "pl": "Krewetki w pikantnym korzennym sosie z aromatycznymi przyprawami. Delikatne owoce morza i wyraziste doprawienie sprawiaja, ze ta przekaska jest intensywna i zapada w pamiec."
+      }
+    }
+  },
+  {
+    "slug": "new-zealand-mussels-baked-with-cheese-sauce",
+    "document": "item",
+    "data": {
+      "title": {
+        "ua": "Новозеландські мідії запечені з сирним соусом",
+        "en": "New Zealand mussels baked with cheese sauce",
+        "fr": "Moules neo-zelandaises gratinees a la sauce au fromage",
+        "de": "Neuseelandische Miesmuscheln mit Kasesauce uberbacken",
+        "pl": "Nowozelandzkie mule zapiekane z sosem serowym"
+      },
+      "description": {
+        "ua": "Запечені мідії під ніжним сирним соусом.",
+        "en": "Baked mussels under a delicate cheese sauce.",
+        "fr": "Moules gratinees sous une delicate sauce au fromage.",
+        "de": "Uberbackene Muscheln unter einer feinen Kasesauce.",
+        "pl": "Zapiekane mule pod delikatnym sosem serowym."
+      },
+      "labels": [
+        {
+          "ua": "320г",
+          "en": "320g",
+          "fr": "320 g",
+          "de": "320 g",
+          "pl": "320 g"
+        }
+      ],
+      "fullDescription": {
+        "ua": "Новозеландські мідії, запечені під ніжним сирним соусом. Насичена морська закуска з делікатною текстурою, вершковими нотами та теплим запеченим післясмаком.",
+        "en": "New Zealand mussels baked under a delicate cheese sauce. A rich seafood appetizer with tender texture, creamy notes, and a warm oven-baked finish.",
+        "fr": "Des moules neo-zelandaises gratinees sous une delicate sauce au fromage. Une entree marine genereuse a la texture tendre, aux notes cremeuses et a la finale chaude du four.",
+        "de": "Neuseelandische Miesmuscheln, uberbacken mit feiner Kasesauce. Eine gehaltvolle Meeresfruchte-Vorspeise mit zarter Textur, cremigen Noten und warmem Ofenfinish.",
+        "pl": "Nowozelandzkie mule zapiekane pod delikatnym sosem serowym. Bogata morska przekaska o miekkiej teksturze, kremowych nutach i cieplym pieczonym finiszu."
+      }
+    }
+  },
+  {
+    "slug": "lavash-with-cheese-and-herbs",
+    "document": "item",
+    "data": {
+      "title": {
+        "ua": "Лаваш з сиром та зеленню",
+        "en": "Lavash with cheese and herbs",
+        "fr": "Lavash au fromage et aux herbes",
+        "de": "Lavash mit Kase und Krautern",
+        "pl": "Lawasz z serem i ziolami"
+      },
+      "description": {
+        "ua": "Тонкий лаваш з сиром та свіжою зеленню, запечений до хрумкої скоринки.",
+        "en": "Thin lavash with cheese and fresh herbs, baked until crisp.",
+        "fr": "Fin lavash au fromage et aux herbes fraiches, cuit jusqu a une croute croustillante.",
+        "de": "Dunnes Lavash mit Kase und frischen Krautern, knusprig gebacken.",
+        "pl": "Cienki lawasz z serem i swiezymi ziolami, zapiekany do chrupiacej skorki."
+      },
+      "labels": [
+        {
+          "ua": "240г",
+          "en": "240g",
+          "fr": "240 g",
+          "de": "240 g",
+          "pl": "240 g"
+        }
+      ],
+      "fullDescription": {
+        "ua": "Тонкий лаваш із сиром та свіжою зеленню, запечений до золотистої хрумкої скоринки. Проста й ситна гаряча закуска з ароматним домашнім характером.",
+        "en": "Thin lavash filled with cheese and fresh herbs, baked until a crisp golden crust forms. A simple and satisfying hot snack with a fragrant homemade character.",
+        "fr": "Un fin lavash garni de fromage et d herbes fraiches, cuit jusqu a former une croute doree et croustillante. Une entree chaude simple et rassasiante au caractere maison parfume.",
+        "de": "Dunnes Lavash mit Kase und frischen Krautern, gebacken bis zu einer goldenen knusprigen Kruste. Eine einfache, sattigende warme Vorspeise mit aromatisch-hausgemachtem Charakter.",
+        "pl": "Cienki lawasz z serem i swiezymi ziolami, zapiekany az powstanie zlocista chrupiaca skorka. Prosta i sycaca goraca przekaska o aromatycznym domowym charakterze."
+      }
+    }
+  },
+  {
+    "slug": "fried-pelmeni-with-signature-sauce",
+    "document": "item",
+    "data": {
+      "title": {
+        "ua": "Пельмені Фрі з авторським соусом",
+        "en": "Fried pelmeni with signature sauce",
+        "fr": "Pelmeni frits avec sauce signature",
+        "de": "Frittierte Pelmeni mit Haussauce",
+        "pl": "Smazone pielmieni z autorskim sosem"
+      },
+      "description": {
+        "ua": "Смажені пельмені з хрусткою скоринкою та авторським соусом.",
+        "en": "Fried pelmeni with a crispy crust and signature sauce.",
+        "fr": "Pelmeni frits avec une croute croustillante et une sauce signature.",
+        "de": "Frittierte Pelmeni mit knuspriger Kruste und Haussauce.",
+        "pl": "Smazone pielmieni z chrupiaca skorka i autorskim sosem."
+      },
+      "labels": [
+        {
+          "ua": "200г",
+          "en": "200g",
+          "fr": "200 g",
+          "de": "200 g",
+          "pl": "200 g"
+        }
+      ],
+      "fullDescription": {
+        "ua": "Смажені пельмені з хрусткою скоринкою, подані з авторським соусом. Золотиста текстура та ситна начинка роблять цю гарячу закуску знайомою, щедрою й зручною для спільного столу.",
+        "en": "Fried pelmeni with a crispy crust, served with signature sauce. Golden texture and savory filling make this hot snack familiar, hearty, and easy to share.",
+        "fr": "Des pelmeni frits a la croute croustillante, servis avec une sauce signature. Leur texture doree et leur farce savoureuse en font une entree chaude genereuse et facile a partager.",
+        "de": "Frittierte Pelmeni mit knuspriger Kruste, serviert mit Haussauce. Goldene Textur und herzhafte Fullung machen diese warme Vorspeise vertraut, sattigend und gut teilbar.",
+        "pl": "Smazone pielmieni z chrupiaca skorka podane z autorskim sosem. Zlocista tekstura i wytrawne nadzienie sprawiaja, ze ta goraca przekaska jest znajoma, sycaca i wygodna do wspolnego podania."
+      }
+    }
+  },
+  {
+    "slug": "mushroom-cream-soup",
+    "document": "item",
+    "data": {
+      "title": {
+        "ua": "Грибний крем-суп",
+        "en": "Mushroom cream soup",
+        "de": "Pilzcremesuppe",
+        "fr": "Veloute de champignons",
+        "pl": "Krem z grzybow"
+      },
+      "description": {
+        "ua": "Ніжний крем-суп з грибів з насиченим ароматом.",
+        "en": "Delicate cream soup made from mushrooms with a rich aroma.",
+        "de": "Zarte Pilzcremesuppe mit intensivem Aroma.",
+        "fr": "Veloute delicat de champignons a l ar?me riche.",
+        "pl": "Delikatny krem z grzybow o bogatym aromacie."
+      },
+      "labels": [
+        {
+          "ua": "200г",
+          "en": "200g",
+          "de": "200 g",
+          "fr": "200 g",
+          "pl": "200 g"
+        }
+      ],
+      "fullDescription": {
+        "ua": "Ніжний грибний крем-суп з насиченим ароматом і оксамитовою текстурою. Тепла перша страва з глибоким грибним смаком та м’яким вершковим післясмаком.",
+        "en": "A delicate mushroom cream soup with a rich aroma and velvety texture. A warm first course with a deep mushroom flavor and a soft creamy finish.",
+        "de": "Eine zarte Pilzcremesuppe mit intensivem Aroma und samtiger Textur. Ein warmes erstes Gericht mit tiefem Pilzgeschmack und weichem cremigem Nachklang.",
+        "fr": "Un veloute de champignons delicat au riche parfum et a la texture veloutee. Un premier plat chaud au gout profond de champignon et a la finale cremeuse.",
+        "pl": "Delikatny krem z grzybow o bogatym aromacie i aksamitnej teksturze. Cieple pierwsze danie o glebokim grzybowym smaku i lagodnym kremowym finiszu."
+      }
+    }
+  },
+  {
+    "slug": "bograch",
+    "document": "item",
+    "data": {
+      "title": {
+        "ua": "Бограч",
+        "en": "Bograch",
+        "de": "Bograch",
+        "fr": "Bograch",
+        "pl": "Bogracz"
+      },
+      "description": {
+        "ua": "Традиційний угорський суп з м’ясом та спеціями, подається з хлібом.",
+        "en": "Traditional Hungarian soup with meat and spices, served with bread.",
+        "de": "Traditionelle ungarische Suppe mit Fleisch und Gewurzen, serviert mit Brot.",
+        "fr": "Soupe hongroise traditionnelle a la viande et aux epices, servie avec du pain.",
+        "pl": "Tradycyjna wegierska zupa z miesem i przyprawami, podawana z chlebem."
+      },
+      "labels": [
+        {
+          "ua": "400г",
+          "en": "400g",
+          "de": "400 g",
+          "fr": "400 g",
+          "pl": "400 g"
+        }
+      ],
+      "fullDescription": {
+        "ua": "Традиційний угорський бограч з м’ясом, овочами та виразними спеціями, подається з хлібом. Ситна перша страва з насиченим бульйоном і зігріваючим характером.",
+        "en": "Traditional Hungarian bograch with meat, vegetables, and expressive spices, served with bread. A hearty first course with a rich broth and warming character.",
+        "de": "Traditioneller ungarischer Bograch mit Fleisch, Gemuse und ausdrucksstarken Gewurzen, serviert mit Brot. Ein sattigendes erstes Gericht mit kraftiger Br?he und warmendem Charakter.",
+        "fr": "Bograch hongrois traditionnel a la viande, aux legumes et aux epices prononcees, servi avec du pain. Un premier plat copieux au bouillon riche et au caractere reconfortant.",
+        "pl": "Tradycyjny wegierski bogracz z miesem, warzywami i wyrazistymi przyprawami, podawany z chlebem. Sycace pierwsze danie o bogatym bulionie i rozgrzewajacym charakterze."
+      }
+    }
+  },
+  {
+    "slug": "chicken-broth-with-meatballs",
+    "document": "item",
+    "data": {
+      "title": {
+        "ua": "Бульйон курячий з фрикадельками",
+        "en": "Chicken broth with meatballs",
+        "de": "Huhnerbruhe mit Fleischb?llchen",
+        "fr": "Bouillon de poulet aux boulettes",
+        "pl": "Roso? z pulpecikami"
+      },
+      "description": {
+        "ua": "Курячий бульйон з локшиною, фрикадельками та яйцем.",
+        "en": "Chicken broth with noodles, meatballs, and egg.",
+        "de": "Huhnerbruhe mit Nudeln, Fleischb?llchen und Ei.",
+        "fr": "Bouillon de poulet avec nouilles, boulettes et oeuf.",
+        "pl": "Roso? z makaronem, pulpecikami i jajkiem."
+      },
+      "labels": [
+        {
+          "ua": "400г",
+          "en": "400g",
+          "de": "400 g",
+          "fr": "400 g",
+          "pl": "400 g"
+        }
+      ],
+      "fullDescription": {
+        "ua": "Прозорий курячий бульйон з локшиною, ніжними фрикадельками та яйцем. Домашня перша страва зі знайомим смаком і м’якою ситною глибиною.",
+        "en": "Clear chicken broth with noodles, tender meatballs, and egg. A comforting first course with a familiar homemade taste and gentle savory depth.",
+        "de": "Klare Huhnerbruhe mit Nudeln, zarten Fleischb?llchen und Ei. Ein wohltuendes erstes Gericht mit vertraut hausgemachtem Geschmack und milder herzhafter Tiefe.",
+        "fr": "Bouillon de poulet clair avec nouilles, boulettes tendres et oeuf. Un premier plat reconfortant au gout maison familier et a la douceur savoureuse.",
+        "pl": "Klarowny rosol z makaronem, delikatnymi pulpecikami i jajkiem. Rozgrzewajace pierwsze danie o swojskim smaku i lagodnej wytrawnej glebi."
+      }
+    }
+  },
+  {
+    "slug": "ukrainian-borscht-with-lard",
+    "document": "item",
+    "data": {
+      "title": {
+        "ua": "Борщ український з салом",
+        "en": "Ukrainian borscht with lard",
+        "de": "Ukrainischer Borschtsch mit Speck",
+        "fr": "Bortsch ukrainien au lard",
+        "pl": "Borszcz ukrainski ze slonina"
+      },
+      "description": {
+        "ua": "Класичний український борщ зі свининою, салом, сметаною та хлібом.",
+        "en": "Classic Ukrainian borscht with pork, lard, sour cream, and bread.",
+        "de": "Klassischer ukrainischer Borschtsch mit Schweinefleisch, Speck, Sauerrahm und Brot.",
+        "fr": "Bortsch ukrainien classique au porc, au lard, a la creme aigre et au pain.",
+        "pl": "Klasyczny ukrainski barszcz z wieprzowina, slonina, smietana i chlebem."
+      },
+      "labels": [
+        {
+          "ua": "400г",
+          "en": "400g",
+          "de": "400 g",
+          "fr": "400 g",
+          "pl": "400 g"
+        }
+      ],
+      "fullDescription": {
+        "ua": "Класичний український борщ зі свининою, салом, сметаною та хлібом. Глибокий буряковий бульйон і традиційні додатки роблять цю першу страву ситною та виразною.",
+        "en": "Classic Ukrainian borscht with pork, lard, sour cream, and bread. A deep beetroot broth and rich traditional additions make this first course filling and expressive.",
+        "de": "Klassischer ukrainischer Borschtsch mit Schweinefleisch, Speck, Sauerrahm und Brot. Eine tiefe rote-Bete-Bruhe und traditionelle Beilagen machen dieses erste Gericht sattigend und ausdrucksstark.",
+        "fr": "Bortsch ukrainien classique au porc, au lard, a la creme aigre et au pain. Un bouillon profond a la betterave et de riches accompagnements traditionnels rendent ce premier plat rassasiant et expressif.",
+        "pl": "Klasyczny ukrainski barszcz z wieprzowina, slonina, smietana i chlebem. Gleboki buraczany bulion i tradycyjne dodatki sprawiaja, ze to pierwsze danie jest sycace i wyraziste."
+      }
+    }
+  },
+  {
+    "slug": "banosh-with-brynza-and-cracklings",
+    "document": "item",
+    "data": {
+      "title": {
+        "ua": "Банош з бринзою та шкварками",
+        "en": "Banosh with brynza and cracklings",
+        "de": "Banosh mit Brynza und Grammeln",
+        "fr": "Banosh a la brynza et aux grattons",
+        "pl": "Banosz z bryndza i skwarkami"
+      },
+      "description": {
+        "ua": "Традиційний банош з бринзою та хрусткими шкварками.",
+        "en": "Traditional banosh with brynza and crispy cracklings.",
+        "de": "Traditioneller Banosh mit Brynza und knusprigen Grammeln.",
+        "fr": "Banosh traditionnel a la brynza et aux grattons croustillants.",
+        "pl": "Tradycyjny banosz z bryndza i chrupiacymi skwarkami."
+      },
+      "labels": [
+        {
+          "ua": "300г",
+          "en": "300g",
+          "de": "300 g",
+          "fr": "300 g",
+          "pl": "300 g"
+        }
+      ],
+      "fullDescription": {
+        "ua": "Традиційний банош з бринзою та хрусткими шкварками. Ситна кукурудзяна страва з кремовою текстурою, виразною бринзою та насиченим домашнім смаком.",
+        "en": "Traditional banosh with brynza and crispy cracklings. A hearty cornmeal dish with a creamy texture, rich sheep cheese, and a savory rustic finish.",
+        "de": "Traditioneller Banosh mit Brynza und knusprigen Grammeln. Ein sattigendes Maisgericht mit cremiger Textur, kraftigem Schafskase und rustikal-wurzigem Finale.",
+        "fr": "Banosh traditionnel a la brynza et aux grattons croustillants. Un plat copieux a base de semoule de mais, a la texture cremeuse, au fromage de brebis intense et a la finale rustique savoureuse.",
+        "pl": "Tradycyjny banosz z bryndza i chrupiacymi skwarkami. Sycace danie z kaszy kukurydzianej o kremowej strukturze, z wyrazista bryndza i rustykalnym wytrawnym finiszem."
+      }
+    }
+  },
+  {
+    "slug": "skillet-with-bavarian-sausages",
+    "document": "item",
+    "data": {
+      "title": {
+        "ua": "Пательня з баварськими ковбасками",
+        "en": "Skillet with Bavarian sausages",
+        "de": "Pfanne mit bayerischen Wurstchen",
+        "fr": "Poelee aux saucisses bavaroises",
+        "pl": "Patelnia z bawarskimi kielbaskami"
+      },
+      "description": {
+        "ua": "Картопля, баварські ковбаски, цибуля, морква, олія, соус деміглас, пармезан.",
+        "en": "Potatoes, Bavarian sausages, onion, carrot, oil, demi-glace sauce, parmesan.",
+        "de": "Kartoffeln, bayerische Wurstchen, Zwiebel, Karotte, Ol, Demi-glace-Sauce und Parmesan.",
+        "fr": "Pommes de terre, saucisses bavaroises, oignon, carotte, huile, sauce demi-glace et parmesan.",
+        "pl": "Ziemniaki, bawarskie kielbaski, cebula, marchew, olej, sos demi-glace i parmezan."
+      },
+      "labels": [
+        {
+          "ua": "300г",
+          "en": "300g",
+          "de": "300 g",
+          "fr": "300 g",
+          "pl": "300 g"
+        }
+      ],
+      "fullDescription": {
+        "ua": "Гаряча пательня з картоплею, баварськими ковбасками, цибулею, морквою, соусом деміглас і пармезаном. Насичена основна страва з глибоким м’ясним смаком і домашнім характером.",
+        "en": "A hot skillet with potatoes, Bavarian sausages, onion, carrot, oil, demi-glace sauce, and parmesan. A rich main dish with a deep meaty flavor and a satisfying home-style character.",
+        "de": "Eine heisse Pfanne mit Kartoffeln, bayerischen Wurstchen, Zwiebel, Karotte, Demi-glace-Sauce und Parmesan. Ein reichhaltiges Hauptgericht mit tiefem Fleischgeschmack und hausgemachtem Charakter.",
+        "fr": "Une poelee chaude avec pommes de terre, saucisses bavaroises, oignon, carotte, sauce demi-glace et parmesan. Un plat principal riche au gout de viande prononce et au caractere maison rassasiant.",
+        "pl": "Goraca patelnia z ziemniakami, bawarskimi kielbaskami, cebula, marchewka, sosem demi-glace i parmezanem. Bogate danie glowne o glebokim miesnym smaku i sycacym domowym charakterze."
+      }
+    }
+  },
+  {
+    "slug": "skillet-with-chicken",
+    "document": "item",
+    "data": {
+      "title": {
+        "ua": "Пательня з куркою",
+        "en": "Skillet with chicken",
+        "de": "Pfanne mit Huhnchen",
+        "fr": "Poelee au poulet",
+        "pl": "Patelnia z kurczakiem"
+      },
+      "description": {
+        "ua": "Картопля, куряче філе, цибуля, морква, олія, соус деміглас, пармезан.",
+        "en": "Potatoes, chicken fillet, onion, carrot, oil, demi-glace sauce, parmesan.",
+        "de": "Kartoffeln, Hahnchenfilet, Zwiebel, Karotte, Ol, Demi-glace-Sauce und Parmesan.",
+        "fr": "Pommes de terre, filet de poulet, oignon, carotte, huile, sauce demi-glace et parmesan.",
+        "pl": "Ziemniaki, filet z kurczaka, cebula, marchew, olej, sos demi-glace i parmezan."
+      },
+      "labels": [
+        {
+          "ua": "300г",
+          "en": "300g",
+          "de": "300 g",
+          "fr": "300 g",
+          "pl": "300 g"
+        }
+      ],
+      "fullDescription": {
+        "ua": "Гаряча пательня з картоплею, курячим філе, цибулею, морквою, соусом деміглас і пармезаном. Ніжна курка та запечені овочі роблять страву ситною й збалансованою.",
+        "en": "A hot skillet with potatoes, chicken fillet, onion, carrot, oil, demi-glace sauce, and parmesan. Tender chicken and roasted vegetables make it a balanced and filling main course.",
+        "de": "Eine heisse Pfanne mit Kartoffeln, Hahnchenfilet, Zwiebel, Karotte, Demi-glace-Sauce und Parmesan. Zartes Fleisch und geroestetes Gemuse machen dieses Hauptgericht ausgewogen und sattigend.",
+        "fr": "Une poelee chaude avec pommes de terre, filet de poulet, oignon, carotte, sauce demi-glace et parmesan. Le poulet tendre et les legumes dores en font un plat principal equilibre et rassasiant.",
+        "pl": "Goraca patelnia z ziemniakami, filetem z kurczaka, cebula, marchewka, sosem demi-glace i parmezanem. Delikatne mieso i pieczone warzywa sprawiaja, ze to danie glowne jest dobrze zrownowazone i sycace."
+      }
+    }
+  },
+  {
+    "slug": "varenyky-with-potatoes-and-cracklings",
+    "document": "item",
+    "data": {
+      "title": {
+        "ua": "Вареники з картоплею та шкварками",
+        "en": "Varenyky with potatoes and cracklings",
+        "de": "Wareniki mit Kartoffeln und Grammeln",
+        "fr": "Varenyky aux pommes de terre et aux grattons",
+        "pl": "Pierogi z ziemniakami i skwarkami"
+      },
+      "description": {
+        "ua": "Домашні вареники з картоплею та шкварками.",
+        "en": "Homemade varenyky with potatoes and cracklings.",
+        "de": "Hausgemachte Wareniki mit Kartoffeln und Grammeln.",
+        "fr": "Varenyky maison aux pommes de terre et aux grattons.",
+        "pl": "Domowe pierogi z ziemniakami i skwarkami."
+      },
+      "labels": [
+        {
+          "ua": "300г",
+          "en": "300g",
+          "de": "300 g",
+          "fr": "300 g",
+          "pl": "300 g"
+        }
+      ],
+      "fullDescription": {
+        "ua": "Домашні вареники з картоплею та шкварками. Традиційна основна страва з м’яким тістом, ситною начинкою та знайомим домашнім смаком.",
+        "en": "Homemade varenyky with potatoes and cracklings. A traditional main dish with a soft dough, hearty filling, and a familiar rustic taste.",
+        "de": "Hausgemachte Wareniki mit Kartoffeln und Grammeln. Ein traditionelles Hauptgericht mit weichem Teig, herzhafter Fullung und vertraut rustikalem Geschmack.",
+        "fr": "Varenyky maison aux pommes de terre et aux grattons. Un plat principal traditionnel a la pate tendre, a la farce copieuse et au gout rustique familier.",
+        "pl": "Domowe pierogi z ziemniakami i skwarkami. Tradycyjne danie glowne z miekkim ciastem, sycacym farszem i swojskim rustykalnym smakiem."
+      }
+    }
+  },
+  {
+    "slug": "varenyky-with-potatoes-and-mushroom-sauce",
+    "document": "item",
+    "data": {
+      "title": {
+        "ua": "Вареники з картоплею та грибним соусом",
+        "en": "Varenyky with potatoes and mushroom sauce",
+        "de": "Wareniki mit Kartoffeln und Pilzsauce",
+        "fr": "Varenyky aux pommes de terre et sauce aux champignons",
+        "pl": "Pierogi z ziemniakami i sosem grzybowym"
+      },
+      "description": {
+        "ua": "Вареники з картоплею під ніжним грибним соусом.",
+        "en": "Varenyky with potatoes served with a delicate mushroom sauce.",
+        "de": "Wareniki mit Kartoffeln, serviert mit feiner Pilzsauce.",
+        "fr": "Varenyky aux pommes de terre servis avec une delicate sauce aux champignons.",
+        "pl": "Pierogi z ziemniakami podawane z delikatnym sosem grzybowym."
+      },
+      "labels": [
+        {
+          "ua": "350г",
+          "en": "350g",
+          "de": "350 g",
+          "fr": "350 g",
+          "pl": "350 g"
+        }
+      ],
+      "fullDescription": {
+        "ua": "Вареники з картоплею, подані з ніжним грибним соусом. М’яке тісто та вершковий грибний акцент створюють затишну й виразну основну страву.",
+        "en": "Varenyky with potatoes served with a delicate mushroom sauce. Soft dumplings and a creamy mushroom accent create a comforting and expressive main dish.",
+        "de": "Wareniki mit Kartoffeln, serviert mit feiner Pilzsauce. Weiche Teigtaschen und ein cremiger Pilzakzent ergeben ein wohltuendes und ausdrucksstarkes Hauptgericht.",
+        "fr": "Varenyky aux pommes de terre servis avec une delicate sauce aux champignons. La pate tendre et l accent cremeux des champignons composent un plat principal reconfortant et expressif.",
+        "pl": "Pierogi z ziemniakami podawane z delikatnym sosem grzybowym. Miekkie ciasto i kremowy grzybowy akcent tworza sycace i wyraziste danie glowne."
+      }
+    }
+  },
+  {
+    "slug": "deruny-with-mushroom-sauce",
+    "document": "item",
+    "data": {
+      "title": {
+        "ua": "Деруни з грибним соусом",
+        "en": "Deruny with mushroom sauce",
+        "de": "Deruny mit Pilzsauce",
+        "fr": "Deruny a la sauce aux champignons",
+        "pl": "Deruny z sosem grzybowym"
+      },
+      "description": {
+        "ua": "Хрусткі деруни з ароматним грибним соусом.",
+        "en": "Crispy deruny with aromatic mushroom sauce.",
+        "de": "Knusprige Deruny mit aromatischer Pilzsauce.",
+        "fr": "Deruny croustillants avec sauce aux champignons parfumee.",
+        "pl": "Chrupiace deruny z aromatycznym sosem grzybowym."
+      },
+      "labels": [
+        {
+          "ua": "300г",
+          "en": "300g",
+          "de": "300 g",
+          "fr": "300 g",
+          "pl": "300 g"
+        }
+      ],
+      "fullDescription": {
+        "ua": "Хрусткі деруни, подані з ароматним грибним соусом. Золотисті картопляні оладки та насичений соус роблять цю страву затишною й по-справжньому традиційною.",
+        "en": "Crispy deruny served with aromatic mushroom sauce. Golden potato pancakes and a rich sauce make this main dish deeply comforting and full of traditional flavor.",
+        "de": "Knusprige Deruny, serviert mit aromatischer Pilzsauce. Goldene Kartoffelpuffer und eine reichhaltige Sauce machen dieses Hauptgericht warm und traditionell.",
+        "fr": "Deruny croustillants servis avec une sauce aux champignons parfumee. Les galettes dorees de pommes de terre et la sauce riche rendent ce plat principal reconfortant et traditionnel.",
+        "pl": "Chrupiace deruny podawane z aromatycznym sosem grzybowym. Zlociste placki ziemniaczane i bogaty sos czynia to danie glowne mocno rozgrzewajacym i tradycyjnym."
+      }
+    }
+  },
+  {
+    "slug": "deruny-with-sour-cream",
+    "document": "item",
+    "data": {
+      "title": {
+        "ua": "Деруни зі сметаною",
+        "en": "Deruny with sour cream",
+        "de": "Deruny mit Sauerrahm",
+        "fr": "Deruny a la creme aigre",
+        "pl": "Deruny ze smietana"
+      },
+      "description": {
+        "ua": "Деруни зі сметаною, подаються гарячими.",
+        "en": "Deruny with sour cream, served hot.",
+        "de": "Deruny mit Sauerrahm, heiss serviert.",
+        "fr": "Deruny a la creme aigre, servis chauds.",
+        "pl": "Deruny ze smietana, podawane na goraco."
+      },
+      "labels": [
+        {
+          "ua": "200г",
+          "en": "200g",
+          "de": "200 g",
+          "fr": "200 g",
+          "pl": "200 g"
+        }
+      ],
+      "fullDescription": {
+        "ua": "Деруни зі сметаною, подані гарячими. Хрусткі краї, ніжна картопляна серединка й прохолодна сметана створюють простий і ситний традиційний смак.",
+        "en": "Deruny with sour cream, served hot. Crisp edges, tender potato center, and cool sour cream make this a simple and satisfying traditional choice.",
+        "de": "Deruny mit Sauerrahm, heiss serviert. Knusprige Rander, weicher Kartoffelkern und kuhler Sauerrahm machen dieses Gericht zu einer einfachen und sattigenden traditionellen Wahl.",
+        "fr": "Deruny a la creme aigre, servis chauds. Les bords croustillants, le coeur tendre de pomme de terre et la creme aigre fraiche en font un choix traditionnel simple et rassasiant.",
+        "pl": "Deruny ze smietana, podawane na goraco. Chrupiace brzegi, delikatne ziemniaczane srodki i chlodna smietana sprawiaja, ze to prosty i sycacy tradycyjny wybor."
+      }
+    }
+  },
+  {
+    "slug": "grilled-vegetables",
+    "document": "item",
+    "data": {
+      "title": {
+        "ua": "Овочі-гриль",
+        "en": "Grilled vegetables",
+        "de": "Gegrilltes Gemuse",
+        "fr": "Legumes grilles",
+        "pl": "Warzywa z grilla"
+      },
+      "description": {
+        "ua": "Баклажан, цукіні, печериці, болгарський перець, кукурудза.",
+        "en": "Eggplant, zucchini, champignons, bell pepper, corn.",
+        "de": "Aubergine, Zucchini, Champignons, Paprika und Mais.",
+        "fr": "Aubergine, courgette, champignons, poivron et mais.",
+        "pl": "Baklazan, cukinia, pieczarki, papryka i kukurydza."
+      },
+      "labels": [
+        {
+          "ua": "300г",
+          "en": "300g",
+          "de": "300 g",
+          "fr": "300 g",
+          "pl": "300 g"
+        }
+      ],
+      "fullDescription": {
+        "ua": "Овочі-гриль з баклажана, цукіні, печериць, болгарського перцю та кукурудзи. Яскравий овочевий гарнір із легкою димністю та чистим смаком гриля.",
+        "en": "Grilled eggplant, zucchini, champignons, bell pepper, and corn. A bright vegetable side dish with light smokiness and a clean grilled finish.",
+        "de": "Gegrillte Aubergine, Zucchini, Champignons, Paprika und Mais. Eine farbige Gemusebeilage mit leichter Rauchnote und klarem Grillfinish.",
+        "fr": "Aubergine, courgette, champignons, poivron et mais grilles. Une garniture vegetale vive avec une legere note fumee et une finale nette au grill.",
+        "pl": "Grillowany baklazan, cukinia, pieczarki, papryka i kukurydza. Wyrazisty warzywny dodatek z lekko dymnym aromatem i czystym grillowym finiszem."
+      }
+    }
+  },
+  {
+    "slug": "baked-potatoes",
+    "document": "item",
+    "data": {
+      "title": {
+        "ua": "Запечена картопля",
+        "en": "Baked potatoes",
+        "de": "Gebackene Kartoffeln",
+        "fr": "Pommes de terre au four",
+        "pl": "Pieczone ziemniaki"
+      },
+      "description": {
+        "ua": "Запечена картопля з ароматними спеціями.",
+        "en": "Baked potatoes with aromatic spices.",
+        "de": "Gebackene Kartoffeln mit aromatischen Gewurzen.",
+        "fr": "Pommes de terre au four aux epices aromatiques.",
+        "pl": "Pieczone ziemniaki z aromatycznymi przyprawami."
+      },
+      "labels": [
+        {
+          "ua": "200г",
+          "en": "200g",
+          "de": "200 g",
+          "fr": "200 g",
+          "pl": "200 g"
+        }
+      ],
+      "fullDescription": {
+        "ua": "Запечена картопля з ароматними спеціями. Простий і ситний гарнір із ніжною серединкою, золотистими краями та знайомим домашнім смаком.",
+        "en": "Baked potatoes with aromatic spices. A simple and satisfying side dish with a tender center, golden edges, and a familiar home-style taste.",
+        "de": "Gebackene Kartoffeln mit aromatischen Gewurzen. Eine einfache und sattigende Beilage mit weichem Kern, goldenen Randern und vertraut hausgemachtem Geschmack.",
+        "fr": "Pommes de terre au four aux epices aromatiques. Une garniture simple et rassasiante au coeur tendre, aux bords dores et au gout maison familier.",
+        "pl": "Pieczone ziemniaki z aromatycznymi przyprawami. Prosty i sycacy dodatek z miekkim srodkiem, zlocistymi brzegami i swojskim domowym smakiem."
+      }
+    }
+  },
+  {
+    "slug": "homestyle-potatoes",
+    "document": "item",
+    "data": {
+      "title": {
+        "ua": "Картопля по-домашньому",
+        "en": "Homestyle potatoes",
+        "de": "Hausgemachte Kartoffeln",
+        "fr": "Pommes de terre maison",
+        "pl": "Ziemniaki po domowemu"
+      },
+      "description": {
+        "ua": "Смажена картопля по-домашньому з цибулею та спеціями.",
+        "en": "Homestyle fried potatoes with onion and spices.",
+        "de": "Hausgemachte Bratkartoffeln mit Zwiebel und Gewurzen.",
+        "fr": "Pommes de terre poelees maison avec oignon et epices.",
+        "pl": "Smazone ziemniaki po domowemu z cebula i przyprawami."
+      },
+      "labels": [
+        {
+          "ua": "200г",
+          "en": "200g",
+          "de": "200 g",
+          "fr": "200 g",
+          "pl": "200 g"
+        }
+      ],
+      "fullDescription": {
+        "ua": "Смажена картопля по-домашньому з цибулею та спеціями. Хрусткі скибочки та насичений аромат сковороди роблять цей гарнір щедрим і знайомим.",
+        "en": "Homestyle fried potatoes with onion and spices. Crispy slices and a savory pan-fried aroma make this side dish hearty and familiar.",
+        "de": "Hausgemachte Bratkartoffeln mit Zwiebel und Gewurzen. Knusprige Scheiben und ein herzhafter Pfannenduft machen diese Beilage sattigend und vertraut.",
+        "fr": "Pommes de terre poelees maison avec oignon et epices. Les tranches croustillantes et l arome savoureux de la poele rendent cette garniture copieuse et familiere.",
+        "pl": "Smazone ziemniaki po domowemu z cebula i przyprawami. Chrupiace plasterki i wytrawny aromat patelni sprawiaja, ze ten dodatek jest sycacy i znajomy."
+      }
+    }
+  },
+  {
+    "slug": "mashed-potatoes-with-truffle-paste",
+    "document": "item",
+    "data": {
+      "title": {
+        "ua": "Картопляне пюре з трюфельною пастою",
+        "en": "Mashed potatoes with truffle paste",
+        "de": "Kartoffelpuree mit Truffelpaste",
+        "fr": "Puree de pommes de terre a la pate de truffe",
+        "pl": "Puree ziemniaczane z pasta truflowa"
+      },
+      "description": {
+        "ua": "Ніжне картопляне пюре з трюфельною пастою.",
+        "en": "Delicate mashed potatoes with truffle paste.",
+        "de": "Zartes Kartoffelpuree mit Truffelpaste.",
+        "fr": "Puree de pommes de terre delicate a la pate de truffe.",
+        "pl": "Delikatne puree ziemniaczane z pasta truflowa."
+      },
+      "labels": [
+        {
+          "ua": "250г",
+          "en": "250g",
+          "de": "250 g",
+          "fr": "250 g",
+          "pl": "250 g"
+        }
+      ],
+      "fullDescription": {
+        "ua": "Ніжне картопляне пюре з трюфельною пастою. Кремовий гарнір із шовковистою текстурою та вишуканим трюфельним акцентом для більш насичених страв.",
+        "en": "Delicate mashed potatoes with truffle paste. A creamy side dish with a silky texture and a refined truffle accent for richer main courses.",
+        "de": "Zartes Kartoffelpuree mit Truffelpaste. Eine cremige Beilage mit seidiger Textur und feinem Truffelakzent fur gehaltvollere Hauptgerichte.",
+        "fr": "Puree de pommes de terre delicate a la pate de truffe. Une garniture cremeuse a la texture soyeuse et a la touche raffinee de truffe pour les plats principaux plus riches.",
+        "pl": "Delikatne puree ziemniaczane z pasta truflowa. Kremowy dodatek o aksamitnej strukturze i eleganckim truflowym akcencie do bardziej sycacych dan glownych."
+      }
+    }
+  },
+  {
+    "slug": "pasta-carbonara",
+    "document": "item",
+    "data": {
+      "title": {
+        "ua": "Паста Карбонара",
+        "en": "Pasta Carbonara",
+        "de": "Pasta Carbonara",
+        "fr": "Pates Carbonara",
+        "pl": "Pasta Carbonara"
+      },
+      "description": {
+        "ua": "Спагеті, бекон, вершки, пармезан, трюфельна паста.",
+        "en": "Spaghetti, bacon, cream, parmesan, truffle paste.",
+        "de": "Spaghetti, Speck, Sahne, Parmesan und Truffelpaste.",
+        "fr": "Spaghetti, bacon, creme, parmesan et pate de truffe.",
+        "pl": "Spaghetti, bekon, smietanka, parmezan i pasta truflowa."
+      },
+      "labels": [
+        {
+          "ua": "250г",
+          "en": "250g",
+          "de": "250 g",
+          "fr": "250 g",
+          "pl": "250 g"
+        }
+      ],
+      "fullDescription": {
+        "ua": "Спагеті з беконом, вершками, пармезаном і трюфельною пастою. Насичена паста з шовковистим соусом, виразним беконом і делікатним трюфельним акцентом.",
+        "en": "Spaghetti with bacon, cream, parmesan, and truffle paste. A rich pasta with a silky sauce, savory bacon, and a refined truffle accent.",
+        "de": "Spaghetti mit Speck, Sahne, Parmesan und Truffelpaste. Eine reichhaltige Pasta mit seidiger Sauce, wurzigem Speck und feinem Truffelakzent.",
+        "fr": "Spaghetti avec bacon, creme, parmesan et pate de truffe. Une pasta riche a la sauce soyeuse, au bacon savoureux et a la touche raffinee de truffe.",
+        "pl": "Spaghetti z bekonem, smietanka, parmezanem i pasta truflowa. Bogata pasta z aksamitnym sosem, wyrazistym bekonem i eleganckim truflowym akcentem."
+      }
+    }
+  },
+  {
+    "slug": "pasta-bolognese",
+    "document": "item",
+    "data": {
+      "title": {
+        "ua": "Паста Болоньєзе",
+        "en": "Pasta Bolognese",
+        "de": "Pasta Bolognese",
+        "fr": "Pates Bolognaise",
+        "pl": "Pasta Bolognese"
+      },
+      "description": {
+        "ua": "Спагеті, соус Болоньєзе, пармезан.",
+        "en": "Spaghetti, Bolognese sauce, parmesan.",
+        "de": "Spaghetti, Bolognese-Sauce und Parmesan.",
+        "fr": "Spaghetti, sauce bolognaise et parmesan.",
+        "pl": "Spaghetti, sos bolognese i parmezan."
+      },
+      "labels": [
+        {
+          "ua": "300г",
+          "en": "300g",
+          "de": "300 g",
+          "fr": "300 g",
+          "pl": "300 g"
+        }
+      ],
+      "fullDescription": {
+        "ua": "Спагеті з соусом Болоньєзе та пармезаном. Класична італійська паста з ситним м’ясним соусом і збалансованим солоним післясмаком.",
+        "en": "Spaghetti with Bolognese sauce and parmesan. A classic Italian pasta with a hearty meat sauce and a balanced savory finish.",
+        "de": "Spaghetti mit Bolognese-Sauce und Parmesan. Eine klassische italienische Pasta mit kraftiger Fleischsauce und ausgewogenem herzhaften Finale.",
+        "fr": "Spaghetti avec sauce bolognaise et parmesan. Une pasta italienne classique avec une sauce a la viande copieuse et une finale savoureuse equilibree.",
+        "pl": "Spaghetti z sosem bolognese i parmezanem. Klasyczna wloska pasta z sycacym miesnym sosem i dobrze zrownowazonym wytrawnym finiszem."
+      }
+    }
+  },
+  {
+    "slug": "farfalle-with-chicken-and-mushrooms",
+    "document": "item",
+    "data": {
+      "title": {
+        "ua": "Фарфале з куркою та грибами",
+        "en": "Farfalle with chicken and mushrooms",
+        "de": "Farfalle mit Hahnchen und Pilzen",
+        "fr": "Farfalle au poulet et aux champignons",
+        "pl": "Farfalle z kurczakiem i grzybami"
+      },
+      "description": {
+        "ua": "Паста, стручкова квасоля, куряче філе, печериці, пармезан, вершки.",
+        "en": "Pasta, green beans, chicken fillet, champignons, parmesan, cream.",
+        "de": "Pasta, grune Bohnen, Hahnchenfilet, Champignons, Parmesan und Sahne.",
+        "fr": "Pates, haricots verts, filet de poulet, champignons, parmesan et creme.",
+        "pl": "Pasta, fasolka szparagowa, filet z kurczaka, pieczarki, parmezan i smietanka."
+      },
+      "labels": [
+        {
+          "ua": "300г",
+          "en": "300g",
+          "de": "300 g",
+          "fr": "300 g",
+          "pl": "300 g"
+        }
+      ],
+      "fullDescription": {
+        "ua": "Фарфале зі стручковою квасолею, курячим філе, печерицями, пармезаном і вершками. Ніжна вершкова паста з овочами та куркою для ситного збалансованого смаку.",
+        "en": "Farfalle with green beans, chicken fillet, champignons, parmesan, and cream. A tender creamy pasta with vegetables and chicken for a filling, balanced taste.",
+        "de": "Farfalle mit grunen Bohnen, Hahnchenfilet, Champignons, Parmesan und Sahne. Eine zarte cremige Pasta mit Gemuse und Huhn fur einen sattigenden, ausgewogenen Geschmack.",
+        "fr": "Farfalle avec haricots verts, filet de poulet, champignons, parmesan et creme. Une pasta cremeuse et tendre avec legumes et poulet pour un gout rassasiant et equilibre.",
+        "pl": "Farfalle z fasolka szparagowa, filetem z kurczaka, pieczarkami, parmezanem i smietanka. Delikatna kremowa pasta z warzywami i kurczakiem, dajaca sycacy i zrownowazony smak."
+      }
+    }
+  },
+  {
+    "slug": "mackerel-from-tandoor",
+    "document": "item",
+    "data": {
+      "title": {
+        "ua": "Скумбрія з тандиру",
+        "en": "Mackerel from tandoor",
+        "de": "Makrele aus dem Tandoor",
+        "fr": "Maquereau du tandoor",
+        "pl": "Makrela z tandooru"
+      },
+      "description": {
+        "ua": "Скумбрія, приготована в тандирі з ароматними спеціями.",
+        "en": "Mackerel cooked in a tandoor with aromatic spices.",
+        "de": "Makrele im Tandoor mit aromatischen Gewurzen zubereitet.",
+        "fr": "Maquereau prepare au tandoor avec des epices aromatiques.",
+        "pl": "Makrela przygotowana w tandoorze z aromatycznymi przyprawami."
+      },
+      "labels": [
+        {
+          "ua": "100г",
+          "en": "100g",
+          "de": "100 g",
+          "fr": "100 g",
+          "pl": "100 g"
+        }
+      ],
+      "fullDescription": {
+        "ua": "Скумбрія, приготована в тандирі з ароматними спеціями. Соковита рибна страва з виразним ароматом запікання та теплим пряним післясмаком.",
+        "en": "Mackerel cooked in a tandoor with aromatic spices. A juicy fish dish with a pronounced roasted aroma and a warm spice finish.",
+        "de": "Makrele im Tandoor mit aromatischen Gewurzen zubereitet. Ein saftiges Fischgericht mit ausgepragtem Rostoaroma und warm wurzigem Finale.",
+        "fr": "Maquereau prepare au tandoor avec des epices aromatiques. Un plat de poisson juteux au parfum prononce de cuisson et a la finale chaleureusement epicee.",
+        "pl": "Makrela przygotowana w tandoorze z aromatycznymi przyprawami. Soczyste danie rybne o wyraznym aromacie pieczenia i cieplym korzennym finiszu."
+      }
+    }
+  },
+  {
+    "slug": "salmon-fillet-steak",
+    "document": "item",
+    "data": {
+      "title": {
+        "ua": "Стейк з філе лосося",
+        "en": "Salmon fillet steak",
+        "de": "Lachsfiletsteak",
+        "fr": "Steak de filet de saumon",
+        "pl": "Stek z filetu z lososia"
+      },
+      "description": {
+        "ua": "Лосось, броколі, цвітна капуста, лимон, соус.",
+        "en": "Salmon, broccoli, cauliflower, lemon, sauce.",
+        "de": "Lachs, Brokkoli, Blumenkohl, Zitrone und Sauce.",
+        "fr": "Saumon, brocoli, chou-fleur, citron et sauce.",
+        "pl": "Losos, brokul, kalafior, cytryna i sos."
+      },
+      "labels": [
+        {
+          "ua": "100г",
+          "en": "100g",
+          "de": "100 g",
+          "fr": "100 g",
+          "pl": "100 g"
+        }
+      ],
+      "fullDescription": {
+        "ua": "Філе лосося, подане з броколі, цвітною капустою, лимоном і соусом. Збалансована рибна страва з ніжною текстурою, свіжими цитрусовими нотами та делікатними овочами.",
+        "en": "Salmon fillet served with broccoli, cauliflower, lemon, and sauce. A balanced fish dish with tender texture, fresh citrus notes, and delicate vegetables.",
+        "de": "Lachsfilet serviert mit Brokkoli, Blumenkohl, Zitrone und Sauce. Ein ausgewogenes Fischgericht mit zarter Textur, frischen Zitrusnoten und feinem Gemuse.",
+        "fr": "Filet de saumon servi avec brocoli, chou-fleur, citron et sauce. Un plat de poisson equilibre a la texture tendre, aux notes d agrumes fraiches et aux legumes delicats.",
+        "pl": "Filet z lososia podawany z brokulami, kalafiorem, cytryna i sosem. Zrownowazone danie rybne o delikatnej strukturze, swiezych cytrusowych nutach i subtelnych warzywach."
+      }
+    }
+  },
+  {
+    "slug": "dorado-grill",
+    "document": "item",
+    "data": {
+      "title": {
+        "ua": "Дорадо на грилі 1 шт",
+        "en": "Grilled dorado 1 pc",
+        "de": "Gegrillte Dorade 1 Stk",
+        "fr": "Daurade grillee 1 pc",
+        "pl": "Dorada z grilla 1 szt"
+      },
+      "description": {
+        "ua": "Дорадо, лимон, соус.",
+        "en": "Dorado, lemon, sauce.",
+        "de": "Dorade, Zitrone und Sauce.",
+        "fr": "Daurade, citron et sauce.",
+        "pl": "Dorada, cytryna i sos."
+      },
+      "labels": [
+        {
+          "ua": "1 шт",
+          "en": "1 pc",
+          "de": "1 Stk",
+          "fr": "1 pc",
+          "pl": "1 szt"
+        }
+      ],
+      "fullDescription": {
+        "ua": "Ціла дорадо на грилі, подана з лимоном і соусом. Фірмова рибна страва з чистим морським смаком, легкою димністю та елегантною подачею.",
+        "en": "Whole grilled dorado served with lemon and sauce. A signature fish dish with clean sea flavor, light smokiness, and an elegant presentation.",
+        "de": "Ganze gegrillte Dorade, serviert mit Zitrone und Sauce. Ein charakteristisches Fischgericht mit klarem Meeresgeschmack, leichter Rauchnote und eleganter Prasentation.",
+        "fr": "Daurade entiere grillee servie avec citron et sauce. Un plat de poisson signature au gout marin net, a la legere note fumee et a la presentation elegante.",
+        "pl": "Cala dorada z grilla podawana z cytryna i sosem. Firmowe danie rybne o czystym morskim smaku, lekkim dymnym akcencie i eleganckiej prezentacji."
+      }
+    }
+  },
+  {
+    "slug": "pork-shashlik",
+    "document": "item",
+    "data": {
+      "title": {
+        "ua": "Шашлик зі свинини",
+        "en": "Pork shashlik",
+        "de": "Schweine-Schaschlik",
+        "fr": "Chachlik de porc",
+        "pl": "Szaszlyk wieprzowy"
+      },
+      "description": {
+        "ua": "Шашлик зі свинини, цибуля, томатний соус.",
+        "en": "Pork shashlik, onion, tomato sauce.",
+        "de": "Schweine-Schaschlik, Zwiebel und Tomatensauce.",
+        "fr": "Chachlik de porc, oignon et sauce tomate.",
+        "pl": "Szaszlyk wieprzowy, cebula i sos pomidorowy."
+      },
+      "labels": [
+        {
+          "ua": "100г",
+          "en": "100g",
+          "de": "100 g",
+          "fr": "100 g",
+          "pl": "100 g"
+        }
+      ],
+      "fullDescription": {
+        "ua": "Шашлик зі свинини, поданий з цибулею та томатним соусом. Соковита м’ясна страва з гриля з виразним ароматом відкритого вогню та класичним насиченим смаком.",
+        "en": "Pork shashlik served with onion and tomato sauce. A juicy grilled meat dish with a pronounced fire-roasted aroma and a classic savory finish.",
+        "de": "Schweine-Schaschlik, serviert mit Zwiebel und Tomatensauce. Ein saftiges Grillgericht mit ausgepragtem Feueraroma und klassisch herzhaftem Finale.",
+        "fr": "Chachlik de porc servi avec oignon et sauce tomate. Un plat de viande grillee juteux au parfum prononce de feu et a la finale savoureuse classique.",
+        "pl": "Szaszlyk wieprzowy podawany z cebula i sosem pomidorowym. Soczyste danie z grilla o wyraznym aromacie ognia i klasycznym wytrawnym finiszu."
+      }
+    }
+  },
+  {
+    "slug": "chicken-fillet-shashlik",
+    "document": "item",
+    "data": {
+      "title": {
+        "ua": "Шашлик з курячого філе",
+        "en": "Chicken fillet shashlik",
+        "de": "Schaschlik aus Huhnchenfilet",
+        "fr": "Chachlik de filet de poulet",
+        "pl": "Szaszlyk z filetu z kurczaka"
+      },
+      "description": {
+        "ua": "Куряче філе, цибуля, томатний соус.",
+        "en": "Chicken fillet, onion, tomato sauce.",
+        "de": "Huhnchenfilet, Zwiebel und Tomatensauce.",
+        "fr": "Filet de poulet, oignon et sauce tomate.",
+        "pl": "Filet z kurczaka, cebula i sos pomidorowy."
+      },
+      "labels": [
+        {
+          "ua": "100г",
+          "en": "100g",
+          "de": "100 g",
+          "fr": "100 g",
+          "pl": "100 g"
+        }
+      ],
+      "fullDescription": {
+        "ua": "Шашлик з курячого філе, поданий з цибулею та томатним соусом. Ніжне м’ясо на грилі та знайомий соус роблять цю страву збалансованою і легкою для вибору.",
+        "en": "Chicken fillet shashlik served with onion and tomato sauce. Tender grilled meat and a familiar sauce make it a balanced and approachable grill option.",
+        "de": "Schaschlik aus Huhnchenfilet, serviert mit Zwiebel und Tomatensauce. Zartes Grillfleisch und vertraute Sauce machen es zu einer ausgewogenen, zuganglichen Wahl.",
+        "fr": "Chachlik de filet de poulet servi avec oignon et sauce tomate. La viande tendre au grill et la sauce familiere en font une option equilibree et accessible.",
+        "pl": "Szaszlyk z filetu z kurczaka podawany z cebula i sosem pomidorowym. Delikatne mieso z grilla i znajomy sos czynia to danie dobrze zrownowazona i przystepna opcja."
+      }
+    }
+  },
+  {
+    "slug": "pork-ribs-in-honey-sauce",
+    "document": "item",
+    "data": {
+      "title": {
+        "ua": "Свинячі ребра в медовому соусі",
+        "en": "Pork ribs in honey sauce",
+        "de": "Schweinerippchen in Honigsauce",
+        "fr": "Cotes de porc a la sauce au miel",
+        "pl": "Zeberka wieprzowe w sosie miodowym"
+      },
+      "description": {
+        "ua": "Свинячі ребра в медовому соусі.",
+        "en": "Pork ribs in honey sauce.",
+        "de": "Schweinerippchen in Honigsauce.",
+        "fr": "Cotes de porc a la sauce au miel.",
+        "pl": "Zeberka wieprzowe w sosie miodowym."
+      },
+      "labels": [
+        {
+          "ua": "100г",
+          "en": "100g",
+          "de": "100 g",
+          "fr": "100 g",
+          "pl": "100 g"
+        }
+      ],
+      "fullDescription": {
+        "ua": "Свинячі ребра в медовому соусі. Насичена страва з гриля з карамелізованими краями, глибоким м’ясним смаком і солодко-солоним фінішем.",
+        "en": "Pork ribs glazed in honey sauce. A rich grilled dish with caramelized edges, deep meat flavor, and a sweet-savory finish.",
+        "de": "Schweinerippchen in Honigsauce glasiert. Ein reichhaltiges Grillgericht mit karamellisierten Randern, tiefem Fleischgeschmack und suss-herzhaftem Finale.",
+        "fr": "Cotes de porc glacees a la sauce au miel. Un plat gril riche aux bords caramelises, au gout de viande profond et a la finale sucree-salee.",
+        "pl": "Zeberka wieprzowe glazurowane sosem miodowym. Bogate danie z grilla o karmelizowanych brzegach, glebokim miesnym smaku i slodko-wytrawnym finiszu."
+      }
+    }
+  },
+  {
+    "slug": "grilled-chicken-wings-with-sweet-chili-sauce",
+    "document": "item",
+    "data": {
+      "title": {
+        "ua": "Курячі крильця гриль із солодким чилі",
+        "en": "Grilled chicken wings with sweet chili sauce",
+        "de": "Gegrillte Huhnerflugel mit suss-scharfer Sauce",
+        "fr": "Ailes de poulet grillees sauce aigre-douce pimentee",
+        "pl": "Skrzydelka z grilla z sosem slodko-ostrym"
+      },
+      "description": {
+        "ua": "Курячі крильця гриль з пікантним соусом.",
+        "en": "Grilled chicken wings with piquant sauce.",
+        "de": "Gegrillte Huhnerflugel mit pikantem Sauce.",
+        "fr": "Ailes de poulet grillees avec sauce piquante.",
+        "pl": "Skrzydelka z grilla z pikantnym sosem."
+      },
+      "labels": [
+        {
+          "ua": "400г",
+          "en": "400g",
+          "de": "400 g",
+          "fr": "400 g",
+          "pl": "400 g"
+        }
+      ],
+      "fullDescription": {
+        "ua": "Курячі крильця гриль, подані із солодко-гострим соусом. Хрустка шкірка, соковите м’ясо та яскрава глазур роблять цю страву ідеальною для компанії.",
+        "en": "Grilled chicken wings served with a sweet-spicy sauce. Crispy skin, juicy meat, and a bright glaze make this dish ideal for sharing.",
+        "de": "Gegrillte Huhnerflugel mit suss-scharfer Sauce. Knusprige Haut, saftiges Fleisch und eine leuchtende Glasur machen dieses Gericht ideal zum Teilen.",
+        "fr": "Ailes de poulet grillees servies avec une sauce sucree-epicee. Peau croustillante, viande juteuse et glacage vif rendent ce plat ideal a partager.",
+        "pl": "Skrzydelka z grilla podawane z sosem slodko-ostrym. Chrupka skorka, soczyste mieso i wyrazista glazura sprawiaja, ze to danie swietnie nadaje sie do wspolnego podania."
+      }
+    }
+  },
+  {
+    "slug": "ribeye-steak",
+    "document": "item",
+    "data": {
+      "title": {
+        "ua": "Стейк рібай",
+        "en": "Ribeye steak",
+        "de": "Ribeye-Steak",
+        "fr": "Steak ribeye",
+        "pl": "Stek ribeye"
+      },
+      "description": {
+        "ua": "Стейк рібай, кукурудза, журавлиновий соус.",
+        "en": "Ribeye steak, corn, cranberry sauce.",
+        "de": "Ribeye-Steak, Mais und Cranberrysauce.",
+        "fr": "Steak ribeye, mais et sauce aux canneberges.",
+        "pl": "Stek ribeye, kukurydza i sos zurawinowy."
+      },
+      "labels": [
+        {
+          "ua": "100г",
+          "en": "100g",
+          "de": "100 g",
+          "fr": "100 g",
+          "pl": "100 g"
+        }
+      ],
+      "fullDescription": {
+        "ua": "Стейк рібай, поданий з кукурудзою та журавлиновим соусом. Насичена яловича страва з глибоким смаком гриля, соковитою текстурою та яскравим ягідним акцентом.",
+        "en": "Ribeye steak served with corn and cranberry sauce. A rich beef dish with a deep grilled flavor, juicy texture, and a bright berry accent.",
+        "de": "Ribeye-Steak mit Mais und Cranberrysauce. Ein reichhaltiges Rindfleischgericht mit tiefem Grillgeschmack, saftiger Textur und fruchtigem Beerenakzent.",
+        "fr": "Steak ribeye servi avec mais et sauce aux canneberges. Un plat de boeuf riche au gout profond du grill, a la texture juteuse et a la touche vive des baies.",
+        "pl": "Stek ribeye podawany z kukurydza i sosem zurawinowym. Bogate danie wolowe o glebokim grillowym smaku, soczystej strukturze i wyrazistym jagodowym akcencie."
+      }
+    }
+  },
+  {
+    "slug": "chicken-grill-with-baked-potatoes",
+    "document": "item",
+    "data": {
+      "title": {
+        "ua": "Курка-гриль із запеченою картоплею",
+        "en": "Grilled chicken with baked potatoes",
+        "de": "Gegrilltes Huhn mit Ofenkartoffeln",
+        "fr": "Poulet grille avec pommes de terre au four",
+        "pl": "Kurczak z grilla z pieczonymi ziemniakami"
+      },
+      "description": {
+        "ua": "Курка-гриль з картоплею.",
+        "en": "Grilled chicken with potatoes.",
+        "de": "Gegrilltes Huhn mit Kartoffeln.",
+        "fr": "Poulet grille avec pommes de terre.",
+        "pl": "Kurczak z grilla z ziemniakami."
+      },
+      "labels": [
+        {
+          "ua": "400г",
+          "en": "400g",
+          "de": "400 g",
+          "fr": "400 g",
+          "pl": "400 g"
+        }
+      ],
+      "fullDescription": {
+        "ua": "Курка-гриль, подана із запеченою картоплею. Ситна страва з димним ароматом, ніжним м’ясом і знайомим домашнім гарніром.",
+        "en": "Grilled chicken served with baked potatoes. A hearty grill dish with a smoky aroma, tender meat, and a familiar home-style garnish.",
+        "de": "Gegrilltes Huhn mit Ofenkartoffeln. Ein sattigendes Grillgericht mit rauchigem Aroma, zartem Fleisch und vertrauter hausgemachter Beilage.",
+        "fr": "Poulet grille servi avec pommes de terre au four. Un plat de grill copieux au parfum fume, a la viande tendre et a la garniture maison familiere.",
+        "pl": "Kurczak z grilla podawany z pieczonymi ziemniakami. Sycace danie z grilla o dymnym aromacie, delikatnym miesie i swojskim domowym dodatku."
+      }
+    }
+  },
+  {
+    "slug": "filet-mignon-with-grilled-vegetables",
+    "document": "item",
+    "data": {
+      "title": {
+        "ua": "Філе-міньйон з овочами-гриль",
+        "en": "Filet mignon with grilled vegetables",
+        "de": "Filet Mignon mit Grillgemuse",
+        "fr": "Filet mignon aux legumes grilles",
+        "pl": "Filet mignon z warzywami z grilla"
+      },
+      "description": {
+        "ua": "Філе-міньйон з овочами-гриль.",
+        "en": "Filet mignon with grilled vegetables.",
+        "de": "Filet Mignon mit Grillgemuse.",
+        "fr": "Filet mignon avec legumes grilles.",
+        "pl": "Filet mignon z warzywami z grilla."
+      },
+      "labels": [
+        {
+          "ua": "300г",
+          "en": "300g",
+          "de": "300 g",
+          "fr": "300 g",
+          "pl": "300 g"
+        }
+      ],
+      "fullDescription": {
+        "ua": "Філе-міньйон, подане з овочами-гриль. Вишукана страва з ніжною яловичиною, чистими нотами запікання та збалансованим овочевим гарніром.",
+        "en": "Filet mignon served with grilled vegetables. A refined grill dish with tender beef, clean roasting notes, and a balanced vegetable side.",
+        "de": "Filet Mignon mit Grillgemuse. Ein raffiniertes Grillgericht mit zartem Rindfleisch, klaren Rostnoten und ausgewogener Gemusebeilage.",
+        "fr": "Filet mignon servi avec legumes grilles. Un plat de grill raffine a la viande tendre, aux notes nettes de cuisson et a la garniture vegetale equilibree.",
+        "pl": "Filet mignon podawany z warzywami z grilla. Eleganckie danie z grilla z delikatna wolowina, czystymi nutami pieczenia i dobrze zrownowazonym warzywnym dodatkiem."
+      }
+    }
+  },
+  {
+    "slug": "lyulya-kebab",
+    "document": "item",
+    "data": {
+      "title": {
+        "ua": "Люля-кебаб",
+        "en": "Lyulya kebab",
+        "de": "Ljulja-Kebab",
+        "fr": "Loulia kebab",
+        "pl": "Lula kebab"
+      },
+      "description": {
+        "ua": "Люля-кебаб, цибуля, томатний соус.",
+        "en": "Lyulya kebab, onion, tomato sauce.",
+        "de": "Ljulja-Kebab, Zwiebel und Tomatensauce.",
+        "fr": "Loulia kebab, oignon et sauce tomate.",
+        "pl": "Lula kebab, cebula i sos pomidorowy."
+      },
+      "labels": [
+        {
+          "ua": "300г",
+          "en": "300g",
+          "de": "300 g",
+          "fr": "300 g",
+          "pl": "300 g"
+        }
+      ],
+      "fullDescription": {
+        "ua": "Люля-кебаб, поданий з цибулею та томатним соусом. Соковита страва з рубленого м’яса з виразними спеціями та щедрим форматом для спільного столу.",
+        "en": "Lyulya kebab served with onion and tomato sauce. A juicy minced-meat grill dish with expressive spices and a generous, shareable format.",
+        "de": "Ljulja-Kebab mit Zwiebel und Tomatensauce. Ein saftiges Grillgericht aus Hackfleisch mit markanten Gewurzen und grosszugigem, teilbarem Format.",
+        "fr": "Loulia kebab servi avec oignon et sauce tomate. Un plat de grill juteux a la viande hachee, aux epices expressives et au format genereux a partager.",
+        "pl": "Lula kebab podawany z cebula i sosem pomidorowym. Soczyste danie z grilla z mielonego miesa, z wyrazistymi przyprawami i hojnym formatem do wspolnego podania."
+      }
+    }
+  },
+  {
+    "slug": "meat-set-for-company",
+    "document": "item",
+    "data": {
+      "title": {
+        "ua": "М’ясний сет на компанію",
+        "en": "Meat set for company",
+        "de": "Fleischset fur die Runde",
+        "fr": "Set de viande pour compagnie",
+        "pl": "Miesny zestaw dla grupy"
+      },
+      "description": {
+        "ua": "Свинина, курячий шашлик, ребра, люля-кебаб, картопля, соуси.",
+        "en": "Pork, chicken shashlik, ribs, lyulya kebab, potatoes, sauces.",
+        "de": "Schwein, Huhner-Schaschlik, Rippchen, Ljulja-Kebab, Kartoffeln und Saucen.",
+        "fr": "Porc, chachlik de poulet, cotes, loulia kebab, pommes de terre et sauces.",
+        "pl": "Wieprzowina, szaszlyk z kurczaka, zeberka, lula kebab, ziemniaki i sosy."
+      },
+      "labels": [
+        {
+          "ua": "1400г",
+          "en": "1400g",
+          "de": "1400 g",
+          "fr": "1400 g",
+          "pl": "1400 g"
+        }
+      ],
+      "fullDescription": {
+        "ua": "Великий м’ясний сет зі свининою, курячим шашликом, ребрами, люля-кебабом, картоплею та соусами. Щедре гриль-асорті для компанії з різними текстурами та яскравими м’ясними смаками.",
+        "en": "A large meat set with pork, chicken shashlik, ribs, lyulya kebab, potatoes, and sauces. A generous grill assortment built for sharing with a wide range of meat flavors and textures.",
+        "de": "Ein grosses Fleischset mit Schwein, Huhner-Schaschlik, Rippchen, Ljulja-Kebab, Kartoffeln und Saucen. Ein grosszugiges Grillassortiment zum Teilen mit vielen Fleischsorten, Aromen und Texturen.",
+        "fr": "Un grand set de viande avec porc, chachlik de poulet, cotes, loulia kebab, pommes de terre et sauces. Un assortiment genereux de grillades concu pour le partage avec une large palette de saveurs et textures.",
+        "pl": "Duzy miesny zestaw z wieprzowina, szaszlykiem z kurczaka, zeberkami, lula kebabem, ziemniakami i sosami. Hojny grillowy zestaw do wspolnego podania z szerokim zakresem miesnych smakow i tekstur."
+      }
+    }
+  },
+  {
+    "slug": "grilled-chicken-sausages",
+    "document": "item",
+    "data": {
+      "title": {
+        "ua": "Курячі ковбаски-гриль",
+        "en": "Grilled chicken sausages",
+        "de": "Gegrillte Huhnerwurstchen",
+        "fr": "Saucisses de poulet grillees",
+        "pl": "Kielbaski z grilla z kurczaka"
+      },
+      "description": {
+        "ua": "Курячі ковбаски-гриль.",
+        "en": "Grilled chicken sausages.",
+        "de": "Gegrillte Huhnerwurstchen.",
+        "fr": "Saucisses de poulet grillees.",
+        "pl": "Kielbaski z grilla z kurczaka."
+      },
+      "labels": [
+        {
+          "ua": "350г",
+          "en": "350g",
+          "de": "350 g",
+          "fr": "350 g",
+          "pl": "350 g"
+        }
+      ],
+      "fullDescription": {
+        "ua": "Курячі ковбаски-гриль із соковитою текстурою та виразним ароматом запікання. Ситна страва з гриля, яка добре поєднується з картоплею та соусами.",
+        "en": "Grilled chicken sausages with a juicy texture and pronounced roasted aroma. A satisfying grill dish that pairs well with potatoes and sauces.",
+        "de": "Gegrillte Huhnerwurstchen mit saftiger Textur und ausgepragtem Rostaroma. Ein sattigendes Grillgericht, das gut zu Kartoffeln und Saucen passt.",
+        "fr": "Saucisses de poulet grillees a la texture juteuse et au parfum prononce de cuisson. Un plat de grill rassasiant qui se marie bien avec pommes de terre et sauces.",
+        "pl": "Kielbaski z grilla z kurczaka o soczystej strukturze i wyraznym aromacie pieczenia. Sycace danie z grilla, ktore dobrze laczy sie z ziemniakami i sosami."
+      }
+    }
+  },
+  {
+    "slug": "grilled-pork-and-beef-sausages",
+    "document": "item",
+    "data": {
+      "title": {
+        "ua": "Ковбаски-гриль зі свинини та яловичини",
+        "en": "Grilled pork and beef sausages",
+        "de": "Gegrillte Schweine-Rind-Wurstchen",
+        "fr": "Saucisses grillees porc-boeuf",
+        "pl": "Kielbaski z grilla wieprzowo-wolowe"
+      },
+      "description": {
+        "ua": "Ковбаски-гриль зі свинини та яловичини.",
+        "en": "Grilled pork and beef sausages.",
+        "de": "Gegrillte Schweine-Rind-Wurstchen.",
+        "fr": "Saucisses grillees porc-boeuf.",
+        "pl": "Kielbaski z grilla wieprzowo-wolowe."
+      },
+      "labels": [
+        {
+          "ua": "350г",
+          "en": "350g",
+          "de": "350 g",
+          "fr": "350 g",
+          "pl": "350 g"
+        }
+      ],
+      "fullDescription": {
+        "ua": "Ковбаски-гриль зі свинини та яловичини зі щільною м’ясною текстурою та насиченим смаком відкритого вогню. Ситний варіант гриль-меню з класичним м’ясним характером.",
+        "en": "Grilled pork and beef sausages with a dense meat texture and rich fire-cooked flavor. A hearty grill choice with a classic butcher-style character.",
+        "de": "Gegrillte Schweine-Rind-Wurstchen mit dichter Fleischtextur und reichhaltigem Feueraroma. Eine herzhafte Grillwahl mit klassischem Metzgercharakter.",
+        "fr": "Saucisses grillees porc-boeuf a la texture charnue dense et au gout riche de feu. Un choix de grill copieux au caractere classique de boucherie.",
+        "pl": "Kielbaski z grilla wieprzowo-wolowe o zwartej miesnej strukturze i bogatym smaku ognia. Sycacy wybor z grilla o klasycznym rzemieslniczym charakterze."
+      }
+    }
+  },
+  {
+    "slug": "french-fries",
+    "document": "item",
+    "data": {
+      "title": {
+        "ua": "Картопля фрі",
+        "en": "French fries",
+        "de": "Pommes frites",
+        "fr": "Frites",
+        "pl": "Frytki"
+      },
+      "description": {
+        "ua": "Хрустка картопля фрі з соусом.",
+        "en": "Crispy french fries with sauce.",
+        "de": "Knusprige Pommes frites mit Sauce.",
+        "fr": "Frites croustillantes avec sauce.",
+        "pl": "Chrupiace frytki z sosem."
+      },
+      "labels": [
+        {
+          "ua": "150г",
+          "en": "150g",
+          "de": "150 g",
+          "fr": "150 g",
+          "pl": "150 g"
+        }
+      ],
+      "fullDescription": {
+        "ua": "Хрустка картопля фрі, подана з соусом. Простий улюблений варіант для дітей із золотистою скоринкою та знайомим смаком.",
+        "en": "Crispy french fries served with sauce. A simple favorite for children with a golden crust and familiar taste.",
+        "de": "Knusprige Pommes frites mit Sauce. Ein einfacher Kinderfavorit mit goldener Kruste und vertrautem Geschmack.",
+        "fr": "Frites croustillantes servies avec sauce. Un classique simple pour les enfants avec une croute doree et un gout familier.",
+        "pl": "Chrupiace frytki podawane z sosem. Prosty dziecięcy faworyt ze zlocista skorka i znajomym smakiem."
+      }
+    }
+  },
+  {
+    "slug": "mashed-potatoes-with-meatballs-in-cream-sauce",
+    "document": "item",
+    "data": {
+      "title": {
+        "ua": "Картопляне пюре з тефтелями у вершковому соусі",
+        "en": "Mashed potatoes with meatballs in cream sauce",
+        "de": "Kartoffelpuree mit Fleischballchen in Sahnesauce",
+        "fr": "Puree de pommes de terre avec boulettes en sauce cremeuse",
+        "pl": "Puree ziemniaczane z pulpecikami w sosie smietanowym"
+      },
+      "description": {
+        "ua": "Картопляне пюре, курячі тефтелі, вершки.",
+        "en": "Mashed potatoes, chicken meatballs, cream.",
+        "de": "Kartoffelpuree, Huhnerfleischballchen und Sahne.",
+        "fr": "Puree de pommes de terre, boulettes de poulet et creme.",
+        "pl": "Puree ziemniaczane, pulpeciki z kurczaka, smietanka."
+      },
+      "labels": [
+        {
+          "ua": "200г",
+          "en": "200g",
+          "de": "200 g",
+          "fr": "200 g",
+          "pl": "200 g"
+        }
+      ],
+      "fullDescription": {
+        "ua": "Картопляне пюре, подане з курячими тефтелями у вершковому соусі. М’яка та ніжна страва з затишним домашнім характером для дітей.",
+        "en": "Mashed potatoes served with chicken meatballs in a creamy sauce. A soft, mild dish with a comforting homemade feel for children.",
+        "de": "Kartoffelpuree mit Huhnerfleischballchen in cremiger Sauce. Ein weiches, mildes Gericht mit hausgemachtem, wohltuendem Charakter fur Kinder.",
+        "fr": "Puree de pommes de terre servie avec boulettes de poulet en sauce cremeuse. Un plat doux et moelleux au caractere maison reconfortant pour les enfants.",
+        "pl": "Puree ziemniaczane podawane z pulpecikami z kurczaka w kremowym sosie. Miekka, lagodna potrawa o domowym, kojącym charakterze dla dzieci."
+      }
+    }
+  },
+  {
+    "slug": "nuggets",
+    "document": "item",
+    "data": {
+      "title": {
+        "ua": "Нагетси",
+        "en": "Nuggets",
+        "de": "Nuggets",
+        "fr": "Nuggets",
+        "pl": "Nuggetsy"
+      },
+      "description": {
+        "ua": "Курячі нагетси з хрусткою скоринкою.",
+        "en": "Chicken nuggets with a crispy crust.",
+        "de": "Huhner-Nuggets mit knuspriger Kruste.",
+        "fr": "Nuggets de poulet a la croute croustillante.",
+        "pl": "Kurczakowe nuggetsy z chrupiaca skorka."
+      },
+      "labels": [
+        {
+          "ua": "230г",
+          "en": "230g",
+          "de": "230 g",
+          "fr": "230 g",
+          "pl": "230 g"
+        }
+      ],
+      "fullDescription": {
+        "ua": "Курячі нагетси з хрусткою скоринкою. Популярна дитяча страва з ніжним м’ясом усередині та золотистою хрумкою оболонкою.",
+        "en": "Chicken nuggets with a crispy crust. A popular kids dish with tender meat inside and a golden crunchy coating.",
+        "de": "Huhner-Nuggets mit knuspriger Kruste. Ein beliebtes Kindergericht mit zartem Fleisch innen und goldener, knuspriger Panade.",
+        "fr": "Nuggets de poulet a la croute croustillante. Un plat populaire pour enfants avec viande tendre a l interieur et enrobage dore et croquant.",
+        "pl": "Kurczakowe nuggetsy z chrupiaca skorka. Popularne danie dla dzieci z delikatnym miesem w srodku i zlocista chrupiaca panierka."
+      }
+    }
+  },
+  {
+    "slug": "burger-set",
+    "document": "item",
+    "data": {
+      "title": {
+        "ua": "Бургер-сет",
+        "en": "Burger set",
+        "de": "Burger-Set",
+        "fr": "Menu burger",
+        "pl": "Zestaw burger"
+      },
+      "description": {
+        "ua": "Бургер з телятиною, картопля фрі.",
+        "en": "Veal burger, french fries.",
+        "de": "Kalbsburger, Pommes frites.",
+        "fr": "Burger de veau, frites.",
+        "pl": "Burger z cielecina, frytki."
+      },
+      "labels": [
+        {
+          "ua": "300г",
+          "en": "300g",
+          "de": "300 g",
+          "fr": "300 g",
+          "pl": "300 g"
+        }
+      ],
+      "fullDescription": {
+        "ua": "Бургер-сет із телятиною та картоплею фрі. Ситний дитячий обід зі знайомими смаками та зручним форматом подачі.",
+        "en": "A burger set with veal and french fries. A hearty children's meal with familiar flavors and an easy-to-enjoy format.",
+        "de": "Ein Burger-Set mit Kalbfleisch und Pommes frites. Eine satte Kindermahlzeit mit vertrauten Geschmacksnoten und unkompliziertem Format.",
+        "fr": "Un menu burger avec veau et frites. Un repas enfant copieux aux saveurs familiere et au format facile a apprecier.",
+        "pl": "Zestaw burger z cielecina i frytkami. Syty dzieciecy posilek o znajomych smakach i wygodnym formacie podania."
+      }
+    }
+  },
+  {
+    "slug": "fish-strips",
+    "document": "item",
+    "data": {
+      "title": {
+        "ua": "Рибні стріпси",
+        "en": "Fish strips",
+        "de": "Fischstreifen",
+        "fr": "Laniere de poisson",
+        "pl": "Rybne stripsy"
+      },
+      "description": {
+        "ua": "Рибні стріпси з ніжним соусом.",
+        "en": "Fish strips with a delicate sauce.",
+        "de": "Fischstreifen mit feiner Sauce.",
+        "fr": "Lanieres de poisson avec sauce delicate.",
+        "pl": "Rybne stripsy z delikatnym sosem."
+      },
+      "labels": [
+        {
+          "ua": "220г",
+          "en": "220g",
+          "de": "220 g",
+          "fr": "220 g",
+          "pl": "220 g"
+        }
+      ],
+      "fullDescription": {
+        "ua": "Рибні стріпси, подані з ніжним соусом. Делікатний варіант для дітей із м’якою текстурою та легким смаком.",
+        "en": "Fish strips served with a delicate sauce. A mild seafood option for children with a tender texture and light flavor.",
+        "de": "Fischstreifen mit feiner Sauce. Eine milde Fischoption fur Kinder mit zarter Textur und leichtem Geschmack.",
+        "fr": "Lanieres de poisson servies avec une sauce delicate. Une option de fruits de mer douce pour les enfants avec texture tendre et gout leger.",
+        "pl": "Rybne stripsy podawane z delikatnym sosem. Lagodna rybna opcja dla dzieci o miekkiej strukturze i lekkim smaku."
+      }
+    }
+  },
+  {
+    "slug": "cheese-sticks",
+    "document": "item",
+    "data": {
+      "title": {
+        "ua": "Сирні палички",
+        "en": "Cheese sticks",
+        "de": "Kasesticks",
+        "fr": "Batonnets de fromage",
+        "pl": "Paleczki serowe"
+      },
+      "description": {
+        "ua": "Сирні палички у хрусткій паніровці.",
+        "en": "Cheese sticks in crispy breading.",
+        "de": "Kasesticks in knuspriger Panade.",
+        "fr": "Batonnets de fromage en chapelure croustillante.",
+        "pl": "Paleczki serowe w chrupiacej panierce."
+      },
+      "labels": [
+        {
+          "ua": "200г",
+          "en": "200g",
+          "de": "200 g",
+          "fr": "200 g",
+          "pl": "200 g"
+        }
+      ],
+      "fullDescription": {
+        "ua": "Сирні палички у хрусткій паніровці. Тепла закуска з тягучим сирним центром та хрумкою золотистою скоринкою.",
+        "en": "Cheese sticks in crispy breading. A warm snack with a stretchy cheese center and a crunchy golden shell.",
+        "de": "Kasesticks in knuspriger Panade. Ein warmer Snack mit ziehendem Kasekern und krosser goldener Hulle.",
+        "fr": "Batonnets de fromage en chapelure croustillante. Une collation chaude avec coeur de fromage fondant et coque doree croquante.",
+        "pl": "Paleczki serowe w chrupiacej panierce. Ciepla przekaska z ciagnacym sie serowym srodkiem i chrupiaca zlocista skorupka."
+      }
+    }
+  },
+  {
+    "slug": "pastina-pasta",
+    "document": "item",
+    "data": {
+      "title": {
+        "ua": "Макарони Пастіна",
+        "en": "Pastina pasta",
+        "de": "Pastina-Nudeln",
+        "fr": "Pates pastina",
+        "pl": "Makaron pastina"
+      },
+      "description": {
+        "ua": "Макарони пастіна з маслом.",
+        "en": "Pastina pasta with butter.",
+        "de": "Pastina-Nudeln mit Butter.",
+        "fr": "Pates pastina au beurre.",
+        "pl": "Makaron pastina z maslem."
+      },
+      "labels": [
+        {
+          "ua": "200г",
+          "en": "200g",
+          "de": "200 g",
+          "fr": "200 g",
+          "pl": "200 g"
+        }
+      ],
+      "fullDescription": {
+        "ua": "Макарони пастіна з маслом. Проста й лагідна страва для дітей із м’якою текстурою та знайомим вершковим смаком.",
+        "en": "Pastina pasta with butter. A simple and gentle dish for children with a soft texture and familiar creamy taste.",
+        "de": "Pastina-Nudeln mit Butter. Ein einfaches und sanftes Gericht fur Kinder mit weicher Textur und vertraut cremigem Geschmack.",
+        "fr": "Pates pastina au beurre. Un plat simple et doux pour les enfants avec une texture souple et un gout cremeux familier.",
+        "pl": "Makaron pastina z maslem. Proste i delikatne danie dla dzieci o miekkiej strukturze i znajomym kremowym smaku."
+      }
+    }
+  },
+  {
+    "slug": "classic-cheesecake",
+    "document": "item",
+    "data": {
+      "title": {
+        "ua": "Чізкейк класичний",
+        "en": "Classic cheesecake",
+        "de": "Klassischer Cheesecake",
+        "fr": "Cheesecake classique",
+        "pl": "Klasyczny cheesecake"
+      },
+      "description": {
+        "ua": "Класичний ніжний чізкейк.",
+        "en": "Classic delicate cheesecake.",
+        "de": "Klassischer zarter Cheesecake.",
+        "fr": "Cheesecake classique et delicat.",
+        "pl": "Klasyczny delikatny cheesecake."
+      },
+      "labels": [
+        {
+          "ua": "150г",
+          "en": "150g",
+          "de": "150 g",
+          "fr": "150 g",
+          "pl": "150 g"
+        }
+      ],
+      "fullDescription": {
+        "ua": "Класичний ніжний чізкейк. Ніжний кремовий десерт з м’якою текстурою та збалансованим солодким фінішем.",
+        "en": "Classic delicate cheesecake. A smooth creamy dessert with a soft texture and balanced sweet finish.",
+        "de": "Klassischer zarter Cheesecake. Ein cremiges Dessert mit weicher Textur und ausgewogenem sussem Finale.",
+        "fr": "Cheesecake classique et delicat. Un dessert cremeux a la texture douce et a la finale sucree equilibree.",
+        "pl": "Klasyczny delikatny cheesecake. Gladki kremowy deser o miekkiej strukturze i dobrze zrownowazonym slodkim finiszu."
+      }
+    }
+  },
+  {
+    "slug": "chocolate-fondant",
+    "document": "item",
+    "data": {
+      "title": {
+        "ua": "Шоколадний фондан",
+        "en": "Chocolate fondant",
+        "de": "Schokoladenfondant",
+        "fr": "Fondant au chocolat",
+        "pl": "Fondant czekoladowy"
+      },
+      "description": {
+        "ua": "Теплий шоколадний фондан з ніжною начинкою.",
+        "en": "Warm chocolate fondant with a delicate filling.",
+        "de": "Warmer Schokoladenfondant mit zarter Fullung.",
+        "fr": "Fondant au chocolat chaud avec garniture delicate.",
+        "pl": "Cieply fondant czekoladowy z delikatnym nadzieniem."
+      },
+      "labels": [
+        {
+          "ua": "110г",
+          "en": "110g",
+          "de": "110 g",
+          "fr": "110 g",
+          "pl": "110 g"
+        }
+      ],
+      "fullDescription": {
+        "ua": "Теплий шоколадний фондан з ніжним центром. Насичений десерт із глибоким какао-смаком та м’якою текучою текстурою.",
+        "en": "Warm chocolate fondant with a delicate center. A rich dessert with deep cocoa flavor and a soft flowing texture.",
+        "de": "Warmer Schokoladenfondant mit zartem Kern. Ein reiches Dessert mit tiefem Kakaoaroma und weich fliessender Textur.",
+        "fr": "Fondant au chocolat chaud avec coeur delicat. Un dessert riche au gout profond de cacao et a la texture souple et coulante.",
+        "pl": "Cieply fondant czekoladowy z delikatnym srodkiem. Bogaty deser o glebokim kakaowym smaku i miekkiej plynnnej strukturze."
+      }
+    }
+  },
+  {
+    "slug": "pancakes",
+    "document": "item",
+    "data": {
+      "title": {
+        "ua": "Панкейки",
+        "en": "Pancakes",
+        "de": "Pancakes",
+        "fr": "Pancakes",
+        "pl": "Pankejki"
+      },
+      "description": {
+        "ua": "Пухкі панкейки з солодким соусом.",
+        "en": "Fluffy pancakes with sweet sauce.",
+        "de": "Lockere Pancakes mit susser Sauce.",
+        "fr": "Pancakes moelleux avec sauce sucree.",
+        "pl": "Puszyste pankejki ze slodkim sosem."
+      },
+      "labels": [
+        {
+          "ua": "300г",
+          "en": "300g",
+          "de": "300 g",
+          "fr": "300 g",
+          "pl": "300 g"
+        }
+      ],
+      "fullDescription": {
+        "ua": "Пухкі панкейки, подані з солодким соусом. Щедрий десерт з легкою повітряною текстурою та приємною домашньою солодкістю.",
+        "en": "Fluffy pancakes served with sweet sauce. A generous dessert with airy texture and a pleasant homemade style sweetness.",
+        "de": "Lockere Pancakes mit susser Sauce. Ein grosszugiges Dessert mit luftiger Textur und angenehmer hausgemachter Susse.",
+        "fr": "Pancakes moelleux servis avec sauce sucree. Un dessert genereux a la texture aeree et a la douceur agreable de style maison.",
+        "pl": "Puszyste pankejki podawane ze slodkim sosem. Hojny deser o lekkiej puszystej strukturze i przyjemnej domowej slodyczy."
+      }
+    }
+  },
+  {
+    "slug": "homemade-syrnyky-dessert",
+    "document": "item",
+    "data": {
+      "title": {
+        "ua": "Сирники",
+        "en": "Syrnyky",
+        "de": "Syrnyky",
+        "fr": "Syrnyky",
+        "pl": "Syrniki"
+      },
+      "description": {
+        "ua": "Домашні сирники зі сметаною та ягідним соусом.",
+        "en": "Homemade syrnyky with sour cream and berry sauce.",
+        "de": "Hausgemachte Syrnyky mit Sauerrahm und Beerensauce.",
+        "fr": "Syrnyky maison avec creme aigre et sauce aux baies.",
+        "pl": "Domowe syrniki ze smietana i sosem jagodowym."
+      },
+      "labels": [
+        {
+          "ua": "300г",
+          "en": "300g",
+          "de": "300 g",
+          "fr": "300 g",
+          "pl": "300 g"
+        }
+      ],
+      "fullDescription": {
+        "ua": "Домашні сирники, подані зі сметаною та ягідним соусом. Ніжний сирний десерт із затишним домашнім характером і яскравим ягідним акцентом.",
+        "en": "Homemade syrnyky served with sour cream and berry sauce. A soft cottage cheese dessert with a comforting homemade character and bright berry accent.",
+        "de": "Hausgemachte Syrnyky mit Sauerrahm und Beerensauce. Ein weiches Quarkdessert mit wohltuendem hausgemachtem Charakter und fruchtigem Beerenakzent.",
+        "fr": "Syrnyky maison servis avec creme aigre et sauce aux baies. Un dessert au fromage blanc tendre au caractere maison reconfortant et a la touche vive des baies.",
+        "pl": "Domowe syrniki podawane ze smietana i sosem jagodowym. Delikatny deser twarogowy o przytulnym domowym charakterze i wyrazistym jagodowym akcencie."
+      }
+    }
+  },
+  {
+    "slug": "ice-cream-plombir",
+    "document": "item",
+    "data": {
+      "title": {
+        "ua": "Морозиво пломбір",
+        "en": "Ice cream plombir",
+        "de": "Plombir-Eis",
+        "fr": "Glace plombir",
+        "pl": "Lody plombir"
+      },
+      "description": {
+        "ua": "Класичне морозиво пломбір.",
+        "en": "Classic plombir ice cream.",
+        "de": "Klassisches Plombir-Eis.",
+        "fr": "Glace plombir classique.",
+        "pl": "Klasyczne lody plombir."
+      },
+      "labels": [
+        {
+          "ua": "150г",
+          "en": "150g",
+          "de": "150 g",
+          "fr": "150 g",
+          "pl": "150 g"
+        }
+      ],
+      "fullDescription": {
+        "ua": "Класичне морозиво пломбір. Простий холодний десерт з кремовою текстурою та знайомою молочною солодкістю.",
+        "en": "Classic plombir ice cream. A simple cold dessert with creamy texture and a familiar milky sweetness.",
+        "de": "Klassisches Plombir-Eis. Ein einfaches kaltes Dessert mit cremiger Textur und vertrauter milchiger Susse.",
+        "fr": "Glace plombir classique. Un dessert froid simple a la texture cremeuse et a la douceur lactee familiere.",
+        "pl": "Klasyczne lody plombir. Prosty zimny deser o kremowej strukturze i znajomej mlecznej slodyczy."
+      }
+    }
+  },
+  {
+    "slug": "fruit-platter",
+    "document": "item",
+    "data": {
+      "title": {
+        "ua": "Фруктова тарілка",
+        "en": "Fruit platter",
+        "de": "Fruchtplatte",
+        "fr": "Assiette de fruits",
+        "pl": "Talerz owocow"
+      },
+      "description": {
+        "ua": "Сезонні фрукти.",
+        "en": "Seasonal fruits.",
+        "de": "Saisonale Fruchte.",
+        "fr": "Fruits de saison.",
+        "pl": "Sezonowe owoce."
+      },
+      "labels": [
+        {
+          "ua": "600г",
+          "en": "600g",
+          "de": "600 g",
+          "fr": "600 g",
+          "pl": "600 g"
+        }
+      ],
+      "fullDescription": {
+        "ua": "Тарілка із сезонних фруктів. Легкий свіжий десерт для спільної подачі з натуральною солодкістю та яскравими фруктовими ароматами.",
+        "en": "A platter of seasonal fruits. A fresh light dessert for sharing with natural sweetness and bright fruit aromas.",
+        "de": "Eine Platte mit saisonalen Fruchten. Ein frisches leichtes Dessert zum Teilen mit naturlicher Susse und fruchtigen Aromen.",
+        "fr": "Une assiette de fruits de saison. Un dessert frais et leger a partager avec douceur naturelle et arômes fruites vifs.",
+        "pl": "Talerz sezonowych owocow. Lekki swiezy deser do wspolnego podania z naturalna slodycza i wyrazistymi owocowymi aromatami."
+      }
+    }
+  }
+]

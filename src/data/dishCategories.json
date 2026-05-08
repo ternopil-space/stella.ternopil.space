@@ -1,0 +1,86 @@
+[
+  {
+    "name": "Food",
+    "description": "",
+    "parent": "",
+    "slug": "food"
+  },
+  {
+    "name": "Drinks",
+    "description": "",
+    "parent": "",
+    "slug": "drinks"
+  },
+  {
+    "name": "Salads",
+    "description": "Fresh salads with vegetables, meat, fish, and dressings.",
+    "parent": "food",
+    "slug": "salads"
+  },
+  {
+    "name": "Cold snacks",
+    "description": "Light cold appetizers, vegetable, cheese, meat, and fish assortments.",
+    "parent": "food",
+    "slug": "cold-snacks"
+  },
+  {
+    "name": "Hot snacks",
+    "description": "Tasty hot appetizers, seafood, cheese, and meat dishes.",
+    "parent": "food",
+    "slug": "hot-snacks"
+  },
+  {
+    "name": "First dishes",
+    "description": "Soups and hot first courses of traditional and European cuisine.",
+    "parent": "food",
+    "slug": "first-dishes"
+  },
+  {
+    "name": "Main dishes",
+    "description": "Hearty main dishes with meat, potatoes, and traditional cuisine.",
+    "parent": "food",
+    "slug": "main-dishes"
+  },
+  {
+    "name": "Side dishes",
+    "description": "Tasty side dishes for main courses: vegetables, potatoes, and puree.",
+    "parent": "food",
+    "slug": "side-dishes"
+  },
+  {
+    "name": "Pasta",
+    "description": "Italian pasta with various sauces, meat, and seafood.",
+    "parent": "food",
+    "slug": "pasta"
+  },
+  {
+    "name": "Fish dishes",
+    "description": "Fish and seafood dishes prepared on the grill and in the oven.",
+    "parent": "food",
+    "slug": "fish-dishes"
+  },
+  {
+    "name": "Grill dishes",
+    "description": "Meat dishes, shashlik, and grill menu prepared over open fire.",
+    "parent": "food",
+    "slug": "grill-dishes"
+  },
+  {
+    "name": "Kids menu",
+    "description": "Tasty and simple dishes for children.",
+    "parent": "food",
+    "slug": "kids-menu"
+  },
+  {
+    "name": "Desserts",
+    "description": "Sweet desserts, ice cream, and fruit dishes.",
+    "parent": "food",
+    "slug": "desserts"
+  },
+  {
+    "name": "Coffee",
+    "description": "Hot and cold coffee drinks.",
+    "parent": "drinks",
+    "slug": "coffee"
+  }
+]

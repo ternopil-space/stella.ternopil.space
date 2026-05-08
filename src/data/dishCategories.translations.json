@@ -1,0 +1,282 @@
+[
+  {
+    "slug": "food",
+    "document": "itemCategory",
+    "data": {
+      "name": {
+        "ua": "Їжа",
+        "en": "Food",
+        "fr": "Cuisine",
+        "de": "Speisen",
+        "pl": "Jedzenie"
+      },
+      "description": {
+        "ua": "",
+        "en": "",
+        "fr": "",
+        "de": "",
+        "pl": ""
+      }
+    }
+  },
+  {
+    "slug": "drinks",
+    "document": "itemCategory",
+    "data": {
+      "name": {
+        "ua": "Напої",
+        "en": "Drinks",
+        "fr": "Boissons",
+        "de": "Getränke",
+        "pl": "Napoje"
+      },
+      "description": {
+        "ua": "",
+        "en": "",
+        "fr": "",
+        "de": "",
+        "pl": ""
+      }
+    }
+  },
+  {
+    "slug": "coffee",
+    "document": "itemCategory",
+    "data": {
+      "name": {
+        "ua": "Кава",
+        "en": "Coffee",
+        "fr": "Café",
+        "de": "Kaffee",
+        "pl": "Kawa"
+      },
+      "description": {
+        "ua": "Гарячі та холодні кавові напої.",
+        "en": "Hot and cold coffee drinks.",
+        "fr": "Boissons au café chaudes et froides.",
+        "de": "Heiße und kalte Kaffeegetränke.",
+        "pl": "Gorące i zimne napoje kawowe."
+      }
+    }
+  },
+  {
+    "slug": "salads",
+    "document": "itemCategory",
+    "data": {
+      "name": {
+        "ua": "Салати",
+        "en": "Salads",
+        "fr": "Salades",
+        "de": "Salate",
+        "pl": "Sałatki"
+      },
+      "description": {
+        "ua": "Свіжі салати з овочами, мʼясом, рибою та соусами.",
+        "en": "Fresh salads with vegetables, meat, fish, and dressings.",
+        "fr": "Salades fraîches aux légumes, à la viande, au poisson et aux sauces.",
+        "de": "Frische Salate mit Gemüse, Fleisch, Fisch und Dressings.",
+        "pl": "Świeże sałatki z warzywami, mięsem, rybą i sosami."
+      }
+    }
+  },
+  {
+    "slug": "cold-snacks",
+    "document": "itemCategory",
+    "data": {
+      "name": {
+        "ua": "Холодні закуски",
+        "en": "Cold snacks",
+        "fr": "Entrées froides",
+        "de": "Kalte Vorspeisen",
+        "pl": "Zimne przekąski"
+      },
+      "description": {
+        "ua": "Легкі холодні закуски, овочеві, сирні, мʼясні та рибні асорті.",
+        "en": "Light cold appetizers, vegetable, cheese, meat, and fish assortments.",
+        "fr": "Entrées froides légères, assortiments de légumes, de fromages, de viandes et de poissons.",
+        "de": "Leichte kalte Vorspeisen, Gemüse-, Käse-, Fleisch- und Fischplatten.",
+        "pl": "Lekkie zimne przekąski, warzywne, serowe, mięsne i rybne deski."
+      }
+    }
+  },
+  {
+    "slug": "hot-snacks",
+    "document": "itemCategory",
+    "data": {
+      "name": {
+        "ua": "Гарячі закуски",
+        "en": "Hot snacks",
+        "fr": "Entrees chaudes",
+        "de": "Warme Vorspeisen",
+        "pl": "Gorace przekaski"
+      },
+      "description": {
+        "ua": "Смачні гарячі закуски, морепродукти, сирні та мʼясні страви.",
+        "en": "Tasty hot appetizers, seafood, cheese, and meat dishes.",
+        "fr": "Savoureuses entrees chaudes, fruits de mer, plats au fromage et a la viande.",
+        "de": "Schmackhafte warme Vorspeisen, Meeresfruchte-, Kase- und Fleischgerichte.",
+        "pl": "Smaczne gorace przekaski, owoce morza oraz dania serowe i miesne."
+      }
+    }
+  },
+  {
+    "slug": "first-dishes",
+    "document": "itemCategory",
+    "data": {
+      "name": {
+        "ua": "Перші страви",
+        "en": "First dishes",
+        "de": "Erste Gerichte",
+        "fr": "Premiers plats",
+        "pl": "Pierwsze dania"
+      },
+      "description": {
+        "ua": "Супи та гарячі перші страви традиційної та європейської кухні.",
+        "en": "Soups and hot first courses of traditional and European cuisine.",
+        "de": "Suppen und warme erste Gerichte der traditionellen und europ?ischen K?che.",
+        "fr": "Soupes et premiers plats chauds de la cuisine traditionnelle et europ?enne.",
+        "pl": "Zupy i gor?ce pierwsze dania kuchni tradycyjnej oraz europejskiej."
+      }
+    }
+  },
+  {
+    "slug": "main-dishes",
+    "document": "itemCategory",
+    "data": {
+      "name": {
+        "ua": "Основні страви",
+        "en": "Main dishes",
+        "de": "Hauptgerichte",
+        "fr": "Plats principaux",
+        "pl": "Dania glowne"
+      },
+      "description": {
+        "ua": "Ситні основні страви з м’яса, картоплі та традиційної кухні.",
+        "en": "Hearty main dishes with meat, potatoes, and traditional cuisine.",
+        "de": "Sattigende Hauptgerichte mit Fleisch, Kartoffeln und traditioneller Kuche.",
+        "fr": "Plats principaux copieux a base de viande, de pommes de terre et de cuisine traditionnelle.",
+        "pl": "Sycace dania glowne z miesem, ziemniakami i tradycyjnej kuchni."
+      }
+    }
+  },
+  {
+    "slug": "side-dishes",
+    "document": "itemCategory",
+    "data": {
+      "name": {
+        "ua": "Гарніри",
+        "en": "Side dishes",
+        "de": "Beilagen",
+        "fr": "Garnitures",
+        "pl": "Dodatki"
+      },
+      "description": {
+        "ua": "Смачні гарніри до основних страв: овочі, картопля та пюре.",
+        "en": "Tasty side dishes for main courses: vegetables, potatoes, and puree.",
+        "de": "Schmackhafte Beilagen zu Hauptgerichten: Gemuse, Kartoffeln und Puree.",
+        "fr": "Garnitures savoureuses pour les plats principaux : legumes, pommes de terre et puree.",
+        "pl": "Smaczne dodatki do dan glownych: warzywa, ziemniaki i puree."
+      }
+    }
+  },
+  {
+    "slug": "pasta",
+    "document": "itemCategory",
+    "data": {
+      "name": {
+        "ua": "Пасти",
+        "en": "Pasta",
+        "de": "Pasta",
+        "fr": "Pates",
+        "pl": "Pasty"
+      },
+      "description": {
+        "ua": "Італійські пасти з різними соусами, м’ясом та морепродуктами.",
+        "en": "Italian pasta with various sauces, meat, and seafood.",
+        "de": "Italienische Pasta mit verschiedenen Saucen, Fleisch und Meeresfruchten.",
+        "fr": "Pates italiennes avec differentes sauces, viande et fruits de mer.",
+        "pl": "Wloskie pasty z roznymi sosami, miesem i owocami morza."
+      }
+    }
+  },
+  {
+    "slug": "fish-dishes",
+    "document": "itemCategory",
+    "data": {
+      "name": {
+        "ua": "Рибні страви",
+        "en": "Fish dishes",
+        "de": "Fischgerichte",
+        "fr": "Plats de poisson",
+        "pl": "Dania rybne"
+      },
+      "description": {
+        "ua": "Страви з риби та морепродуктів, приготовані на грилі та в печі.",
+        "en": "Fish and seafood dishes prepared on the grill and in the oven.",
+        "de": "Fisch- und Meeresfruchtegerichte, zubereitet auf dem Grill und im Ofen.",
+        "fr": "Plats de poisson et de fruits de mer prepares au grill et au four.",
+        "pl": "Dania z ryb i owocow morza przygotowywane na grillu i w piecu."
+      }
+    }
+  },
+  {
+    "slug": "grill-dishes",
+    "document": "itemCategory",
+    "data": {
+      "name": {
+        "ua": "Страви з гриля",
+        "en": "Grill dishes",
+        "de": "Grillgerichte",
+        "fr": "Plats au grill",
+        "pl": "Dania z grilla"
+      },
+      "description": {
+        "ua": "М’ясні страви, шашлики та гриль-меню, приготовані на відкритому вогні.",
+        "en": "Meat dishes, shashlik, and grill menu prepared over open fire.",
+        "de": "Fleischgerichte, Schaschlik und Grillmenu, uber offenem Feuer zubereitet.",
+        "fr": "Plats de viande, chachliks et menu au grill prepares sur feu ouvert.",
+        "pl": "Dania miesne, szaszlyki i menu z grilla przygotowywane na otwartym ogniu."
+      }
+    }
+  },
+  {
+    "slug": "kids-menu",
+    "document": "itemCategory",
+    "data": {
+      "name": {
+        "ua": "Дитячі страви",
+        "en": "Kids menu",
+        "de": "Kindergerichte",
+        "fr": "Menu enfants",
+        "pl": "Dania dzieciece"
+      },
+      "description": {
+        "ua": "Смачні та прості страви для дітей.",
+        "en": "Tasty and simple dishes for children.",
+        "de": "Leckere und einfache Gerichte fur Kinder.",
+        "fr": "Plats savoureux et simples pour les enfants.",
+        "pl": "Smaczne i proste dania dla dzieci."
+      }
+    }
+  },
+  {
+    "slug": "desserts",
+    "document": "itemCategory",
+    "data": {
+      "name": {
+        "ua": "Десерти",
+        "en": "Desserts",
+        "de": "Desserts",
+        "fr": "Desserts",
+        "pl": "Desery"
+      },
+      "description": {
+        "ua": "Солодкі десерти, морозиво та фруктові страви.",
+        "en": "Sweet desserts, ice cream, and fruit dishes.",
+        "de": "Susse Desserts, Eis und Fruchtgerichte.",
+        "fr": "Desserts sucres, glaces et plats de fruits.",
+        "pl": "Slodkie desery, lody i dania owocowe."
+      }
+    }
+  }
+]
