@@ -6,13 +6,13 @@
 			class="border-b border-[var(--c-border)] bg-[linear-gradient(135deg,rgba(197,61,61,0.16),rgba(217,168,88,0.08),rgba(255,255,255,0.04))] px-5 py-8 text-center sm:px-8 sm:py-10"
 		>
 			<p class="text-[12px] font-semibold uppercase tracking-[0.18em] text-[color:rgba(255,255,255,0.75)]">
-				Головна
+				{{ 'Home' | translate }}
 			</p>
 			<h1 class="mt-3 text-[2rem] font-semibold leading-tight text-[var(--c-text-secondary)] sm:text-[2.8rem]">
-				Готель Stella Тернопіль
+				{{ 'Stella Hotel Ternopil' | translate }}
 			</h1>
 			<p class="mx-auto mt-3 max-w-2xl text-sm leading-7 text-[var(--c-text-muted)] sm:text-base">
-				Оберіть розділ для перегляду
+				{{ 'Choose a section to explore' | translate }}
 			</p>
 		</div>
 
@@ -30,12 +30,12 @@
 								<p
 									class="text-[12px] font-semibold uppercase tracking-[0.18em] text-[color:rgba(255,255,255,0.75)]"
 								>
-									{{ item.badge }}
+									{{ item.badge | translate }}
 								</p>
 								<h2
 									class="mt-3 text-[1.7rem] font-semibold leading-tight text-[var(--c-text-secondary)] sm:text-[2.15rem]"
 								>
-									{{ item.label }}
+									{{ item.label | translate }}
 								</h2>
 							</div>
 
@@ -49,12 +49,12 @@
 
 						<div class="mt-6">
 							<p class="max-w-[26rem] text-sm leading-7 text-[var(--c-text-muted)] sm:text-base">
-								{{ item.subtitle }}
+								{{ item.subtitle | translate }}
 							</p>
 							<span
 								class="mt-5 inline-flex items-center gap-2 rounded-full border border-[var(--c-border)] px-4 py-2 text-sm font-semibold text-[var(--c-text-secondary)]"
 							>
-								Перейти
+								{{ 'Go' | translate }}
 								<span class="material-symbols-outlined text-[18px]" aria-hidden="true">
 									arrow_forward
 								</span>

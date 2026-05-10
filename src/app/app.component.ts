@@ -1,11 +1,12 @@
 import { ChangeDetectionStrategy, Component, inject } from '@angular/core';
 import { RouterLink, RouterLinkActive, RouterOutlet } from '@angular/router';
+import { LiveTranslatePipe } from './feature/language/live-translate.pipe';
 import { TopbarComponent } from './layouts/topbar/topbar.component';
 import { ScrollService } from './services/scroll.service';
 
 @Component({
 	selector: 'app-root',
-	imports: [RouterLink, RouterLinkActive, RouterOutlet, TopbarComponent],
+	imports: [RouterLink, RouterLinkActive, RouterOutlet, TopbarComponent, LiveTranslatePipe],
 	template: `
 		<app-topbar />
 
@@ -29,7 +30,7 @@ import { ScrollService } from './services/scroll.service';
 							<span class="material-symbols-outlined text-[21px]" aria-hidden="true">
 								{{ item.icon }}
 							</span>
-							<span class="truncate">{{ item.label }}</span>
+							<span class="truncate">{{ item.label | translate }}</span>
 						</a>
 					} @else {
 						<button
@@ -39,7 +40,7 @@ import { ScrollService } from './services/scroll.service';
 							<span class="material-symbols-outlined text-[21px]" aria-hidden="true">
 								{{ item.icon }}
 							</span>
-							<span class="truncate">{{ item.label }}</span>
+							<span class="truncate">{{ item.label | translate }}</span>
 						</button>
 					}
 				}

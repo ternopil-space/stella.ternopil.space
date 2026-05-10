@@ -7,7 +7,7 @@
 				<img
 					class="object-cover"
 					ngSrc="room/room-1.webp"
-					alt="Номер Stella Hotel Ternopil"
+					[attr.alt]="'Room at Stella Hotel Ternopil' | translate"
 					fill
 					priority
 					sizes="(max-width: 1023px) 100vw, 60vw"
@@ -16,22 +16,20 @@
 
 			<div class="flex flex-col justify-center px-4 py-6 sm:px-6 sm:py-8 lg:px-8 lg:py-10">
 				<p class="text-[12px] font-semibold uppercase tracking-[0.18em] text-[color:rgba(255,255,255,0.75)]">
-					Номери
+					{{ 'Rooms' | translate }}
 				</p>
 				<h1 class="mt-3 text-[2rem] font-semibold leading-tight text-[var(--c-text-secondary)] sm:text-[2.4rem]">
 					Stella Hotel Ternopil
 				</h1>
 				<p class="mt-4 text-sm leading-7 text-[var(--c-text-muted)]">
-					Сучасний готель Stella у Тернополі — це комфортні номери, зручне
-					розташування та сервіс європейського рівня. Ідеально підходить як для
-					відпочинку, так і для ділових поїздок.
+					{{ 'Rooms hero description' | translate }}
 				</p>
 				<p class="mt-3 text-sm leading-7 text-[var(--c-text-muted)]">
-					Адреса готелю: с. Петриків, вул. Степана Будного, 21.
+					{{ 'Hotel address line' | translate }}
 				</p>
 				<p class="mt-3 text-sm leading-7 text-[var(--c-text-muted)]">
-					Вартість номерів
-					<span class="font-bold text-[var(--c-primary)]">від 1200 грн/доба</span>.
+					{{ 'Room rates start' | translate }}
+					<span class="font-bold text-[var(--c-primary)]">{{ 'from 1200 UAH per night' | translate }}</span>.
 				</p>
 			</div>
 		</div>
@@ -40,12 +38,10 @@
 			<div class="grid gap-6 lg:grid-cols-[minmax(0,0.8fr)_minmax(0,1.2fr)]">
 				<div>
 					<h2 class="text-lg font-semibold text-[var(--c-text-secondary)]">
-						Що доступно гостям
+						{{ 'What guests get' | translate }}
 					</h2>
 					<p class="mt-3 text-sm leading-7 text-[var(--c-text-muted)]">
-						У Stella Hotel Ternopil гості отримують усе необхідне для комфортного
-						проживання, відпочинку та зручного перебування під час подорожі чи
-						робочої поїздки.
+						{{ 'Rooms amenities description' | translate }}
 					</p>
 				</div>
 
@@ -54,7 +50,7 @@
 						<div
 							class="amenity-chip rounded-[1rem] border border-[var(--c-border)] bg-[var(--c-bg-primary)] px-4 py-3 text-sm text-[var(--c-text-secondary)]"
 						>
-							{{ amenity }}
+							{{ amenity | translate }}
 						</div>
 					}
 				</div>
@@ -71,7 +67,7 @@
 							<img
 								class="object-cover"
 								[ngSrc]="room.image"
-								[alt]="room.imageAlt"
+								[attr.alt]="room.imageAlt | translate"
 								fill
 								sizes="(max-width: 1279px) 100vw, 34vw"
 							/>
@@ -79,21 +75,21 @@
 
 						<div class="p-5 sm:p-6">
 							<h2 class="text-[1.45rem] font-semibold leading-tight text-[var(--c-text-secondary)]">
-								{{ room.name }}
+								{{ room.name | translate }}
 							</h2>
 							<p class="mt-4 text-sm leading-7 text-[var(--c-text-muted)]">
-								{{ room.description }}
+								{{ room.description | translate }}
 							</p>
 							<div class="mt-5 flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
 								<p class="text-sm font-bold uppercase tracking-[0.12em] text-[var(--c-primary)]">
-									Вартість: {{ room.price }}
+									{{ 'Price' | translate }}: {{ room.price | translate }}
 								</p>
 								<a
 									class="inline-flex items-center justify-center rounded-full px-5 py-3 text-sm font-semibold text-white transition-transform duration-200 hover:-translate-y-0.5 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[var(--c-secondary)] focus-visible:ring-offset-2 focus-visible:ring-offset-[var(--c-bg-primary)]"
 									href="tel:+380632185555"
-									aria-label="Зателефонувати для бронювання номера у Stella Hotel Ternopil"
+									[attr.aria-label]="'Call to book a room at Stella Hotel Ternopil' | translate"
 								>
-									Забронювати
+									{{ 'Book' | translate }}
 								</a>
 							</div>
 						</div>
@@ -106,13 +102,13 @@
 			<div class="grid gap-4 lg:grid-cols-[minmax(0,0.9fr)_minmax(0,1.1fr)]">
 				<div class="rounded-[1.25rem] border border-[var(--c-border)] bg-[var(--c-bg-primary)] p-5 sm:p-6">
 					<p class="text-[12px] font-semibold uppercase tracking-[0.18em] text-[color:rgba(255,255,255,0.75)]">
-						Бронювання
+						{{ 'Booking' | translate }}
 					</p>
 					<h2 class="mt-3 text-[1.5rem] font-semibold text-[var(--c-text-secondary)]">
-						Зв'яжіться з нами зручним способом
+						{{ 'Contact us in a convenient way' | translate }}
 					</h2>
 					<p class="mt-3 text-sm leading-7 text-[var(--c-text-muted)]">
-						Stella Hotel Ternopil: с. Петриків, вул. Степана Будного, 21.
+						{{ 'Hotel address short' | translate }}
 					</p>
 				</div>
 
@@ -125,7 +121,7 @@
 							[rel]="link.href.startsWith('http') || link.href.startsWith('viber:') ? 'noreferrer nofollow' : null"
 						>
 							<p class="text-sm font-semibold text-[var(--c-text-secondary)]">
-								{{ link.label }}
+								{{ link.label | translate }}
 							</p>
 							<p class="mt-2 text-sm leading-6 text-[var(--c-text-muted)]">
 								{{ link.description }}

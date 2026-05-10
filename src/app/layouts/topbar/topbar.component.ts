@@ -2,15 +2,16 @@ import { NgOptimizedImage } from '@angular/common';
 import { ChangeDetectionStrategy, Component, computed, inject, signal } from '@angular/core';
 import { toSignal } from '@angular/core/rxjs-interop';
 import { NavigationEnd, Router, RouterLink } from '@angular/router';
-import { TranslatePipe, TranslateService } from '@wawjs/ngx-translate';
+import { TranslateService } from '@wawjs/ngx-translate';
 import { ThemeService } from '@wawjs/ngx-ui';
 import { filter, map, startWith } from 'rxjs';
+import { LiveTranslatePipe } from '../../feature/language/live-translate.pipe';
 import { LanguageOption } from '../../feature/language/language.interface';
 import { LanguageService } from '../../feature/language/language.service';
 
 @Component({
 	selector: 'app-topbar',
-	imports: [NgOptimizedImage, RouterLink, TranslatePipe],
+	imports: [NgOptimizedImage, RouterLink, LiveTranslatePipe],
 	templateUrl: './topbar.component.html',
 	styleUrl: './topbar.component.scss',
 	changeDetection: ChangeDetectionStrategy.OnPush,
@@ -46,18 +47,23 @@ export class TopbarComponent {
 	protected readonly toggleIcon = computed(() =>
 		this.mode() === 'dark' ? 'light_mode' : 'dark_mode',
 	);
-	protected readonly toggleLabel = computed(() =>
-		this.mode() === 'dark'
+	protected readonly toggleLabel = computed(() => {
+		this._languageService.language();
+
+		return this.mode() === 'dark'
 			? this._translateService.translate('Switch to light mode')()
-			: this._translateService.translate('Switch to dark mode')(),
-	);
-	protected readonly languageMenuLabel = computed(() =>
-		this._translateService.translate('Open language menu')(),
-	);
-	protected readonly languageCycleLabel = computed(
-		() =>
-			`${this._translateService.translate('Switch language to')()} ${this.getNextLanguage().label}`,
-	);
+			: this._translateService.translate('Switch to dark mode')();
+	});
+	protected readonly languageMenuLabel = computed(() => {
+		this._languageService.language();
+
+		return this._translateService.translate('Open language menu')();
+	});
+	protected readonly languageCycleLabel = computed(() => {
+		this._languageService.language();
+
+		return `${this._translateService.translate('Switch language to')()} ${this.getNextLanguage().label}`;
+	});
 
 	constructor() {
 		this._themeService.init();

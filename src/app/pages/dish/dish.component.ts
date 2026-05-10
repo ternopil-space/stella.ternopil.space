@@ -1,7 +1,8 @@
 import { ChangeDetectionStrategy, Component, computed, inject } from '@angular/core';
 import { toSignal } from '@angular/core/rxjs-interop';
 import { ActivatedRoute, RouterLink } from '@angular/router';
-import { TranslatePipe, TranslateService } from '@wawjs/ngx-translate';
+import { TranslateService } from '@wawjs/ngx-translate';
+import { LiveTranslatePipe } from '../../feature/language/live-translate.pipe';
 import { LanguageService } from '../../feature/language/language.service';
 import { FavoritesService } from '../../feature/menu/favorites.service';
 import {
@@ -43,7 +44,7 @@ interface DishViewModel {
 const _fallbackEntry = _resolveFallbackEntry();
 
 @Component({
-	imports: [RouterLink, TranslatePipe],
+	imports: [RouterLink, LiveTranslatePipe],
 	templateUrl: './dish.component.html',
 	styleUrl: './dish.component.scss',
 	changeDetection: ChangeDetectionStrategy.OnPush,
@@ -67,11 +68,13 @@ export class DishComponent {
 	protected readonly isFavorite = computed(() =>
 		this._favoritesService.isFavorite(this.dish().id),
 	);
-	protected readonly favoriteLabel = computed(() =>
-		this._translateService.translate(
+	protected readonly favoriteLabel = computed(() => {
+		this._languageService.language();
+
+		return this._translateService.translate(
 			this.isFavorite() ? 'Remove from favorites' : 'Add to favorites',
-		)(),
-	);
+		)();
+	});
 
 	protected toggleFavorite() {
 		this._favoritesService.toggleFavorite(this.dish().id);

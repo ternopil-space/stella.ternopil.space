@@ -1,5 +1,6 @@
 import { NgOptimizedImage } from '@angular/common';
 import { ChangeDetectionStrategy, Component } from '@angular/core';
+import { LiveTranslatePipe } from '../../feature/language/live-translate.pipe';
 
 type RoomCard = {
 	name: string;
@@ -16,48 +17,45 @@ type ContactLink = {
 };
 
 @Component({
-	imports: [NgOptimizedImage],
+	imports: [NgOptimizedImage, LiveTranslatePipe],
 	templateUrl: './rooms.component.html',
 	styleUrl: './rooms.component.scss',
 	changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export class RoomsComponent {
 	protected readonly amenities = [
-		'Комфортні номери',
-		'Сніданки для гостей',
-		'Ресторан на території',
+		'Comfortable rooms',
+		'Breakfast for guests',
+		'On-site restaurant',
 		'Room service',
-		'Wi-Fi у номерах',
-		'Паркінг',
-		'Кондиціонер',
-		'Цілодобова рецепція',
-		'Трансфер за запитом',
+		'In-room Wi-Fi',
+		'Parking',
+		'Air conditioning',
+		'24-hour reception',
+		'Transfer on request',
 	];
 
 	protected readonly rooms: RoomCard[] = [
 		{
-			name: 'Стандарт бізнес',
-			description:
-				'Практичний номер для гостей у відрядженні з усіма необхідними зручностями.',
-			price: 'від 1200 грн/доба',
+			name: 'Business Standard',
+			description: 'A practical room for business guests with all essential amenities.',
+			price: 'from 1200 UAH per night',
 			image: 'room/room-1.webp',
-			imageAlt: 'Стандарт бізнес у Stella Hotel Ternopil',
+			imageAlt: 'Business Standard room at Stella Hotel Ternopil',
 		},
 		{
-			name: 'Делюкс із балконом',
-			description:
-				'Просторий номер з великим ліжком та балконом для комфортного відпочинку.',
-			price: 'від 1500 грн/доба',
+			name: 'Deluxe with balcony',
+			description: 'A spacious room with a large bed and balcony for a comfortable stay.',
+			price: 'from 1500 UAH per night',
 			image: 'room/room-2.webp',
-			imageAlt: 'Делюкс із балконом у Stella Hotel Ternopil',
+			imageAlt: 'Deluxe room with balcony at Stella Hotel Ternopil',
 		},
 		{
-			name: 'Преміум номер',
-			description:
-				'Покращений номер з сучасним дизайном та максимальним комфортом.',
-			price: 'від 1800 грн/доба',
+			name: 'Premium room',
+			description: 'An upgraded room with modern design and maximum comfort.',
+			price: 'from 1800 UAH per night',
 			image: 'room/room-3.webp',
-			imageAlt: 'Преміум номер у Stella Hotel Ternopil',
+			imageAlt: 'Premium room at Stella Hotel Ternopil',
 		},
 	];
 

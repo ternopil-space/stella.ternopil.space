@@ -1,5 +1,6 @@
 import { ChangeDetectionStrategy, Component } from '@angular/core';
 import { RouterLink } from '@angular/router';
+import { LiveTranslatePipe } from '../../feature/language/live-translate.pipe';
 
 type NavigationItem = {
 	label: string;
@@ -11,7 +12,7 @@ type NavigationItem = {
 };
 
 @Component({
-	imports: [RouterLink],
+	imports: [RouterLink, LiveTranslatePipe],
 	templateUrl: './navigation.component.html',
 	styleUrl: './navigation.component.scss',
 	changeDetection: ChangeDetectionStrategy.OnPush,
@@ -19,25 +20,25 @@ type NavigationItem = {
 export class NavigationComponent {
 	protected readonly navItems: NavigationItem[] = [
 		{
-			label: 'Номери',
-			subtitle: 'Переглянути варіанти проживання та актуальні ціни',
-			badge: 'Основний розділ',
+			label: 'Rooms',
+			subtitle: 'View accommodation options and current prices',
+			badge: 'Main section',
 			icon: 'hotel',
 			route: '/rooms',
 			tone: 'primary',
 		},
 		{
-			label: 'Відгуки',
-			subtitle: 'Дізнатися враження гостей про Stella Hotel Ternopil',
-			badge: 'Гості про нас',
+			label: 'Reviews',
+			subtitle: 'Read guest impressions of Stella Hotel Ternopil',
+			badge: 'Guests about us',
 			icon: 'rate_review',
 			route: '/reviews',
 			tone: 'secondary',
 		},
 		{
-			label: 'Ресторан',
-			subtitle: 'Переглянути меню Stella Restaurant з усіма категоріями та стравами',
-			badge: 'Меню та напої',
+			label: 'Restaurant',
+			subtitle: 'View the Stella Restaurant menu with all categories and dishes',
+			badge: 'Menu and drinks',
 			icon: 'restaurant',
 			route: '/restaurant',
 			tone: 'secondary',

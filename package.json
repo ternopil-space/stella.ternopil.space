@@ -2,7 +2,7 @@
 	"name": "app",
 	"version": "0.0.0",
 	"scripts": {
-		"start": "ng serve",
+		"start": "ng serve --host localhost --port 4200",
 		"build": "ng build --configuration=production",
 		"serve:ssr:app": "node dist/app/server/server.mjs"
 	},
